@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Albert Sans", sans-serif;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+  position: relative;
+  background: #fff;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body.bl-open {
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-underline-offset: 3px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hamburger-icon {
+  width: 28px;
+  height: 28px;
+  background-image: url("../img/icons/hamburger-icon.svg");
+}
+
+.close-icon {
+  width: 28px;
+  height: 28px;
+  background-image: url("../img/icons/close-icon.svg");
+}
