@@ -9,7 +9,7 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	
 	<?php
 		wp_head();
@@ -155,6 +155,41 @@
 </header>
 
 
+<section class="hero">
+	<div class="wrapper">
+		<div class="hero__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri() ?>/assets/img/top-img.png);">
+			<div class="hero__img">
+				<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/top-img-mob.png" alt="billimd image" loading="lazy" />
+			</div>
+			<div class="hero__content">
+				<h1 class="hero__title">
+					Simplify Your Medical Billing.
+					Accelerate Your Payments.
+				</h1>
+				<div class="hero__text">
+					<p>At BilliMD.com, we transform the complex world of medical billing
+					   into a streamlined, stress-free process, ensuring you get paid faster
+					   and with minimal hassle.</p>
+				</div>
+				<a href="#" class="btn btn--big btn--green hero__btn">Let’s Connect</a>
+			</div>
+		</div>
+	</div>
+</section>
 
 
-
+<section class="commitment">
+	<div class="wrapper">
+		<div class="commitment__inner">
+			<div class="commitment__image">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/commitment.svg" alt="commitment" loading="lazy" />
+			</div>
+			<h2 class="section-title commitment__title">Our Commitment</h2>
+			<div class="commitment__description">
+				<p>
+					Dedicated to making medical billing effortless and more efficient, BilliMD.com is your partner in financial success. We handle the complexities of billing and coding, so you can focus on what you do best - caring for patients.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>

@@ -815,6 +815,125 @@ button {
   display: none;
 }
 
+.hero {
+  padding: 0 0 60px;
+}
+
+.hero__inner {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hero__img {
+  display: none;
+}
+
+.hero__content {
+  padding-top: 280px;
+  text-align: center;
+}
+
+.hero__title {
+  max-width: 790px;
+  color: #000000;
+  text-align: center;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: -2.5px;
+  margin: 0 auto 20px auto;
+}
+
+.hero__text {
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  text-align: center;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+}
+
+.hero__text p {
+  color: #000000;
+  text-align: center;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+}
+
+.hero__btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commitment {
+  padding: 60px 0;
+}
+
+.commitment__inner {
+  padding: 80px 20px 100px;
+  background: #F3FCFE;
+  -webkit-box-shadow: 0 1px 0 rgba(12, 57, 83, 0.09);
+  box-shadow: 0 1px 0 rgba(12, 57, 83, 0.09);
+  border-radius: 15px;
+}
+
+.commitment__image {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.commitment__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.commitment__title {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commitment__description {
+  color: #000000;
+  text-align: center;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commitment__description p {
+  color: #000000;
+  text-align: center;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+}
+
 @media (max-width: 1300px) {
   .wrapper {
     max-width: 992px;
@@ -846,6 +965,14 @@ button {
 @media (max-width: 1024px) {
   .wrapper {
     max-width: 728px;
+  }
+
+  .section-title {
+    color: #000000;
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: -1.259px;
+    margin-bottom: 25px;
   }
 
 @-webkit-keyframes grow {
@@ -966,6 +1093,15 @@ button {
   .header__hidden-support span {
     margin-right: 10px;
   }
+
+  .hero__content {
+    padding-top: 190px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+    line-height: 54px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -973,6 +1109,10 @@ button {
     max-width: 100%;
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .help-btn {
+    display: none;
   }
 
   .header + div,
@@ -1178,5 +1318,70 @@ button {
 
   .header__social-menu a {
     opacity: 1;
+  }
+
+  .hero {
+    padding-top: 70px;
+    padding-bottom: 35px;
+  }
+
+  .hero__inner {
+    background: #fff !important;
+  }
+
+  .hero__content {
+    padding-top: 20px;
+  }
+
+  .hero__title {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: -1.5px;
+  }
+
+  .hero__text {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.444px;
+  }
+
+  .hero__text p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.444px;
+  }
+
+  .hero__btn {
+    margin-top: 25px;
+  }
+
+  .commitment {
+    padding: 35px 0;
+  }
+
+  .commitment__inner {
+    padding: 40px 30px 45px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .commitment__image {
+    max-width: 225px;
+    margin-bottom: 30px;
+  }
+
+  .commitment__description {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .commitment__description p {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
