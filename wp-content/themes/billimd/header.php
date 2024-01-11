@@ -17,69 +17,74 @@
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+<div class="body-overlay"></div>
 
 
 <header class="header">
-	<div class="wrapper">
-		<div class="header__inner">
-			<div class="header__logo-wrap">
-				<a href="<?php echo home_url(); ?>" class="header__logo">
-					<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo.svg" alt="logo" loading="lazy" />
-				</a>
-			</div>
-			
-			<nav class="header__nav">
-				<a href="#" class="header__hamburger">
-					<i class="icon hamburger-icon"></i>
-					<i class="icon close-icon" style="display: none;"></i>
-				</a>
-				<div class="header__menu">
-					<ul>
-						<li class="menu-item menu-item-has-children">
-							<a href="#">Solutions</a>
-							<ul class="sub-menu">
-								<li class="menu-item"><a href="#">Patient Eligibility Verification</a></li>
-								<li class="menu-item"><a href="#">Denial Management</a></li>
-								<li class="menu-item"><a href="#">Account Receivable (AR) Services</a></li>
-								<li class="menu-item"><a href="#">Coding Management (Medical Coding Services)</a></li>
-								<li class="menu-item"><a href="#">Medical Billing</a></li>
-								<li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
-							</ul>
-						</li>
-						<li class="menu-item"><a href="#">Who we Serve</a></li>
-						<li class="menu-item"><a href="#">Inside Look</a></li>
-					</ul>
-				</div>
-				<div class="header__search">
-					<a href="#" class="header__search-btn"><i class="icon search-icon"></i></a>
-					<form action="">
-						<input type="text" name="s" placeholder="Search">
-						<a href="#" class="header__search-close"><i class="icon close-icon"></i></a>
-					</form>
-				</div>
-			</nav>
-			
-			<div class="header__actions">
-				<div class="header__login">
-					<a href="#" class="header__login-button">
-						<i class="icon login-icon"></i>
-						<span>Login</span>
-						<i class="icon arrow-down-icon"></i>
+	<div class="header__inner">
+		<div class="wrapper">
+			<div class="header__container">
+				<div class="header__logo-wrap">
+					<a href="<?php echo home_url(); ?>" class="header__logo">
+						<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo.svg" alt="logo" loading="lazy" />
 					</a>
-					<div class="header__login-dropdown">
-						<a href="#" class="header__login-dropdown-item">
-							<i class="icon patient-icon"></i>Patient
-						</a>
-						<a href="#" class="header__login-dropdown-item">
-							<i class="icon billimd-icon"></i>BilliMD
-						</a>
-					</div>
 				</div>
-				<a href="#" class="btn header__actions-btn">Let’s Connect </a>
+				
+				<nav class="header__nav">
+					<a href="#" class="header__hamburger">
+						<i class="icon hamburger-icon"></i>
+						<i class="icon close-icon" style="display: none;"></i>
+					</a>
+					<div class="header__menu">
+						<ul>
+							<li class="menu-item menu-item-has-children">
+								<a href="#">Solutions</a>
+								<ul class="sub-menu">
+									<li class="menu-item"><a href="#">Patient Eligibility Verification</a></li>
+									<li class="menu-item"><a href="#">Denial Management</a></li>
+									<li class="menu-item"><a href="#">Account Receivable (AR) Services</a></li>
+									<li class="menu-item"><a href="#">Coding Management (Medical Coding Services)</a></li>
+									<li class="menu-item"><a href="#">Medical Billing</a></li>
+									<li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
+								</ul>
+							</li>
+							<li class="menu-item"><a href="#">Who we Serve</a></li>
+							<li class="menu-item"><a href="#">Inside Look</a></li>
+						</ul>
+					</div>
+					<div class="header__search">
+						<a href="#" class="header__search-btn"><i class="icon search-icon"></i></a>
+						<form action="">
+							<input type="text" name="s" placeholder="Search">
+							<a href="#" class="header__search-close"><i class="icon close-icon"></i></a>
+						</form>
+					</div>
+				</nav>
+				
+				<div class="header__actions">
+					<div class="header__login">
+						<a href="#" class="header__login-button">
+							<i class="icon login-icon"></i>
+							<span>Login</span>
+							<i class="icon arrow-down-icon"></i>
+						</a>
+						<div class="header__login-dropdown">
+							<a href="#" class="header__login-dropdown-item">
+								<i class="icon patient-icon"></i>Patient
+							</a>
+							<a href="#" class="header__login-dropdown-item">
+								<i class="icon billimd-icon"></i>BilliMD
+							</a>
+						</div>
+					</div>
+					<a href="#" class="btn header__actions-btn">Let’s Connect </a>
+				</div>
 			</div>
 		</div>
-		
-		<div class="header__hidden">
+	</div>
+
+	<div class="header__hidden">
+		<div class="wrapper">
 			<div class="header__hidden-top">
 				<div class="header__hidden-menu1">
 					<ul>
@@ -90,10 +95,10 @@
 				</div>
 				<div class="header__hidden-support">
 					<span>Support</span>
-					<a href="tel:18772455163"><i class="icon 24h-icon"></i>1 (877) 245-5163</a>
+					<a href="tel:18772455163"><i class="icon clock-icon"></i>1 (877) 245-5163</a>
 				</div>
 			</div>
-			
+	
 			<div class="header__hidden-bot">
 				<div class="header__policy-menu">
 					<ul>
@@ -104,7 +109,7 @@
 				<div class="header__social-menu">
 					<ul>
 						<li class="menu-item linkedin"><a href="https://linkedin.com"></a></li>
-						<li class="menu-item twitter"><a href="https://x.com"></ a></li>
+						<li class="menu-item twitter"><a href="https://x.com"></a></li>
 						<li class="menu-item facebook"><a href="https://facebook.com"></a></li>
 						<li class="menu-item instagram"><a href="https://instagram.com"></a></li>
 					</ul>

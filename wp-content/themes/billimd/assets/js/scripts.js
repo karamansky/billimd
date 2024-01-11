@@ -19,6 +19,7 @@ jQuery(document).ready(function( $ ) {
 		jQuery(document).on('click', '.header__search-btn', function(e){
 			e.preventDefault();
 			jQuery(this).parent().toggleClass('bl-open');
+			jQuery('.header__search-close').show();
 		})
 	}
 
@@ -44,17 +45,21 @@ jQuery(document).ready(function( $ ) {
 	}
 
 	if( jQuery('.header__hidden').length ){
-		jQuery(document).on('click', '.hamburger-icon', function(e){
+		jQuery(document).on('click', '.header__hamburger .hamburger-icon', function(e){
 			e.preventDefault();
 			jQuery(this).hide();
-			jQuery(this).parent().find('.close-icon').show();
+			jQuery('.header__hamburger .close-icon').show();
+			jQuery('.body-overlay').show();
 			jQuery('.header__hidden').slideDown();
 		});
-		jQuery(document).on('click', '.close-icon', function(e){
+		jQuery(document).on('click', '.header__hamburger .close-icon', function(e){
 			e.preventDefault();
 			jQuery(this).hide();
-			jQuery(this).parent().find('.hamburger-icon').show();
+			jQuery('.header__hamburger .hamburger-icon').show();
 			jQuery('.header__hidden').slideUp();
+			setTimeout(function(){
+				jQuery('.body-overlay').hide();
+			}, 400);
 		});
 		jQuery(document).mouseup(function (e){
 			let div = jQuery('.header__hidden');
@@ -65,6 +70,10 @@ jQuery(document).ready(function( $ ) {
 					jQuery('.header__hamburger .close-icon').hide();
 					jQuery('.header__hamburger .hamburger-icon').show();
 					jQuery('.header__hidden').slideUp();
+					setTimeout(function(){
+						jQuery('.body-overlay').hide();
+					}, 400);
+
 			}
 		});
 	}
