@@ -20,14 +20,23 @@
 <div class="body-overlay"></div>
 
 
+
+
+
 <header class="header">
 	<div class="header__inner">
 		<div class="wrapper">
 			<div class="header__container">
-				<div class="header__logo-wrap">
-					<a href="<?php echo home_url(); ?>" class="header__logo">
-						<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo.svg" alt="logo" loading="lazy" />
+				<div class="header__left">
+					<a href="#" class="header__hamburger header__hamburger--mobile">
+						<i class="icon hamburger-icon"></i>
+						<i class="icon close-icon" style="display: none;"></i>
 					</a>
+					<div class="header__logo-wrap">
+						<a href="<?php echo home_url(); ?>" class="header__logo">
+							<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo.svg" alt="logo" loading="lazy" />
+						</a>
+					</div>
 				</div>
 				
 				<nav class="header__nav">
@@ -85,6 +94,32 @@
 
 	<div class="header__hidden">
 		<div class="wrapper">
+			<div class="header__hidden-mob">
+				<nav class="header__hidden-nav">
+					<div class="header__search">
+						<form action="">
+							<input type="text" name="s" placeholder="Search">
+						</form>
+					</div>
+					<div class="header__menu">
+						<ul>
+							<li class="menu-item menu-item-has-children">
+								<a href="#">Solutions</a>
+								<ul class="sub-menu">
+									<li class="menu-item"><a href="#">Patient Eligibility Verification</a></li>
+									<li class="menu-item"><a href="#">Denial Management</a></li>
+									<li class="menu-item"><a href="#">Account Receivable (AR) Services</a></li>
+									<li class="menu-item"><a href="#">Coding Management (Medical Coding Services)</a></li>
+									<li class="menu-item"><a href="#">Medical Billing</a></li>
+									<li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
+								</ul>
+							</li>
+							<li class="menu-item"><a href="#">Who we Serve</a></li>
+							<li class="menu-item"><a href="#">Inside Look</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 			<div class="header__hidden-top">
 				<div class="header__hidden-menu1">
 					<ul>
@@ -118,3 +153,8 @@
 		</div>
 	</div>
 </header>
+
+
+
+
+

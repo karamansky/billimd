@@ -48,6 +48,7 @@ jQuery(document).ready(function( $ ) {
 		jQuery(document).on('click', '.header__hamburger .hamburger-icon', function(e){
 			e.preventDefault();
 			jQuery(this).hide();
+			jQuery('.header').addClass('bl-open');
 			jQuery('.header__hamburger .close-icon').show();
 			jQuery('.body-overlay').show();
 			jQuery('.header__hidden').slideDown();
@@ -57,6 +58,7 @@ jQuery(document).ready(function( $ ) {
 			jQuery(this).hide();
 			jQuery('.header__hamburger .hamburger-icon').show();
 			jQuery('.header__hidden').slideUp();
+			jQuery('.header').removeClass('bl-open');
 			setTimeout(function(){
 				jQuery('.body-overlay').hide();
 			}, 400);
@@ -70,6 +72,7 @@ jQuery(document).ready(function( $ ) {
 					jQuery('.header__hamburger .close-icon').hide();
 					jQuery('.header__hamburger .hamburger-icon').show();
 					jQuery('.header__hidden').slideUp();
+					jQuery('.header').removeClass('bl-open');
 					setTimeout(function(){
 						jQuery('.body-overlay').hide();
 					}, 400);

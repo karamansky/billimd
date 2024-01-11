@@ -78,6 +78,20 @@ button {
 	max-width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
+
+	@media ( $br_point_small_laptop ){
+		max-width: 992px;
+	}
+
+	@media ( $br_point_tablet ){
+		max-width: 728px;
+	}
+
+	@media ( $br_point_phone ){
+		max-width: 100%;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
 }
 
 
@@ -139,3 +153,33 @@ button {
 	line-height: 1;
 	letter-spacing: -0.5px;
 }
+
+.help-btn{
+	position: fixed;
+	left: 40px;
+	top: 90%;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	svg{
+		margin-right: 5px;
+		transition: all .3s;
+		.strk{
+			transition: all .3s;
+		}
+	}
+
+	&:hover svg .strk{
+		stroke: #fff;
+	}
+}
+
+.header + div,
+.header + section{
+	margin-top: 70px;
+
+	@media ( $br_point_phone ){
+		margin-top: 80px;
+	}
+}
+
