@@ -1,32 +1,39 @@
 //colors
-//$dark-blue:				#1C2335;
-$dark-blue:				#005DAA;
+$light-green: 	#D3F5E7;
+$green: 		#17C47B;
+$dark-green: 	#2EA170;
+$blue: 			#0FBCED;
+$yellow: 		#F8BE15;
+$orange: 		#F8A215;
+$orange: 		#FF784E;
+$black: 		#000000;
+$black70: 		rgba(0,0,0,0.7);
+$black50: 		rgba(0,0,0,0.5);
 
-$light-blue:			#E9ECF5;
-$red:					#D5001C;
-//$blue:					#3F578A;
-$blue:					#005DAA;
-
-$blue-dark:             #344770;
-$blue-darker:           #2E3D5E;
-$blue-text:				#5472A8;
-$yellow: 				#FBBF24;
-$yellow-dark:           #F6B200;
-$yellow-darker:         #F59E0B;
-$orange:				#F29303;
-$hot_orange:			#E3590A;
-$simple_blue:			#1167E8;
-$violet:				#B133EC;
 
 
 //fonts
 $albert:				'Albert Sans', sans-serif;
 
 
+
 //breakpoints
 $br_point_laptop:		'max-width: 1550px';
 $br_point_mac: 	 		'max-width: 1440px';
-$br_point_small_laptop: 'max-width: 1280px';
+$br_point_small_laptop: 'max-width: 1300px';
 $br_point_tablet:		'max-width: 1024px';
 $br_point_phone: 		'max-width: 768px';
 $br_point_small_phone: 	'max-width: 380px';
+
+
+
+@mixin section-title {
+	color: $black;
+	text-align: center;
+	font-family: $albert;
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 56px;
+	letter-spacing: -2px;
+}
