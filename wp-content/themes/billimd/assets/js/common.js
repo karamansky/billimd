@@ -185,6 +185,32 @@ jQuery(document).ready(function( $ ) {
 	}
 
 
+	if( jQuery('.blog-block__items').length ){
+		initBlogSlider();
+
+		jQuery(window).resize(() => {
+			initBlogSlider();
+		});
+	}
+	function initBlogSlider(){
+		if( jQuery(window).width() > 768 ){
+			if ( jQuery('.blog-block__items').hasClass('slick-initialized') ){
+				jQuery('.blog-block__items').slick('unslick');
+			}
+		}else{
+			jQuery('.blog-block__items').not('.slick-initialized').slick({
+				dots: true,
+				arrows: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				centerMode: true,
+				variableWidth: true,
+			});
+		}
+	}
+
+
 
 
 });

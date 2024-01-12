@@ -373,7 +373,9 @@
 
 <section class="services">
 	<div class="services__inner">
-		<h2 class="section-title services__title">Our Services</h2>
+		<div class="wrapper">
+			<h2 class="section-title services__title">Our Services</h2>
+		</div>
 		<div class="services__items">
 			<div class="services__item">
 				<div class="services__item-image">
@@ -501,11 +503,13 @@
 
 <section class="testimonials">
 	<div class="testimonials__inner">
-		<h2 class="section-title testimonials__title">Testimonials</h2>
-		<div class="testimonials__description">
-			<p>
-				Discover how BilliMD.com has revolutionized billing for practices like yours – making it smoother, quicker, and more reliable.
-			</p>
+		<div class="wrapper">
+			<h2 class="section-title testimonials__title">Testimonials</h2>
+			<div class="testimonials__description">
+				<p>
+					Discover how BilliMD.com has revolutionized billing for practices like yours – making it smoother, quicker, and more reliable.
+				</p>
+			</div>
 		</div>
 		<div class="testimonials__items">
 			<div class="testimonials__item">
@@ -580,6 +584,62 @@
 			</div>
 		</div>
 		<div class="testimonials__pagination">
+		</div>
+	</div>
+</section>
+
+
+<section class="blog-block">
+	<div class="blog-block__inner">
+		<div class="wrapper">
+			<h2 class="section-title blog-block__title">Blog</h2>
+			<div class="blog-block__description">
+				<p>
+					Stay informed with our insightful blog – your resource for the latest in medical billing, coding trends, and healthcare management tips.
+				</p>
+			</div>
+		</div>
+		<div class="blog-block__slider-wrap">
+			<div class="wrapper">
+				<div class="blog-block__items">
+					<div class="blog-block__item">
+						<a href="#" class="blog-block__img">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/blog1.png" alt="blog" loading="lazy" />
+						</a>
+						<div class="blog-block__item-bottom">
+							<div class="blog-block__item-date">Dec 15</div>
+							<a href="#"><h3 class="blog-block__item-title">What It’s Like Witnessing Life Coming into Being</h3></a>
+							<div class="blog-block__item-text">
+								Her face was covered in sweat, she was breathing heavily, her screams intensifying the tense aura of the labour room.
+							</div>
+						</div>
+					</div>
+					<div class="blog-block__item">
+						<a href="#" class="blog-block__img">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/blog2.png" alt="blog" loading="lazy" />
+						</a>
+						<div class="blog-block__item-bottom">
+							<div class="blog-block__item-date">Nov 28</div>
+							<h3 class="blog-block__item-title">The Misuse of Medical Leave: A Story of Irresponsibility</h3>
+							<div class="blog-block__item-text">
+								Firstly, this article is not meant to bring anyone down. Everyone is imperfect, and when it comes to health, we all have different levels…
+							</div>
+						</div>
+					</div>
+					<div class="blog-block__item">
+						<a href="#" class="blog-block__img">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/blog3.png" alt="blog" loading="lazy" />
+						</a>
+						<div class="blog-block__item-bottom">
+							<div class="blog-block__item-date">Nov 18</div>
+							<h3 class="blog-block__item-title">This Doctor Disappeared, But Her Room Tells a Bizarre Stor…</h3>
+							<div class="blog-block__item-text">
+								Shocking Disappearance of a Doctor and a Room That Changed Overnight — Can You Solve the
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
