@@ -100,8 +100,6 @@ jQuery(document).ready(function( $ ) {
 			initServicesSlider();
 		});
 	}
-
-
 	function initServicesSlider(){
 		if( jQuery(window).width() > 768 ){
 			if ( jQuery('.services__items').hasClass('slick-initialized') ){
@@ -143,6 +141,30 @@ jQuery(document).ready(function( $ ) {
 				slidesToShow: 1,
 				centerMode: true,
 				variableWidth: true
+			});
+		}
+	}
+
+
+	if( jQuery('.insurance__logos').length ){
+		initInsuranceSlider();
+
+		jQuery(window).resize(() => {
+			initInsuranceSlider();
+		});
+	}
+	function initInsuranceSlider(){
+		if( jQuery(window).width() > 768 ){
+			if ( jQuery('.insurance__logos').hasClass('slick-initialized') ){
+				jQuery('.insurance__logos').slick('unslick');
+			}
+		}else{
+			jQuery('.insurance__logos').not('.slick-initialized').slick({
+				dots: true,
+				arrows: false,
+				infinite: false,
+				speed: 300,
+				slidesToShow: 1,
 			});
 		}
 	}
