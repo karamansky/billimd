@@ -119,6 +119,10 @@
 		padding-right: 10px;
 	}
 
+	.erm__bottom{
+		padding: 0 10px;
+	}
+
 	.erm__slider{
 		display: none!important;
 	}
@@ -126,39 +130,6 @@
 	.erm__slider--mobile{
 		display: block;
 		margin: 30px auto auto;
-
-		.slick-dots{
-			bottom: -36px;
-		}
-
-		.slick-dots li{
-			margin: 0;
-		}
-		.slick-dots li button{
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-		.slick-dots li button:before{
-			position: relative;
-			left: auto;
-			top: auto;
-			right: auto;
-			bottom: auto;
-			font-size: 0;
-			display: block;
-			width: 5px;
-			height: 5px;
-			border-radius: 50%;
-			opacity: 1!important;
-			background: #fff;
-			border: 1px solid #B3B3B3;
-		}
-		.slick-dots li.slick-active button:before{
-			background: $blue;
-			border: 1px solid $blue;
-			opacity: 1!important;
-		}
 	}
 
 	.erm__slide-mob{

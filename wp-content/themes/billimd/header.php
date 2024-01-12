@@ -371,3 +371,73 @@
 </section>
 
 
+<section class="services">
+	<div class="services__inner">
+		<h2 class="section-title services__title">Our Services</h2>
+		<div class="services__items">
+			<div class="services__item">
+				<div class="services__item-image">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/med1.svg" alt="service " loading="lazy" />
+				</div>
+				<h3 class="services__item-title">Medical Billing</h3>
+				<div class="services__item-description">
+					Experience hassle-free billing with BilliMD.com. Our state-of-the-art billing services are designed to submit accurate claims promptly, reducing delays and boosting your cash flow.
+				</div>
+			</div>
+			<div class="services__item">
+				<div class="services__item-image">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/med2.svg" alt="service " loading="lazy" />
+				</div>
+				<h3 class="services__item-title">Medical Coding</h3>
+				<div class="services__item-description">
+					Our precision in medical coding ensures every service you provide is correctly captured and reimbursed, contributing to a swift and efficient billing cycle.
+				</div>
+			</div>
+			<div class="services__item">
+				<div class="services__item-image">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/med3.svg" alt="service " loading="lazy" />
+				</div>
+				<h3 class="services__item-title">Provider Credentialing</h3>
+				<div class="services__item-description">
+					We expedite your credentialing process, ensuring a smooth and rapid transition to getting your services billed and paid.
+				</div>
+			</div>
+			<div class="services__item">
+				<div class="services__item-image">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/med4.svg" alt="service " loading="lazy" />
+				</div>
+				<h3 class="services__item-title">Accounts Receivable (AR) Calling</h3>
+				<div class="services__item-description">
+					Our proactive approach to AR calling means faster payment resolutions and a healthier bottom line for your practice.
+				</div>
+			</div>
+			<div class="services__item">
+				<div class="services__item-image">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/med5.svg" alt="service " loading="lazy" />
+				</div>
+				<h3 class="services__item-title">EHR Support</h3>
+				<div class="services__item-description">
+					Leverage our EHR expertise for an integrated billing process that's both efficient and error-free.
+				</div>
+			</div>
+			<div class="services__item">
+				<div class="services__item-image">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/med6.svg" alt="service " loading="lazy" />
+				</div>
+				<h3 class="services__item-title">Hierarchical Condition Categories (HCC)</h3>
+				<div class="services__item-description">
+					With our HCC coding expertise, expect precise risk adjustment, leading to quicker and appropriate reimbursements.
+				</div>
+			</div>
+			<div class="services__item">
+				<div class="services__item-image">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/med7.svg" alt="service " loading="lazy" />
+				</div>
+				<h3 class="services__item-title">MACRA</h3>
+				<div class="services__item-description">
+					Our MACRA services are designed to simplify compliance, ensuring you reap the benefits of prompt and correct Medicare payments.
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
