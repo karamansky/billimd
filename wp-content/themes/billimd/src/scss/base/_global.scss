@@ -56,8 +56,12 @@ li {
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: $dark-green;
 	text-underline-offset: 3px;
+
+	&:hover{
+		color: #1A764F;
+	}
 }
 
 img {

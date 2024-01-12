@@ -497,3 +497,89 @@
 		</div>
 	</div>
 </section>
+
+
+<section class="testimonials">
+	<div class="testimonials__inner">
+		<h2 class="section-title testimonials__title">Testimonials</h2>
+		<div class="testimonials__description">
+			<p>
+				Discover how BilliMD.com has revolutionized billing for practices like yours – making it smoother, quicker, and more reliable.
+			</p>
+		</div>
+		<div class="testimonials__items">
+			<div class="testimonials__item">
+				<div class="testimonials__item-text">
+					I want to express my sincere appreciation for the outstanding medical service I received at billiMD. The doctors and nurses went above and beyond to ensure my well-being, and their dedication to providing personalized and comprehensive care was evident. Thank you for making a difficult time more manageable.
+				</div>
+				<div class="testimonials__item-author">
+					<div class="testimonials__photo">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/user1.png" alt="user" loading="lazy" />
+					</div>
+					<div class="testimonials__info">
+						<div class="testimonials__name">Jan Siemiński</div>
+						<div class="testimonials__position ">Surgeon</div>
+					</div>
+				</div>
+			</div>
+			<div class="testimonials__item">
+				<div class="testimonials__item-text">
+					I recently had a positive experience with billiMD and couldn't be happier with the results. The medical team was thorough in their assessment, took the time to explain everything to me, and made sure I felt supported every step of the way. I highly recommend their services to anyone seeking top-notch medical care.
+				</div>
+				<div class="testimonials__item-author">
+					<div class="testimonials__photo">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/user2.png" alt="user" loading="lazy" />
+					</div>
+					<div class="testimonials__info">
+						<div class="testimonials__name">Linda Karlin</div>
+						<div class="testimonials__position ">Otorhinolaryngologist</div>
+					</div>
+				</div>
+			</div>
+			<div class="testimonials__item">
+				<div class="testimonials__item-text">
+ 					The level of professionalism and expertise at billiMD is truly commendable. From the moment I walked in, the staff made me feel welcomed and assured. The doctors not only treated my condition effectively but also took the time to address my concerns and answer all my questions. I am grateful for the exceptional care I received.
+				</div>
+				<div class="testimonials__item-author">
+					<div class="testimonials__photo">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/user3.png" alt="user" loading="lazy" />
+					</div>
+					<div class="testimonials__info">
+						<div class="testimonials__name">Hilton Chen</div>
+						<div class="testimonials__position ">Surgeon</div>
+					</div>
+				</div>
+			</div>
+			<div class="testimonials__item">
+				<div class="testimonials__item-text">
+					I recently had a positive experience with billiMD and couldn't be happier with the results. The medical team was thorough in their assessment, took the time to explain everything to me, and made sure I felt supported every step of the way. I highly recommend their services to anyone seeking top-notch medical care.
+				</div>
+				<div class="testimonials__item-author">
+					<div class="testimonials__photo">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/user2.png" alt="user" loading="lazy" />
+					</div>
+					<div class="testimonials__info">
+						<div class="testimonials__name">Linda Karlin</div>
+						<div class="testimonials__position ">Otorhinolaryngologist</div>
+					</div>
+				</div>
+			</div>
+			<div class="testimonials__item">
+				<div class="testimonials__item-text">
+					The level of professionalism and expertise at billiMD is truly commendable. From the moment I walked in, the staff made me feel welcomed and assured. The doctors not only treated my condition effectively but also took the time to address my concerns and answer all my questions. I am grateful for the exceptional care I received.
+				</div>
+				<div class="testimonials__item-author">
+					<div class="testimonials__photo">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/user3.png" alt="user" loading="lazy" />
+					</div>
+					<div class="testimonials__info">
+						<div class="testimonials__name">Hilton Chen</div>
+						<div class="testimonials__position ">Surgeon</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="testimonials__pagination">
+		</div>
+	</div>
+</section>

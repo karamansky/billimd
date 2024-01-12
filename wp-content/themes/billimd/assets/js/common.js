@@ -170,6 +170,21 @@ jQuery(document).ready(function( $ ) {
 	}
 
 
+	if( jQuery('.testimonials__items').length ){
+		jQuery('.testimonials__items').not('.slick-initialized').slick({
+			dots: true,
+			arrow: true,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			centerMode: true,
+			variableWidth: true,
+			appendArrows: jQuery('.testimonials__pagination'),
+			appendDots: jQuery('.testimonials__pagination'),
+		});
+	}
+
+
 
 
 });
