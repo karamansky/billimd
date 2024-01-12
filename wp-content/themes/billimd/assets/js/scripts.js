@@ -1,5 +1,13 @@
 jQuery(document).ready(function( $ ) {
 
+	//select2 init
+	setTimeout(function(){
+		jQuery('select').select2({
+			minimumResultsForSearch: -1
+		});
+	}, 150)
+
+
 	if( jQuery('.header__menu .menu-item-has-children').length ){
 		jQuery(document).on('click', '.header__menu .menu-item-has-children a', function(e){
 			e.preventDefault();
@@ -15,6 +23,7 @@ jQuery(document).ready(function( $ ) {
 		});
 	}
 
+
 	if( jQuery('.header__search-btn').length ){
 		jQuery(document).on('click', '.header__search-btn', function(e){
 			e.preventDefault();
@@ -23,12 +32,14 @@ jQuery(document).ready(function( $ ) {
 		})
 	}
 
+
 	if( jQuery('.header__search-close').length ){
 		jQuery(document).on('click', '.header__search-close', function(e){
 			e.preventDefault();
 			jQuery(this).parents('.header__search').removeClass('bl-open');
 		})
 	}
+
 
 	if( jQuery('.header__login-button').length ){
 		jQuery(document).on('click', '.header__login-button', function(e){
@@ -43,6 +54,7 @@ jQuery(document).ready(function( $ ) {
 			}
 		});
 	}
+
 
 	if( jQuery('.header__hidden').length ){
 		jQuery(document).on('click', '.header__hamburger .hamburger-icon', function(e){
@@ -209,8 +221,4 @@ jQuery(document).ready(function( $ ) {
 			});
 		}
 	}
-
-
-
-
 });

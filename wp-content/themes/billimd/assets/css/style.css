@@ -37,6 +37,10 @@ body.bl-open {
   z-index: 90;
 }
 
+select {
+  display: none !important;
+}
+
 h1,
 h2,
 h3,
@@ -966,7 +970,7 @@ button {
 }
 
 .commitment__description {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.7);
   text-align: center;
   font-family: "Albert Sans", sans-serif;
   font-size: 24px;
@@ -997,7 +1001,7 @@ button {
   max-width: 796px;
   margin-left: auto;
   margin-right: auto;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.7);
   text-align: center;
   font-family: "Albert Sans", sans-serif;
   font-size: 24px;
@@ -1238,7 +1242,7 @@ button {
 }
 
 .insurance__description {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.7);
   text-align: center;
   font-family: "Albert Sans", sans-serif;
   font-size: 24px;
@@ -1327,7 +1331,7 @@ button {
 }
 
 .testimonials__description {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.7);
   text-align: center;
   font-family: "Albert Sans", sans-serif;
   font-size: 24px;
@@ -1534,7 +1538,7 @@ button {
 }
 
 .blog-block__description {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.7);
   text-align: center;
   font-family: "Albert Sans", sans-serif;
   font-size: 24px;
@@ -1633,6 +1637,287 @@ button {
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.5px;
+}
+
+.contact-us {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.contact__inner {
+  background: #F2FCF8;
+  border-radius: 15px;
+  padding: 80px 20px;
+  -webkit-box-shadow: 0 1px 0 rgba(12, 57, 83, 0.09);
+  box-shadow: 0 1px 0 rgba(12, 57, 83, 0.09);
+}
+
+.contact__description {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact__description p {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+}
+
+.contact__form {
+  max-width: 680px;
+  margin: 60px auto 0 auto;
+}
+
+.contact__form .wpcf7 {
+  width: 100%;
+}
+
+.contact__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact__form .input-wrap {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact__form .input-wrap:last-of-type {
+  margin-bottom: 0;
+}
+
+.contact__form .input-wrap--half {
+  width: calc(50% - 10px);
+}
+
+.contact__form input,
+.contact__form textarea,
+.contact__form .select2-selection {
+  display: block;
+  border-radius: 15px;
+  background: #FFF;
+  -webkit-box-shadow: 0 1px 0 0 rgba(12, 57, 83, 0.09);
+  box-shadow: 0 1px 0 0 rgba(12, 57, 83, 0.09);
+  width: 100%;
+  height: 60px;
+  border: 1px solid transparent;
+  padding: 0 30px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: none !important;
+  color: #000000;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+}
+
+.contact__form input::-webkit-input-placeholder,
+.contact__form textarea::-webkit-input-placeholder,
+.contact__form .select2-selection::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+}
+
+.contact__form input::-moz-placeholder,
+.contact__form textarea::-moz-placeholder,
+.contact__form .select2-selection::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+}
+
+.contact__form input:-ms-input-placeholder,
+.contact__form textarea:-ms-input-placeholder,
+.contact__form .select2-selection:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+}
+
+.contact__form input::-ms-input-placeholder,
+.contact__form textarea::-ms-input-placeholder,
+.contact__form .select2-selection::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+}
+
+.contact__form input::placeholder,
+.contact__form textarea::placeholder,
+.contact__form .select2-selection::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+}
+
+.contact__form input:active,
+.contact__form input:focus,
+.contact__form textarea:active,
+.contact__form textarea:focus,
+.contact__form .select2-selection:active,
+.contact__form .select2-selection:focus {
+  border-color: #17C47B;
+}
+
+.contact__form .select2-selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  padding-right: 45px;
+}
+
+.contact__form .select2-selection__arrow {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/icons/arrow-dropdown-icon.svg") center center no-repeat;
+  background-size: 100%;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  position: absolute;
+  right: 20px;
+}
+
+.contact__form .select2-container--open .select2-selection {
+  border-color: #17C47B;
+}
+
+.contact__form .select2-container--open .select2-selection .select2-selection__arrow {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.contact__form textarea {
+  height: 160px;
+  padding: 20px 30px;
+}
+
+.contact__form input.your-name {
+  padding-left: calc(50% - 44px);
+}
+
+.contact__form input.your-name:focus {
+  padding-left: 30px;
+}
+
+.contact__form input[type=submit] {
+  background: #17C47B;
+  color: #fff;
+}
+
+.contact__form input[type=submit]:hover {
+  color: #fff;
+  background: #2EA170;
+  cursor: pointer;
+}
+
+.contact__form .wpcf7-spinner {
+  display: block;
+  margin: 10px auto 0 !important;
+}
+
+.contact__form .wpcf7-not-valid {
+  border-color: #FF784E;
+}
+
+.contact__form .wpcf7-form-control-wrap {
+  display: block;
+  position: relative;
+}
+
+.contact__form .wpcf7-not-valid-tip {
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 8px;
+  background: #FF784E;
+  color: #FFF;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+  position: absolute;
+  left: 30px;
+  bottom: -8px;
+}
+
+.contact__form textarea + .wpcf7-not-valid-tip {
+  bottom: -3px;
+}
+
+.contact__form .wpcf7-response-output {
+  margin: -20px auto 0 auto !important;
+}
+
+.select2-search .select2-search--dropdown,
+.select2-search--hide {
+  display: none !important;
+}
+
+.select2-dropdown {
+  display: block;
+  padding: 25px 30px 30px;
+  background: #FFF;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 20px 50px rgba(17, 33, 53, 0.16);
+  box-shadow: 5px 20px 50px rgba(17, 33, 53, 0.16);
+}
+
+.select2-results__option {
+  color: #000000;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+}
+
+.select2-results__option:hover {
+  color: #2EA170;
+  cursor: pointer;
 }
 
 @media (max-width: 1300px) {
@@ -2287,5 +2572,45 @@ button {
 
   .blog-block__item-title {
     margin-bottom: 10px;
+  }
+
+  .contact-us {
+    padding: 35px 0;
+  }
+
+  .contact__inner {
+    padding: 40px 30px;
+  }
+
+  .contact__title {
+    margin-bottom: 25px;
+  }
+
+  .contact__description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  .contact__description p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  .contact__form {
+    margin-top: 30px;
+  }
+
+  .contact__form .input-wrap {
+    margin-bottom: 10px;
+  }
+
+  .contact__form .input-wrap--half {
+    width: 100%;
+  }
+
+  .contact__form input.your-name {
+    padding-left: 30px;
   }
 }
