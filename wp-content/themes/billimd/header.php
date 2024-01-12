@@ -20,9 +20,6 @@
 <div class="body-overlay"></div>
 
 
-
-
-
 <header class="header">
 	<div class="header__inner">
 		<div class="wrapper">
@@ -193,3 +190,184 @@
 		</div>
 	</div>
 </section>
+
+
+<section class="emr">
+	<div class="emr__inner">
+		<div class="emr__top">
+			<div class="wrapper">
+				<h2 class="section-title erm__title">EHR/EMR's we work with</h2>
+				<div class="emr__description">
+					<p>
+						At BilliMD.com we know the features and workarounds of your EHR system.
+						All our RCM tools are integrated with the system you use.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="erm__bottom">
+			<div class="erm__slider">
+				<div class="erm__slider-track">
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo" loading="lazy" />
+					</div>
+				</div>
+			</div>
+
+			<div class="erm__slider--mobile">
+				<div class="erm__slide-mob">
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo" loading="lazy" />
+					</div>
+				</div>
+				<div class="erm__slide-mob">
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo" loading="lazy" />
+					</div>
+				</div>
+				<div class="erm__slide-mob">
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo" loading="lazy" />
+					</div>
+				</div>
+				<div class="erm__slide-mob">
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo" loading="lazy" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo" loading="lazy" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<style>
+			/*	Change 22 to count of logo images */
+			.erm__slider-track {
+				animation: scroll 40s linear infinite;
+				display: flex;
+				width: calc(240px * 22);
+			}
+			/*	Change 11 to half of count of logo images */
+			@keyframes scroll {
+				0% { transform: translateX(0); }
+				100% { transform: translateX(calc(-200px * 11))}
+			}
+		</style>
+	</div>
+</section>
+
+

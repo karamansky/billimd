@@ -82,6 +82,16 @@ jQuery(document).ready(function( $ ) {
 	}
 
 
+	if( jQuery('.erm__slider--mobile').length ){
+		jQuery('.erm__slider--mobile').slick({
+			dots: true,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+		});
+	}
+
+
 
 
 

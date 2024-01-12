@@ -89,8 +89,8 @@ button {
 
 	@media ( $br_point_phone ){
 		max-width: 100%;
-		padding-right: 20px;
-		padding-left: 20px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 }
 
@@ -112,6 +112,11 @@ button {
 		line-height: 36px;
 		letter-spacing: -1.259px;
 		margin-bottom: 25px;
+	}
+
+	@media ( $br_point_phone ){
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
 
@@ -168,6 +173,7 @@ button {
 	top: 90%;
 	padding-left: 15px;
 	padding-right: 15px;
+	z-index: 95;
 
 	@media ( $br_point_phone ){
 		display: none;
