@@ -54,8 +54,8 @@
 									<li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
 								</ul>
 							</li>
-							<li class="menu-item"><a href="#">Who we Serve</a></li>
-							<li class="menu-item"><a href="#">Inside Look</a></li>
+							<li class="menu-item"><a href="#services">Who we Serve</a></li>
+							<li class="menu-item"><a href="#insurance">Inside Look</a></li>
 						</ul>
 					</div>
 					<div class="header__search">
@@ -111,8 +111,8 @@
 									<li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
 								</ul>
 							</li>
-							<li class="menu-item"><a href="#">Who we Serve</a></li>
-							<li class="menu-item"><a href="#">Inside Look</a></li>
+							<li class="menu-item"><a href="#services">Who we Serve</a></li>
+							<li class="menu-item"><a href="#insurance">Inside Look</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -121,7 +121,7 @@
 				<div class="header__hidden-menu1">
 					<ul>
 						<li class="menu-item"><a href="#testimonials">Testimonials</a></li>
-						<li class="menu-item"><a href="#message">Message Our Team</a></li>
+						<li class="menu-item"><a href="#contact-us">Message Our Team</a></li>
 						<li class="menu-item"><a href="#blog">News & blog</a></li>
 					</ul>
 				</div>
@@ -371,7 +371,7 @@
 </section>
 
 
-<section class="services">
+<section id="services" class="services">
 	<div class="services__inner">
 		<div class="wrapper">
 			<h2 class="section-title services__title">Our Services</h2>
@@ -445,7 +445,7 @@
 </section>
 
 
-<section class="insurance">
+<section id="insurance" class="insurance">
 	<div class="wrapper">
 		<div class="insurance__inner">
 			<h2 class="section-title insurance__title">Insurance</h2>
@@ -501,7 +501,7 @@
 </section>
 
 
-<section class="testimonials">
+<section id="testimonials" class="testimonials">
 	<div class="testimonials__inner">
 		<div class="wrapper">
 			<h2 class="section-title testimonials__title">Testimonials</h2>
@@ -589,7 +589,7 @@
 </section>
 
 
-<section class="blog-block">
+<section id="blog" class="blog-block">
 	<div class="blog-block__inner">
 		<div class="wrapper">
 			<h2 class="section-title blog-block__title">Blog</h2>
@@ -645,7 +645,7 @@
 </section>
 
 
-<section class="contact-us">
+<section id="contact-us" class="contact-us">
 	<div class="wrapper">
 		<div class="contact__inner">
 			<h2 class="section-title contact__title">Contact Us</h2>
@@ -660,3 +660,82 @@
 		</div>
 	</div>
 </section>
+
+
+<footer class="footer">
+	<div class="wrapper">
+		 <div class="footer__inner">
+			 <div class="footer__top">
+				 <div class="footer__menu">
+					 <ul>
+						 <li class="menu-item menu-item-has-children">
+							 <a href="#">Solution</a>
+							 <ul class="sub-menu">
+								 <li class="menu-item"><a href="#">Patient Eligibility Verification</a></li>
+								 <li class="menu-item"><a href="#">Denial Management</a></li>
+								 <li class="menu-item"><a href="#">Account Receivable (AR) Services</a></li>
+								 <li class="menu-item"><a href="#">Coding Management (Medical Coding Services)</a></li>
+								 <li class="menu-item"><a href="#">Medical Billing</a></li>
+								 <li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
+							 </ul>
+						 </li>
+						 <li class="menu-item"><a href="#services">Who we Serve</a></li>
+						 <li class="menu-item"><a href="#insurance">Inside Look</a></li>
+						 <li class="menu-item"><a href="#testimonials">Testimonials</a></li>
+						 <li class="menu-item"><a href="#blog">News & blog</a></li>
+						 <li class="menu-item"><a href="#contact-us">Message Our Team</a></li>
+					 </ul>
+				 </div>
+				 <div class="footer__certifications">
+					 <span>Certifications</span>
+					 <div class="footer__certifications-items">
+						 <div class="footer__certifications-item">
+							 <img src="<?php echo get_template_directory_uri() ?>/assets/img/cert/hipaa.svg" alt="cert" loading="lazy" />
+						 </div>
+						 <div class="footer__certifications-item">
+							 <img src="<?php echo get_template_directory_uri() ?>/assets/img/cert/hl7.svg" alt="cert" loading="lazy" />
+						 </div>
+						 <div class="footer__certifications-item">
+							 <img src="<?php echo get_template_directory_uri() ?>/assets/img/cert/aapc.svg" alt="cert" loading="lazy" />
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+			 <div class="footer__bottom">
+				<div class="footer__bottom-left">
+					<div class="footer__policy-menu">
+						<ul>
+							<li class="menu-item"><a href="#">Terms of Service</a></li>
+							<li class="menu-item"><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="footer__copy">
+						Copyright © <?php echo date('Y'); ?> billiMD.com. All rights reserved.
+					</div>
+				</div>
+				<div class="footer__bottom-right">
+					<div class="footer__support">
+						<a href="tel:18772455163"><i class="icon clock-icon"></i>1 (877) 245-5163</a>
+					</div>
+					<div class="footer__policy-menu--mob">
+						<ul>
+							<li class="menu-item"><a href="#">Terms of Service</a></li>
+							<li class="menu-item"><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="footer__social-menu">
+						<ul>
+							<li class="menu-item linkedin"><a href="https://linkedin.com"></a></li>
+							<li class="menu-item twitter"><a href="https://x.com"></a></li>
+							<li class="menu-item facebook"><a href="https://facebook.com"></a></li>
+							<li class="menu-item instagram"><a href="https://instagram.com"></a></li>
+						</ul>
+					</div>
+				</div>
+			 </div>
+			 <div class="footer__bottom-copy">
+				 Copyright © <?php echo date('Y'); ?> billiMD.com. All rights reserved.
+			 </div>
+		 </div>
+	</div>
+</footer>

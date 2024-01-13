@@ -186,7 +186,7 @@ button {
 	padding-right: 15px;
 	z-index: 95;
 
-	@media ( $br_point_phone ){
+	@media ( $br_point_tablet ){
 		display: none;
 	}
 

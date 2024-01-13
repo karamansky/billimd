@@ -24,6 +24,22 @@ jQuery(document).ready(function( $ ) {
 	}
 
 
+	if( jQuery('.footer__menu .menu-item-has-children').length ){
+		jQuery(document).on('click', '.footer__menu .menu-item-has-children a', function(e){
+			e.preventDefault();
+			jQuery(this).parent().toggleClass('bl-open');
+		});
+
+		jQuery(document).mouseup(function (e){
+			let div = jQuery('.footer__menu .menu-item-has-children');
+			if (!div.is(e.target)
+				&& div.has(e.target).length === 0) {
+				div.removeClass('bl-open');
+			}
+		});
+	}
+
+
 	if( jQuery('.header__search-btn').length ){
 		jQuery(document).on('click', '.header__search-btn', function(e){
 			e.preventDefault();
