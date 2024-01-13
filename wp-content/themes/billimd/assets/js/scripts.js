@@ -163,7 +163,7 @@ jQuery(document).ready(function( $ ) {
 		}else{
 			jQuery('.services__items').not('.slick-initialized').slick({
 				dots: true,
-				arrow: false,
+				arrows: false,
 				infinite: true,
 				speed: 300,
 				slidesToShow: 1,
@@ -201,7 +201,7 @@ jQuery(document).ready(function( $ ) {
 	if( jQuery('.testimonials__items').length ){
 		jQuery('.testimonials__items').not('.slick-initialized').slick({
 			dots: true,
-			arrow: true,
+			arrows: true,
 			infinite: true,
 			speed: 300,
 			slidesToShow: 1,
@@ -252,8 +252,9 @@ jQuery(document).ready(function( $ ) {
 	});
 
 
-
 	setTimeout(() => {
-		AOS.init();
-	}, 100 );
+		AOS.init({
+			disable: 'mobile'
+		});
+	}, 100);
 });

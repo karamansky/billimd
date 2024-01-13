@@ -2709,6 +2709,10 @@ button {
     padding-bottom: 35px;
   }
 
+  .hero__img {
+    display: block;
+  }
+
   .hero__inner {
     background: #fff !important;
   }
@@ -3017,6 +3021,7 @@ button {
 
   .footer__menu .sub-menu {
     display: block;
+    width: 100%;
     position: relative;
     left: auto;
     top: auto;
