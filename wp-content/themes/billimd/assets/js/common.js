@@ -5,7 +5,7 @@ jQuery(document).ready(function( $ ) {
 		jQuery('select').select2({
 			minimumResultsForSearch: -1
 		});
-	}, 150)
+	}, 150);
 
 
 	if( jQuery('.header__menu .menu-item-has-children').length ){
@@ -237,4 +237,23 @@ jQuery(document).ready(function( $ ) {
 			});
 		}
 	}
+
+
+	//scroll to element by id
+	jQuery(".header, .footer").on('click','a', function (e) {
+		if (this.hash) { //if link has #-anchor
+			e.preventDefault();
+			let id  = $(this).attr('href');
+			if( jQuery(id).length ){
+				let top = $(id).offset().top;
+				$('body,html').animate({scrollTop: top}, 600);
+			}
+		}
+	});
+
+
+
+	setTimeout(() => {
+		AOS.init();
+	}, 100 );
 });

@@ -1885,10 +1885,6 @@ button {
   bottom: -8px;
 }
 
-.contact__form textarea + .wpcf7-not-valid-tip {
-  bottom: -3px;
-}
-
 .contact__form .wpcf7-response-output {
   margin: -20px auto 0 auto !important;
 }

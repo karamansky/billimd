@@ -140,10 +140,10 @@
 				</div>
 				<div class="header__social-menu">
 					<ul>
-						<li class="menu-item linkedin"><a href="https://linkedin.com"></a></li>
-						<li class="menu-item twitter"><a href="https://x.com"></a></li>
-						<li class="menu-item facebook"><a href="https://facebook.com"></a></li>
-						<li class="menu-item instagram"><a href="https://instagram.com"></a></li>
+<!--						<li class="menu-item linkedin"><a href="https://linkedin.com"></a></li>-->
+						<li class="menu-item twitter"><a href="https://twitter.com/billimd_com" target="_blank"></a></li>
+						<li class="menu-item facebook"><a href="https://www.facebook.com/profile.php?id=61555645943335" target="_blank"></a></li>
+						<li class="menu-item instagram"><a href="https://www.instagram.com/social.billimd/" target="_blank"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -175,14 +175,14 @@
 </section>
 
 
-<section class="commitment">
+<section data-aos="fade-up" class="commitment">
 	<div class="wrapper">
 		<div class="commitment__inner">
-			<div class="commitment__image">
+			<div class="commitment__image" data-aos="fade-up" >
 				<img src="<?php echo get_template_directory_uri() ?>/assets/img/commitment.svg" alt="commitment" loading="lazy" />
 			</div>
-			<h2 class="section-title commitment__title">Our Commitment</h2>
-			<div class="commitment__description">
+			<h2 class="section-title commitment__title" data-aos="fade-up" >Our Commitment</h2>
+			<div class="commitment__description" data-aos="fade-up" >
 				<p>
 					Dedicated to making medical billing effortless and more efficient, BilliMD.com is your partner in financial success. We handle the complexities of billing and coding, so you can focus on what you do best - caring for patients.
 				</p>
@@ -196,8 +196,8 @@
 	<div class="emr__inner">
 		<div class="emr__top">
 			<div class="wrapper">
-				<h2 class="section-title erm__title">EHR/EMR's we work with</h2>
-				<div class="emr__description">
+				<h2 class="section-title erm__title" data-aos="fade-up" >EHR/EMR's we work with</h2>
+				<div class="emr__description" data-aos="fade-up" >
 					<p>
 						At BilliMD.com we know the features and workarounds of your EHR system.
 						All our RCM tools are integrated with the system you use.
@@ -205,7 +205,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="erm__bottom">
+		<div class="erm__bottom" data-aos="fade-up" >
 			<div class="erm__slider">
 				<div class="erm__slider-track">
 					<div class="erm__slide">
@@ -277,7 +277,7 @@
 				</div>
 			</div>
 
-			<div class="erm__slider--mobile">
+			<div class="erm__slider--mobile" data-aos="fade-up" >
 				<div class="erm__slide-mob">
 					<div class="erm__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo" loading="lazy" />
@@ -374,9 +374,9 @@
 <section id="services" class="services">
 	<div class="services__inner">
 		<div class="wrapper">
-			<h2 class="section-title services__title">Our Services</h2>
+			<h2 class="section-title services__title" data-aos="fade-up" >Our Services</h2>
 		</div>
-		<div class="services__items">
+		<div class="services__items" data-aos="fade-up" >
 			<div class="services__item">
 				<div class="services__item-image">
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/med1.svg" alt="service " loading="lazy" />
@@ -448,13 +448,13 @@
 <section id="insurance" class="insurance">
 	<div class="wrapper">
 		<div class="insurance__inner">
-			<h2 class="section-title insurance__title">Insurance</h2>
-			<div class="insurance__description">
+			<h2 class="section-title insurance__title" data-aos="fade-up" >Insurance</h2>
+			<div class="insurance__description" data-aos="fade-up" >
 				<p>
 					Insurance companies we provide credentialing services for
 				</p>
 			</div>
-			<div class="insurance__logos">
+			<div class="insurance__logos" data-aos="fade-up" >
 				<div class="insurance__logos-slide">
 					<div class="insurance__logo">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/1.png" alt="logo" loading="lazy" />
@@ -504,14 +504,14 @@
 <section id="testimonials" class="testimonials">
 	<div class="testimonials__inner">
 		<div class="wrapper">
-			<h2 class="section-title testimonials__title">Testimonials</h2>
-			<div class="testimonials__description">
+			<h2 class="section-title testimonials__title" data-aos="fade-up" >Testimonials</h2>
+			<div class="testimonials__description" data-aos="fade-up" >
 				<p>
 					Discover how BilliMD.com has revolutionized billing for practices like yours – making it smoother, quicker, and more reliable.
 				</p>
 			</div>
 		</div>
-		<div class="testimonials__items">
+		<div class="testimonials__items" data-aos="fade-up" >
 			<div class="testimonials__item">
 				<div class="testimonials__item-text">
 					I want to express my sincere appreciation for the outstanding medical service I received at billiMD. The doctors and nurses went above and beyond to ensure my well-being, and their dedication to providing personalized and comprehensive care was evident. Thank you for making a difficult time more manageable.
@@ -592,14 +592,14 @@
 <section id="blog" class="blog-block">
 	<div class="blog-block__inner">
 		<div class="wrapper">
-			<h2 class="section-title blog-block__title">Blog</h2>
-			<div class="blog-block__description">
+			<h2 class="section-title blog-block__title" data-aos="fade-up">Blog</h2>
+			<div class="blog-block__description" data-aos="fade-up">
 				<p>
 					Stay informed with our insightful blog – your resource for the latest in medical billing, coding trends, and healthcare management tips.
 				</p>
 			</div>
 		</div>
-		<div class="blog-block__slider-wrap">
+		<div class="blog-block__slider-wrap" data-aos="fade-up">
 			<div class="wrapper">
 				<div class="blog-block__items">
 					<div class="blog-block__item">
@@ -645,16 +645,16 @@
 </section>
 
 
-<section id="contact-us" class="contact-us">
+<section id="contact-us" class="contact-us" data-aos="fade-up">
 	<div class="wrapper">
 		<div class="contact__inner">
-			<h2 class="section-title contact__title">Contact Us</h2>
-			<div class="contact__description">
+			<h2 class="section-title contact__title" data-aos="fade-up" >Contact Us</h2>
+			<div class="contact__description" data-aos="fade-up" >
 				<p>
 					Embark on a journey to simpler, faster medical billing. Connect with us today and let's discuss how we can enhance your practice's financial health.
 				</p>
 			</div>
-			<div class="contact__form">
+			<div class="contact__form" data-aos="fade-up" >
 				<?php echo do_shortcode('[contact-form-7 id="d4a4d15" title="Home Contact form in block"]'); ?>
 			</div>
 		</div>
@@ -725,10 +725,10 @@
 					</div>
 					<div class="footer__social-menu">
 						<ul>
-							<li class="menu-item linkedin"><a href="https://linkedin.com"></a></li>
-							<li class="menu-item twitter"><a href="https://x.com"></a></li>
-							<li class="menu-item facebook"><a href="https://facebook.com"></a></li>
-							<li class="menu-item instagram"><a href="https://instagram.com"></a></li>
+<!--							<li class="menu-item linkedin"><a href="https://linkedin.com"></a></li>-->
+							<li class="menu-item twitter"><a href="https://twitter.com/billimd_com" target="_blank"></a></li>
+							<li class="menu-item facebook"><a href="https://www.facebook.com/profile.php?id=61555645943335" target="_blank"></a></li>
+							<li class="menu-item instagram"><a href="https://www.instagram.com/social.billimd" target="_blank"></a></li>
 						</ul>
 					</div>
 				</div>
