@@ -577,7 +577,7 @@ select + .select2-container {
 }
 
 .header__menu .menu-item {
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 .header__menu .menu-item a {
@@ -622,7 +622,7 @@ select + .select2-container {
   display: none;
   position: absolute;
   left: -30px;
-  top: calc(100% + 8px);
+  top: 100%;
   width: 373px;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -812,6 +812,8 @@ select + .select2-container {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  cursor: pointer;
+  padding: 10px 0;
 }
 
 .header__login-button span {
@@ -843,7 +845,7 @@ select + .select2-container {
 .header__login-dropdown {
   display: none;
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: -20px;
   min-width: 134px;
   background: #FFF;
@@ -2134,7 +2136,7 @@ select + .select2-container {
 }
 
 .footer__menu .menu-item {
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 .footer__menu .menu-item:not(:last-child) {
@@ -2183,7 +2185,7 @@ select + .select2-container {
   display: none;
   position: absolute;
   left: -30px;
-  top: calc(100% + 8px);
+  top: 100%;
   width: 373px;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -2819,6 +2821,10 @@ select + .select2-container {
 
   .header__menu .sub-menu .menu-item {
     margin-bottom: 25px;
+  }
+
+  .header__login-dropdown {
+    top: calc(100% + 8px);
   }
 
   .header__hidden-top {

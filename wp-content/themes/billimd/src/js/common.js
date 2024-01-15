@@ -19,10 +19,16 @@ jQuery(document).ready(function( $ ) {
 
 
 	if( jQuery('.header__menu .menu-item-has-children').length ){
-		jQuery(document).on('click', '.header__menu .menu-item-has-children a', function(e){
-			e.preventDefault();
-			jQuery(this).parent().toggleClass('bl-open');
-		});
+		jQuery('.header__menu .menu-item-has-children').hover(
+			function(e){
+				e.preventDefault();
+				jQuery(this).addClass('bl-open');
+			},
+			function(e){
+				e.preventDefault();
+				jQuery(this).removeClass('bl-open');
+			}
+		);
 
 		jQuery(document).mouseup(function (e){
 			let div = jQuery('.header__menu .menu-item-has-children');
@@ -35,10 +41,16 @@ jQuery(document).ready(function( $ ) {
 
 
 	if( jQuery('.footer__menu .menu-item-has-children').length ){
-		jQuery(document).on('click', '.footer__menu .menu-item-has-children a', function(e){
-			e.preventDefault();
-			jQuery(this).parent().toggleClass('bl-open');
-		});
+		jQuery('.footer__menu .menu-item-has-children').hover(
+			function(e){
+				e.preventDefault();
+				jQuery(this).addClass('bl-open');
+			},
+			function(e){
+				e.preventDefault();
+				jQuery(this).removeClass('bl-open');
+			}
+		);
 
 		jQuery(document).mouseup(function (e){
 			let div = jQuery('.footer__menu .menu-item-has-children');
@@ -68,17 +80,16 @@ jQuery(document).ready(function( $ ) {
 
 
 	if( jQuery('.header__login-button').length ){
-		jQuery(document).on('click', '.header__login-button', function(e){
-			e.preventDefault();
-			jQuery(this).parent().toggleClass('bl-open');
-		});
-		jQuery(document).mouseup(function (e){
-			let div = jQuery('.header__login-button');
-			if (!div.is(e.target)
-				&& div.has(e.target).length === 0) {
-				div.parent().removeClass('bl-open');
-			}
-		});
+		jQuery('.header__login-button').hover(
+			function(e){
+				e.preventDefault();
+				jQuery(this).parent().addClass('bl-open');
+			},
+			function(e){
+				e.preventDefault();
+				jQuery(this).parent().removeClass('bl-open');
+			},
+		);
 	}
 
 
@@ -242,7 +253,7 @@ jQuery(document).ready(function( $ ) {
 			e.preventDefault();
 			let id  = $(this).attr('href');
 			if( jQuery(id).length ){
-				let top = $(id).offset().top - 70;
+				let top = $(id).offset().top - 80;
 				closeHeaderMenu();
 				$('body,html').animate({scrollTop: top}, 600);
 			}

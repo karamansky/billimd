@@ -69,18 +69,18 @@
 				
 				<div class="header__actions">
 					<div class="header__login">
-						<a href="#" class="header__login-button">
+						<div class="header__login-button">
 							<i class="icon login-icon"></i>
 							<span>Login</span>
 							<i class="icon arrow-down-icon"></i>
-						</a>
-						<div class="header__login-dropdown">
-							<a href="#" class="header__login-dropdown-item">
-								<i class="icon patient-icon"></i>Patient
-							</a>
-							<a href="#" class="header__login-dropdown-item">
-								<i class="icon billimd-icon"></i>BilliMD
-							</a>
+							<div class="header__login-dropdown">
+								<a href="#" class="header__login-dropdown-item">
+									<i class="icon patient-icon"></i>Patient
+								</a>
+								<a href="#" class="header__login-dropdown-item">
+									<i class="icon billimd-icon"></i>BilliMD
+								</a>
+							</div>
 						</div>
 					</div>
 					<a href="#contact-us" class="btn scrollto header__actions-btn">Let’s Connect </a>

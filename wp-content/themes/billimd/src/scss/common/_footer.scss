@@ -19,7 +19,7 @@
 	}
 
 	.menu-item{
-		padding: 5px 0;
+		padding: 10px 0;
 
 		&:not(:last-child){
 			margin-right: 40px;
@@ -62,7 +62,7 @@
 		display: none;
 		position: absolute;
 		left: -30px;
-		top: calc(100% + 8px);
+		top: 100%;
 		width: 373px;
 		flex-shrink: 0;
 		padding: 25px 30px 15px 30px;

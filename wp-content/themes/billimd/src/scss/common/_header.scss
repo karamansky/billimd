@@ -69,7 +69,7 @@
 	}
 
 	.menu-item{
-		padding: 5px 0;
+		padding: 10px 0;
 
 		a{
 			color: $black50;
@@ -108,7 +108,7 @@
 		display: none;
 		position: absolute;
 		left: -30px;
-		top: calc(100% + 8px);
+		top: 100%;
 		width: 373px;
 		flex-shrink: 0;
 		padding: 25px 30px 15px 30px;
@@ -231,6 +231,8 @@
 .header__login-button{
 	display: flex;
 	align-items: center;
+	cursor: pointer;
+	padding: 10px 0;
 
 	span{
 		margin: 0 5px;
@@ -258,7 +260,7 @@
 .header__login-dropdown{
 	display: none;
 	position: absolute;
-	top: calc(100% + 8px);
+	top: 100%;
 	left: -20px;
 	min-width: 134px;
 	background: #FFF;
@@ -709,6 +711,10 @@
 
 	.header__menu .sub-menu .menu-item{
 		margin-bottom: 25px;
+	}
+
+	.header__login-dropdown{
+		top: calc(100% + 8px);
 	}
 
 	.header__hidden-top{
