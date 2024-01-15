@@ -47,7 +47,7 @@
 	add_action( 'wp_enqueue_scripts', 'bl_enqueue_scripts' );
 	function bl_enqueue_scripts(){
 		$get_template_directory_uri = get_template_directory_uri();
-//		wp_enqueue_style( 'select2-styles', $get_template_directory_uri . '/assets/libs/select2/css/select2.min.css');
+		wp_enqueue_style( 'select2-styles', $get_template_directory_uri . '/assets/libs/select2/css/select2.min.css');
 		wp_enqueue_style( 'aos-styles', $get_template_directory_uri . '/assets/libs/aos/aos.css');
 		wp_enqueue_style( 'slick-theme-styles', $get_template_directory_uri . '/assets/libs/slick/slick-theme.css');
 		wp_enqueue_style( 'slick-styles', $get_template_directory_uri . '/assets/libs/slick/slick.css');

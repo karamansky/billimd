@@ -63,8 +63,7 @@
 	}
 
 	input,
-	textarea,
-	.select2-selection{
+	textarea{
 		display: block;
 		border-radius: 15px;
 		background: #FFF;
@@ -98,31 +97,7 @@
 		}
 	}
 
-	.select2-selection{
-		display: flex;
-		align-items: center;
-		position: relative;
-		padding-right: 45px;
-	}
 
-	.select2-selection__arrow{
-		display: block;
-		width: 24px;
-		height: 24px;
-		background: url('../img/icons/arrow-dropdown-icon.svg') center center no-repeat;
-		background-size: 100%;
-		transition: all .3s;
-		position: absolute;
-		right: 20px;
-	}
-
-	.select2-container--open .select2-selection{
-		border-color: $green;
-
-		.select2-selection__arrow{
-			transform: rotate(180deg);
-		}
-	}
 
 	textarea{
 		height: 160px;
@@ -182,34 +157,6 @@
 		margin: -20px auto 0 auto!important;
 	}
 }
-
-.select2-search .select2-search--dropdown,
-.select2-search--hide{
-	display: none!important;
-}
-
-.select2-dropdown{
-	display: block;
-	padding: 25px 30px 30px;
-	background: #FFF;
-	border-radius: 15px;
-	box-shadow: 5px 20px 50px rgba(17, 33, 53, 0.16);
-}
-
-.select2-results__option{
-	color: $black;
-	font-family: $albert;
-	font-size: 18px;
-	font-weight: 500;
-	line-height: 30px;
-	letter-spacing: -0.5px;
-
-	&:hover{
-		color: $dark-green;
-		cursor: pointer;
-	}
-}
-
 
 
 

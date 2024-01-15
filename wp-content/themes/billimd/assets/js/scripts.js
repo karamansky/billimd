@@ -257,4 +257,11 @@ jQuery(document).ready(function( $ ) {
 			disable: 'mobile'
 		});
 	}, 100);
+
+
+	let wpcf7Elm = document.querySelector( '.wpcf7' );
+	wpcf7Elm.addEventListener( 'wpcf7submit', function( event ) {
+		jQuery('.wpcf7 select option:eq(0)').prop('selected',true);
+		jQuery('.wpcf7 select').trigger('change');
+	}, false );
 });
