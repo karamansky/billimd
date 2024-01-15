@@ -227,6 +227,10 @@
 
 		&:hover{
 			color: $dark-green;
+
+			.clock-icon{
+				background-image: url('../img/icons/24h.svg');
+			}
 		}
 	}
 
@@ -424,7 +428,7 @@
 		}
 
 		.clock-icon{
-			background: url('../img/icons/24h.svg');
+			background-image: url('../img/icons/24h.svg');
 		}
 	}
 

@@ -219,11 +219,15 @@ button {
 }
 .slick-dots li{
 	margin: 0!important;
+	padding: 0!important;
+	height: 5px!important;
 }
 .slick-dots li button{
 	display: flex!important;
 	align-items: center!important;
 	justify-content: center!important;
+	height: 5px!important;
+	padding: 0!important;
 }
 .slick-dots li button:before{
 	position: relative!important;
@@ -238,7 +242,10 @@ button {
 	border-radius: 50%!important;
 	opacity: 1!important;
 	background: #fff!important;
-	border: 1px solid #B3B3B3!important;
+	border: 1px solid rgba(0,0,0,0.3)!important;
+}
+.slick-dots li button:hover:before{
+	border: 1px solid rgba(0,0,0,0.6)!important;
 }
 .slick-dots li.slick-active button:before{
 	background: $blue!important;

@@ -54,8 +54,8 @@
 									<li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
 								</ul>
 							</li>
-							<li class="menu-item"><a href="#services">Who we Serve</a></li>
-							<li class="menu-item"><a href="#insurance">Inside Look</a></li>
+							<li class="menu-item"><a href="#">Who we Serve</a></li>
+							<li class="menu-item"><a href="#">Inside Look</a></li>
 						</ul>
 					</div>
 					<div class="header__search">
@@ -83,7 +83,7 @@
 							</a>
 						</div>
 					</div>
-					<a href="#" class="btn header__actions-btn">Let’s Connect </a>
+					<a href="#contact-us" class="btn scrollto header__actions-btn">Let’s Connect </a>
 				</div>
 			</div>
 		</div>
@@ -111,8 +111,8 @@
 									<li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
 								</ul>
 							</li>
-							<li class="menu-item"><a href="#services">Who we Serve</a></li>
-							<li class="menu-item"><a href="#insurance">Inside Look</a></li>
+							<li class="menu-item"><a href="#">Who we Serve</a></li>
+							<li class="menu-item"><a href="#">Inside Look</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -168,7 +168,7 @@
 					   into a streamlined, stress-free process, ensuring you get paid faster
 					   and with minimal hassle.</p>
 				</div>
-				<a href="#" class="btn btn--big btn--green hero__btn">Let’s Connect</a>
+				<a href="#contact-us" class="btn btn--big btn--green scrollto hero__btn">Let’s Connect</a>
 			</div>
 		</div>
 	</div>
@@ -209,70 +209,70 @@
 			<div class="erm__slider">
 				<div class="erm__slider-track">
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo"  />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo"  />
 					</div>
 				</div>
 			</div>
@@ -280,76 +280,76 @@
 			<div class="erm__slider--mobile" data-aos="fade-up" >
 				<div class="erm__slide-mob">
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo" loading="lazy" />
-					</div>
-				</div>
-				<div class="erm__slide-mob">
-					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo" loading="lazy" />
-					</div>
-					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo" loading="lazy" />
-					</div>
-					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo" loading="lazy" />
-					</div>
-					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo" loading="lazy" />
-					</div>
-					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo" loading="lazy" />
-					</div>
-					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo" />
 					</div>
 				</div>
 				<div class="erm__slide-mob">
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo" />
 					</div>
 				</div>
 				<div class="erm__slide-mob">
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo" />
 					</div>
 					<div class="erm__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo" loading="lazy" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo" />
+					</div>
+				</div>
+				<div class="erm__slide-mob">
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo" />
+					</div>
+					<div class="erm__slide">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo" />
 					</div>
 				</div>
 			</div>
@@ -357,14 +357,15 @@
 		<style>
 			/*	Change 22 to count of logo images */
 			.erm__slider-track {
-				animation: scroll 40s linear infinite;
+				animation: scroll <?php echo 22* 3; ?>s linear infinite;
 				display: flex;
+				transform: translateX(100vw);
 				width: calc(240px * 22);
 			}
 			/*	Change 11 to half of count of logo images */
 			@keyframes scroll {
-				0% { transform: translateX(0); }
-				100% { transform: translateX(calc(-200px * 11))}
+				0% { transform: translateX(100vw); }
+				100% { transform: translateX(calc(-240px * 22))}
 			}
 		</style>
 	</div>
@@ -669,7 +670,7 @@
 				 <div class="footer__menu">
 					 <ul>
 						 <li class="menu-item menu-item-has-children">
-							 <a href="#">Solution</a>
+							 <a href="#">Solutions</a>
 							 <ul class="sub-menu">
 								 <li class="menu-item"><a href="#">Patient Eligibility Verification</a></li>
 								 <li class="menu-item"><a href="#">Denial Management</a></li>
@@ -679,8 +680,8 @@
 								 <li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
 							 </ul>
 						 </li>
-						 <li class="menu-item"><a href="#services">Who we Serve</a></li>
-						 <li class="menu-item"><a href="#insurance">Inside Look</a></li>
+						 <li class="menu-item"><a href="#">Who we Serve</a></li>
+						 <li class="menu-item"><a href="#">Inside Look</a></li>
 						 <li class="menu-item"><a href="#testimonials">Testimonials</a></li>
 						 <li class="menu-item"><a href="#blog">News & blog</a></li>
 						 <li class="menu-item"><a href="#contact-us">Message Our Team</a></li>
@@ -690,13 +691,13 @@
 					 <span>Certifications</span>
 					 <div class="footer__certifications-items">
 						 <div class="footer__certifications-item">
-							 <img src="<?php echo get_template_directory_uri() ?>/assets/img/cert/hipaa.svg" alt="cert" loading="lazy" />
+							 <img src="<?php echo get_template_directory_uri() ?>/assets/img/cert/hipaa.png" alt="cert" loading="lazy" />
 						 </div>
 						 <div class="footer__certifications-item">
-							 <img src="<?php echo get_template_directory_uri() ?>/assets/img/cert/hl7.svg" alt="cert" loading="lazy" />
+							 <img src="<?php echo get_template_directory_uri() ?>/assets/img/cert/hl7.png" alt="cert" loading="lazy" />
 						 </div>
 						 <div class="footer__certifications-item">
-							 <img src="<?php echo get_template_directory_uri() ?>/assets/img/cert/aapc.svg" alt="cert" loading="lazy" />
+							 <img src="<?php echo get_template_directory_uri() ?>/assets/img/cert/aapc.png" alt="cert" loading="lazy" />
 						 </div>
 					 </div>
 				 </div>

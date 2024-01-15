@@ -1,5 +1,15 @@
 jQuery(document).ready(function( $ ) {
 
+	//sticky header
+	jQuery(window).scroll(function() {
+		const scrollPosition = jQuery(window).scrollTop();
+		if (scrollPosition >= 50) {
+			jQuery('.header').addClass('header--scrolled');
+		} else {
+			jQuery('.header').removeClass('header--scrolled');
+		}
+	});
+
 	//select2 init
 	setTimeout(function(){
 		jQuery('select').select2({
@@ -83,13 +93,7 @@ jQuery(document).ready(function( $ ) {
 		});
 		jQuery(document).on('click', '.header__hamburger .close-icon', function(e){
 			e.preventDefault();
-			jQuery(this).hide();
-			jQuery('.header__hamburger .hamburger-icon').show();
-			jQuery('.header__hidden').slideUp();
-			jQuery('.header').removeClass('bl-open');
-			setTimeout(function(){
-				jQuery('.body-overlay').hide();
-			}, 400);
+			closeHeaderMenu();
 		});
 		jQuery(document).mouseup(function (e){
 			let div = jQuery('.header__hidden');
@@ -97,14 +101,7 @@ jQuery(document).ready(function( $ ) {
 				&& !jQuery('.header__hamburger .hamburger-icon').is(e.target)
 				&& !jQuery('.header__hamburger .close-icon').is(e.target)
 				&& div.has(e.target).length === 0) {
-					jQuery('.header__hamburger .close-icon').hide();
-					jQuery('.header__hamburger .hamburger-icon').show();
-					jQuery('.header__hidden').slideUp();
-					jQuery('.header').removeClass('bl-open');
-					setTimeout(function(){
-						jQuery('.body-overlay').hide();
-					}, 400);
-
+					closeHeaderMenu();
 			}
 		});
 	}
@@ -240,14 +237,16 @@ jQuery(document).ready(function( $ ) {
 
 
 	//scroll to element by id
-	jQuery(".header, .footer").on('click','a', function (e) {
+	jQuery(document).on('click','.header a, .footer a, .scrollto', function (e) {
 		if (this.hash) { //if link has #-anchor
 			e.preventDefault();
 			let id  = $(this).attr('href');
 			if( jQuery(id).length ){
-				let top = $(id).offset().top;
+				let top = $(id).offset().top - 70;
+				closeHeaderMenu();
 				$('body,html').animate({scrollTop: top}, 600);
 			}
+
 		}
 	});
 
@@ -264,4 +263,15 @@ jQuery(document).ready(function( $ ) {
 		jQuery('.wpcf7 select option:eq(0)').prop('selected',true);
 		jQuery('.wpcf7 select').trigger('change');
 	}, false );
+
+
+	function closeHeaderMenu(){
+		jQuery('.header__hamburger .close-icon').hide();
+		jQuery('.header__hamburger .hamburger-icon').show();
+		jQuery('.header__hidden').slideUp();
+		jQuery('.header').removeClass('bl-open');
+		setTimeout(function(){
+			jQuery('.body-overlay').hide();
+		}, 400);
+	}
 });
