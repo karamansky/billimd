@@ -358,15 +358,15 @@
 		<style>
 			/*	Change 22 to count of logo images */
 			.emr__slider-track {
-				animation: scroll <?php echo 22* 3; ?>s linear infinite;
+				animation: scroll <?php echo 22 * 2.5; ?>s linear infinite;
 				display: flex;
 				transform: translateX(100vw);
-				width: calc(240px * 22);
+				width: calc(240px * 22 - 40px);
 			}
 			/*	Change 11 to half of count of logo images */
 			@keyframes scroll {
 				0% { transform: translateX(100vw); }
-				100% { transform: translateX(calc(-240px * 22))}
+				100% { transform: translateX(calc(-240px * 22 + 40px))}
 			}
 		</style>
 	</div>

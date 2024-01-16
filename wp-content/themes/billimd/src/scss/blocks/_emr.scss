@@ -65,7 +65,10 @@
 	width: 200px;
 	border-radius: 20px;
 	background: #F3FCFE;
-	margin-right: 40px;
+
+	&:not(:last-child){
+		margin-right: 40px;
+	}
 
 	img{
 		display: block;

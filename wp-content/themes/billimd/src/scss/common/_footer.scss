@@ -153,6 +153,7 @@
 
 .footer__certifications-item{
 	max-width: 83px;
+	height: 30px;
 	flex-shrink: 1;
 	&:not(:last-child){
 		margin-right: 40px;
@@ -389,7 +390,7 @@
 
 	.footer__certifications-items{
 		width: 100%;
-		justify-content: space-between;
+		justify-content: flex-start;
 	}
 
 	.footer__certifications-item{
@@ -464,5 +465,14 @@
 		margin-bottom: 40px;
 		flex-wrap: wrap;
 		width: 100%;
+	}
+}
+
+
+
+
+@media ( $br_point_small_phone ){
+	.footer__certifications-items{
+		justify-content: space-between;
 	}
 }
