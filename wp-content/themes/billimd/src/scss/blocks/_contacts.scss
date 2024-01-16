@@ -154,7 +154,12 @@
 	}
 
 	.wpcf7-response-output{
-		margin: -20px auto 0 auto!important;
+		margin: 0px auto 0 auto!important;
+	}
+
+	.wpcf7 form.sent .wpcf7-response-output{
+		text-align: center;
+		border-radius: 15px;
 	}
 }
 
@@ -167,8 +172,8 @@
 		padding: 35px 0;
 	}
 
-	.contact__inner{
-		padding: 40px 30px;
+	.contact__inner {
+		padding: 40px 30px 20px 30px;
 	}
 
 	.contact__title{
@@ -192,6 +197,7 @@
 
 		.input-wrap{
 			margin-bottom: 10px;
+			position: relative;
 
 			&--half{
 				width: 100%;
@@ -201,5 +207,14 @@
 		input.your-name{
 			padding-left: 30px;
 		}
+
+		.wpcf7-spinner{
+			margin-top: 0!important;
+			position: absolute;
+			top: 19px;
+			right: 20px;
+			z-index: 5;
+		}
+
 	}
 }

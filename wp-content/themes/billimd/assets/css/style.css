@@ -191,6 +191,10 @@ button {
 
 /* slick */
 
+.slick-initialized .slick-slide {
+  margin-bottom: 1px !important;
+}
+
 .slick-dots {
   bottom: -36px !important;
 }
@@ -1113,6 +1117,21 @@ select + .select2-container {
   display: none;
 }
 
+.header__search-clear {
+  display: none;
+  width: 24px;
+  height: 24px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 10px;
+}
+
 .hero {
   padding: 0 0 60px;
 }
@@ -1251,7 +1270,7 @@ select + .select2-container {
 }
 
 .emr__description p {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.7);
   text-align: center;
   font-family: "Albert Sans", sans-serif;
   font-size: 24px;
@@ -1260,7 +1279,7 @@ select + .select2-container {
   letter-spacing: -0.5px;
 }
 
-.erm__slider {
+.emr__slider {
   width: 100%;
   height: 95px;
   background: #fff;
@@ -1269,8 +1288,8 @@ select + .select2-container {
   position: relative;
 }
 
-.erm__slider::before,
-.erm__slider::after {
+.emr__slider::before,
+.emr__slider::after {
   background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
   background: -o-linear-gradient(left, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
   background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
@@ -1281,7 +1300,7 @@ select + .select2-container {
   z-index: 2;
 }
 
-.erm__slider::after {
+.emr__slider::after {
   right: 0;
   top: 0;
   -webkit-transform: rotateZ(180deg);
@@ -1289,12 +1308,12 @@ select + .select2-container {
   transform: rotateZ(180deg);
 }
 
-.erm__slider::before {
+.emr__slider::before {
   left: 0;
   top: 0;
 }
 
-.erm__slide {
+.emr__slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1313,7 +1332,7 @@ select + .select2-container {
   margin-right: 40px;
 }
 
-.erm__slide img {
+.emr__slide img {
   display: block;
   max-width: 180px;
   width: 100%;
@@ -1324,7 +1343,7 @@ select + .select2-container {
   margin-right: auto;
 }
 
-.erm__slider-track {
+.emr__slider-track {
   -webkit-animation: scroll 40s linear infinite;
   animation: scroll 40s linear infinite;
   display: -webkit-box;
@@ -1357,7 +1376,7 @@ select + .select2-container {
   }
 }
 
-.erm__slider--mobile {
+.emr__slider--mobile {
   display: none;
 }
 
@@ -1500,7 +1519,7 @@ select + .select2-container {
 }
 
 .insurance__description p {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.7);
   text-align: center;
   font-family: "Albert Sans", sans-serif;
   font-size: 24px;
@@ -1802,7 +1821,7 @@ select + .select2-container {
 }
 
 .blog-block__description p {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.7);
   text-align: center;
   font-family: "Albert Sans", sans-serif;
   font-size: 24px;
@@ -2102,7 +2121,12 @@ select + .select2-container {
 }
 
 .contact__form .wpcf7-response-output {
-  margin: -20px auto 0 auto !important;
+  margin: 0px auto 0 auto !important;
+}
+
+.contact__form .wpcf7 form.sent .wpcf7-response-output {
+  text-align: center;
+  border-radius: 15px;
 }
 
 .footer {
@@ -2653,8 +2677,8 @@ select + .select2-container {
     line-height: 54px;
   }
 
-  .erm__slider::before,
-  .erm__slider::after {
+  .emr__slider::before,
+  .emr__slider::after {
     width: 80px;
   }
 
@@ -2739,10 +2763,20 @@ select + .select2-container {
     display: block;
   }
 
+  .header__inner .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .header__hidden {
     padding: 0 0 40px;
     overflow-y: auto;
     max-height: calc(100vh - 80px);
+  }
+
+  .header__hidden .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .header__search {
@@ -2758,17 +2792,24 @@ select + .select2-container {
 
   .header__search input {
     width: 100%;
-    padding-left: 50%;
+    padding-left: calc(50% - 10px);
     padding-right: 10px;
-    background: #EDF3F5 url("../img/icons/search-icon.svg") calc(50% - 15px) 8px no-repeat;
+    background: #EDF3F5 url("../img/icons/search-icon.svg") calc(50% - 25px) 8px no-repeat;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
   }
 
+  .header__search input.filled,
   .header__search input:focus {
     padding-left: 44px;
     background: #EDF3F5 url("../img/icons/search-icon.svg") 15px 8px no-repeat;
+  }
+
+  .header__search input.filled + .header__search-clear {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .header__search.bl-open form input {
@@ -2905,7 +2946,7 @@ select + .select2-container {
   }
 
   .hero {
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 35px;
   }
 
@@ -2981,7 +3022,11 @@ select + .select2-container {
     padding: 35px 0;
   }
 
-  .erm__description {
+  .emr__title {
+    margin-bottom: 20px;
+  }
+
+  .emr__description {
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
@@ -2990,20 +3035,27 @@ select + .select2-container {
     padding-right: 10px;
   }
 
-  .erm__bottom {
+  .emr__description p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.444px;
+  }
+
+  .emr__bottom {
     padding: 0 10px;
   }
 
-  .erm__slider {
+  .emr__slider {
     display: none !important;
   }
 
-  .erm__slider--mobile {
+  .emr__slider--mobile {
     display: block;
     margin: 30px auto auto;
   }
 
-  .erm__slide-mob {
+  .emr__slide-mob {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -3014,12 +3066,16 @@ select + .select2-container {
     flex-wrap: wrap;
   }
 
-  .erm__slide-mob .erm__slide {
+  .emr__slide-mob .emr__slide {
     width: calc(50% - 5px);
     height: 82px;
     margin-right: 0;
     margin-bottom: 10px;
     border-radius: 15px;
+  }
+
+  .services__title {
+    margin-bottom: 30px;
   }
 
   .services__items {
@@ -3034,14 +3090,31 @@ select + .select2-container {
     width: calc(100vw - 40px) !important;
     margin-right: 5px;
     margin-left: 5px;
+    text-align: center;
   }
 
   .services__item:nth-child(1) {
     margin-left: 5px;
   }
 
+  .services__item:last-child(1) {
+    margin-right: 5px;
+  }
+
+  .services__item-title {
+    text-align: center;
+  }
+
+  .services__item-description {
+    text-align: center;
+  }
+
   .insurance {
     padding: 35px 0 35px;
+  }
+
+  .insurance__title {
+    margin-bottom: 20px;
   }
 
   .insurance__logos-slide {
@@ -3056,6 +3129,24 @@ select + .select2-container {
   .insurance__logo {
     width: calc(50% - 5px);
     margin-bottom: 10px;
+  }
+
+  .insurance__description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.444px;
+  }
+
+  .insurance__description p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.444px;
+  }
+
+  .insurance__logos {
+    margin-top: 40px;
   }
 
   .testimonials {
@@ -3129,8 +3220,12 @@ select + .select2-container {
     max-width: 100%;
   }
 
+  .blog-block__items {
+    margin-top: 30px;
+  }
+
   .blog-block__items .slick-dots {
-    bottom: -30px !important;
+    bottom: -45px !important;
   }
 
   .blog-block__item {
@@ -3141,6 +3236,11 @@ select + .select2-container {
 
   .blog-block__item:not(:last-child) {
     margin-right: 5px;
+  }
+
+  .blog-block__item:hover {
+    -webkit-box-shadow: 0 1px 0 0 rgba(12, 57, 83, 0.09);
+    box-shadow: 0 1px 0 0 rgba(12, 57, 83, 0.09);
   }
 
   .blog-block__item-date {
@@ -3156,7 +3256,7 @@ select + .select2-container {
   }
 
   .contact__inner {
-    padding: 40px 30px;
+    padding: 40px 30px 20px 30px;
   }
 
   .contact__title {
@@ -3181,6 +3281,7 @@ select + .select2-container {
 
   .contact__form .input-wrap {
     margin-bottom: 10px;
+    position: relative;
   }
 
   .contact__form .input-wrap--half {
@@ -3191,8 +3292,22 @@ select + .select2-container {
     padding-left: 30px;
   }
 
+  .contact__form .wpcf7-spinner {
+    margin-top: 0 !important;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    z-index: 5;
+  }
+
   .footer {
     padding-top: 35px;
+    padding-bottom: 40px;
+  }
+
+  .footer .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .footer__menu {
@@ -3339,5 +3454,6 @@ select + .select2-container {
     margin-bottom: 40px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    width: 100%;
   }
 }

@@ -13,7 +13,7 @@
 	letter-spacing: -0.5px;
 
 	p{
-		color: $black;
+		color: $black70;
 		text-align: center;
 		font-family: $albert;
 		font-size: 24px;
@@ -81,6 +81,10 @@
 		padding: 35px 0 35px;
 	}
 
+	.insurance__title{
+		margin-bottom: 20px;
+	}
+
 	.insurance__logos-slide{
 		display: flex!important;
 		column-gap: 0;
@@ -89,6 +93,24 @@
 	.insurance__logo{
 		width: calc(50% - 5px);
 		margin-bottom: 10px;
+	}
+
+	.insurance__description{
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 22px;
+		letter-spacing: -0.444px;
+
+		p{
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 22px;
+			letter-spacing: -0.444px;
+		}
+	}
+
+	.insurance__logos{
+		margin-top: 40px;
 	}
 }
 

@@ -96,6 +96,7 @@
 					<div class="header__search">
 						<form action="">
 							<input type="text" name="s" placeholder="Search">
+							<a href="#" class="header__search-clear"><i class="icon close-icon"></i></a>
 						</form>
 					</div>
 					<div class="header__menu">
@@ -196,7 +197,7 @@
 	<div class="emr__inner">
 		<div class="emr__top">
 			<div class="wrapper">
-				<h2 class="section-title erm__title" data-aos="fade-up" >EHR/EMR's we work with</h2>
+				<h2 class="section-title emr__title" data-aos="fade-up" >EHR/EMR's we work with</h2>
 				<div class="emr__description" data-aos="fade-up" >
 					<p>
 						At BilliMD.com we know the features and workarounds of your EHR system.
@@ -205,150 +206,150 @@
 				</div>
 			</div>
 		</div>
-		<div class="erm__bottom" data-aos="fade-up" >
-			<div class="erm__slider">
-				<div class="erm__slider-track">
-					<div class="erm__slide">
+		<div class="emr__bottom" data-aos="fade-up" >
+			<div class="emr__slider">
+				<div class="emr__slider-track">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo"  />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo"  />
 					</div>
 				</div>
 			</div>
 
-			<div class="erm__slider--mobile" data-aos="fade-up" >
-				<div class="erm__slide-mob">
-					<div class="erm__slide">
+			<div class="emr__slider--mobile" data-aos="fade-up" >
+				<div class="emr__slide-mob">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo" />
 					</div>
 				</div>
-				<div class="erm__slide-mob">
-					<div class="erm__slide">
+				<div class="emr__slide-mob">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo" />
 					</div>
 				</div>
-				<div class="erm__slide-mob">
-					<div class="erm__slide">
+				<div class="emr__slide-mob">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo" />
 					</div>
 				</div>
-				<div class="erm__slide-mob">
-					<div class="erm__slide">
+				<div class="emr__slide-mob">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo" />
 					</div>
-					<div class="erm__slide">
+					<div class="emr__slide">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo" />
 					</div>
 				</div>
@@ -356,7 +357,7 @@
 		</div>
 		<style>
 			/*	Change 22 to count of logo images */
-			.erm__slider-track {
+			.emr__slider-track {
 				animation: scroll <?php echo 22* 3; ?>s linear infinite;
 				display: flex;
 				transform: translateX(100vw);

@@ -115,6 +115,10 @@
 
 
 @media ( $br_point_phone ){
+	.services__title{
+		margin-bottom: 30px;
+	}
+
 	.services__items{
 		overflow: visible;
 
@@ -127,9 +131,22 @@
 		width: calc(100vw - 40px)!important;
 		margin-right: 5px;
 		margin-left: 5px;
+		text-align: center;
 
 		&:nth-child(1){
 			margin-left: 5px;
 		}
+
+		&:last-child(1){
+			margin-right: 5px;
+		}
+	}
+
+	.services__item-title{
+		text-align: center;
+	}
+
+	.services__item-description{
+		text-align: center;
 	}
 }

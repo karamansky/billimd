@@ -214,6 +214,9 @@ button {
 }
 
 /* slick */
+.slick-initialized .slick-slide{
+	margin-bottom: 1px!important;
+}
 .slick-dots{
 	bottom: -36px!important;
 }

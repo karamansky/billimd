@@ -16,7 +16,7 @@
 	letter-spacing: -0.5px;
 
 	p{
-		color: $black;
+		color: $black70;
 		text-align: center;
 		font-family: $albert;
 		font-size: 24px;
@@ -26,7 +26,7 @@
 	}
 }
 
-.erm__slider {
+.emr__slider {
 	width: 100%;
 	height: 95px;
 	background: #fff;
@@ -56,7 +56,7 @@
 	}
 }
 
-.erm__slide {
+.emr__slide {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -78,7 +78,7 @@
 	}
 }
 
-.erm__slider-track {
+.emr__slider-track {
 	animation: scroll 40s linear infinite;
 	display: flex;
 	width: calc(240px * 22);
@@ -89,13 +89,13 @@
 	100% { transform: translateX(calc(-200px * 11))}
 }
 
-.erm__slider--mobile{
+.emr__slider--mobile{
 	display: none;
 }
 
 
 @media ( $br_point_tablet ){
-	.erm__slider {
+	.emr__slider {
 		&::before,
 		&::after {
 			width: 80px;
@@ -110,34 +110,45 @@
 		padding: 35px 0;
 	}
 
-	.erm__description{
+	.emr__title{
+		margin-bottom: 20px;
+	}
+
+	.emr__description{
 		font-size: 16px;
 		font-weight: 500;
 		line-height: 22px;
 		letter-spacing: -0.444px;
 		padding-left: 10px;
 		padding-right: 10px;
+
+		p{
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 22px;
+			letter-spacing: -0.444px;
+		}
 	}
 
-	.erm__bottom{
+	.emr__bottom{
 		padding: 0 10px;
 	}
 
-	.erm__slider{
+	.emr__slider{
 		display: none!important;
 	}
 
-	.erm__slider--mobile{
+	.emr__slider--mobile{
 		display: block;
 		margin: 30px auto auto;
 	}
 
-	.erm__slide-mob{
+	.emr__slide-mob{
 		display: flex!important;
 		justify-content: space-between;
 		flex-wrap: wrap;
 
-		.erm__slide{
+		.emr__slide{
 			width: calc(50% - 5px);
 			height: 82px;
 			margin-right: 0;
