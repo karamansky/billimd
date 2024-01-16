@@ -656,7 +656,7 @@ select + .select2-container {
 
 .header__menu .bl-open .sub-menu {
   display: block;
-  z-index: 10;
+  z-index: 100;
 }
 
 .header__menu .bl-open > a:after {
@@ -842,7 +842,7 @@ select + .select2-container {
   transition: all 0.3s;
 }
 
-.bl-open .header__login-button .login-icon {
+.header__login.bl-open .header__login-button .login-icon {
   opacity: 1;
 }
 
@@ -900,6 +900,7 @@ select + .select2-container {
 
 .header__login.bl-open .header__login-dropdown {
   display: block;
+  z-index: 100;
 }
 
 .header__hidden {
@@ -1843,6 +1844,7 @@ select + .select2-container {
 }
 
 .blog-block__item {
+  display: block;
   width: calc(33.3333333333% - 27px);
   border-radius: 30px;
   background: #F3FCFE;
@@ -2845,6 +2847,7 @@ select + .select2-container {
     -webkit-filter: none;
     filter: none;
     margin-bottom: 40px;
+    z-index: 999;
   }
 
   .header__menu .sub-menu .menu-item:last-child {

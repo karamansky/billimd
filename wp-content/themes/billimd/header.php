@@ -122,8 +122,8 @@
 				<div class="header__hidden-menu1">
 					<ul>
 						<li class="menu-item"><a href="#testimonials">Testimonials</a></li>
-						<li class="menu-item"><a href="#contact-us">Message Our Team</a></li>
 						<li class="menu-item"><a href="#blog">News & blog</a></li>
+						<li class="menu-item"><a href="#contact-us">Message Our Team</a></li>
 					</ul>
 				</div>
 				<div class="header__hidden-support">
@@ -604,22 +604,22 @@
 		<div class="blog-block__slider-wrap" data-aos="fade-up">
 			<div class="wrapper">
 				<div class="blog-block__items">
-					<div class="blog-block__item">
-						<a href="#" class="blog-block__img">
+					<a href="#" class="blog-block__item">
+						<div class="blog-block__img">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/blog1.png" alt="blog" loading="lazy" />
-						</a>
+						</div>
 						<div class="blog-block__item-bottom">
 							<div class="blog-block__item-date">Dec 15</div>
-							<a href="#"><h3 class="blog-block__item-title">What It’s Like Witnessing Life Coming into Being</h3></a>
+							<h3 class="blog-block__item-title">What It’s Like Witnessing Life Coming into Being</h3>
 							<div class="blog-block__item-text">
 								Her face was covered in sweat, she was breathing heavily, her screams intensifying the tense aura of the labour room.
 							</div>
 						</div>
-					</div>
-					<div class="blog-block__item">
-						<a href="#" class="blog-block__img">
+					</a>
+					<a href="#" class="blog-block__item">
+						<div class="blog-block__img">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/blog2.png" alt="blog" loading="lazy" />
-						</a>
+						</div>
 						<div class="blog-block__item-bottom">
 							<div class="blog-block__item-date">Nov 28</div>
 							<h3 class="blog-block__item-title">The Misuse of Medical Leave: A Story of Irresponsibility</h3>
@@ -627,11 +627,11 @@
 								Firstly, this article is not meant to bring anyone down. Everyone is imperfect, and when it comes to health, we all have different levels…
 							</div>
 						</div>
-					</div>
-					<div class="blog-block__item">
-						<a href="#" class="blog-block__img">
+					</a>
+					<a href="#" class="blog-block__item">
+						<div class="blog-block__img">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/blog3.png" alt="blog" loading="lazy" />
-						</a>
+						</div>
 						<div class="blog-block__item-bottom">
 							<div class="blog-block__item-date">Nov 18</div>
 							<h3 class="blog-block__item-title">This Doctor Disappeared, But Her Room Tells a Bizarre Stor…</h3>
@@ -639,7 +639,7 @@
 								Shocking Disappearance of a Doctor and a Room That Changed Overnight — Can You Solve the
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>

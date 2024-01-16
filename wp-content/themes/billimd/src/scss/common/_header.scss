@@ -136,7 +136,7 @@
 
 	.bl-open .sub-menu{
 		display: block;
-		z-index: 10;
+		z-index: 100;
 	}
 
 	.bl-open{
@@ -253,7 +253,7 @@
 	}
 }
 
-.bl-open .header__login-button .login-icon{
+.header__login.bl-open .header__login-button .login-icon{
 	opacity: 1;
 }
 
@@ -302,6 +302,7 @@
 
 		.header__login-dropdown{
 			display: block;
+			z-index: 100;
 		}
 	}
 }
@@ -721,6 +722,7 @@
 		padding: 0;
 		filter: none;
 		margin-bottom: 40px;
+		z-index: 999;
 
 		.menu-item:last-child{
 			margin-bottom: 0;
