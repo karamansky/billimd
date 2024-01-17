@@ -411,6 +411,15 @@ select + .select2-container {
   cursor: pointer;
 }
 
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+  color: #000000;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
 .select2-container--default .select2-results > .select2-results__options {
   max-height: 100%;
   overflow-y: visible;
@@ -1131,6 +1140,10 @@ select + .select2-container {
   position: absolute;
   top: calc(50% - 12px);
   right: 10px;
+}
+
+.header__search-clear i {
+  opacity: 0.5;
 }
 
 .hero {
@@ -2838,6 +2851,10 @@ select + .select2-container {
 
   .header__menu .menu-item-has-children > a:after {
     display: none;
+  }
+
+  .header__menu .menu-item-has-children:hover > a {
+    color: rgba(0, 0, 0, 0.5);
   }
 
   .header__menu .sub-menu {

@@ -48,10 +48,10 @@
 								<ul class="sub-menu">
 									<li class="menu-item"><a href="#">Patient Eligibility Verification</a></li>
 									<li class="menu-item"><a href="#">Denial Management</a></li>
-									<li class="menu-item"><a href="#">Account Receivable (AR) Services</a></li>
-									<li class="menu-item"><a href="#">Coding Management (Medical Coding Services)</a></li>
+									<li class="menu-item"><a href="#">Account Receivable (AR)</a></li>
+									<li class="menu-item"><a href="#">Coding Management</a></li>
 									<li class="menu-item"><a href="#">Medical Billing</a></li>
-									<li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
+									<li class="menu-item"><a href="#">Insurance Credentialing</a></li>
 								</ul>
 							</li>
 							<li class="menu-item"><a href="#">Who we Serve</a></li>
@@ -106,10 +106,10 @@
 								<ul class="sub-menu">
 									<li class="menu-item"><a href="#">Patient Eligibility Verification</a></li>
 									<li class="menu-item"><a href="#">Denial Management</a></li>
-									<li class="menu-item"><a href="#">Account Receivable (AR) Services</a></li>
-									<li class="menu-item"><a href="#">Coding Management (Medical Coding Services)</a></li>
+									<li class="menu-item"><a href="#">Account Receivable (AR)</a></li>
+									<li class="menu-item"><a href="#">Coding Management</a></li>
 									<li class="menu-item"><a href="#">Medical Billing</a></li>
-									<li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
+									<li class="menu-item"><a href="#">Insurance Credentialing</a></li>
 								</ul>
 							</li>
 							<li class="menu-item"><a href="#">Who we Serve</a></li>
@@ -675,10 +675,10 @@
 							 <ul class="sub-menu">
 								 <li class="menu-item"><a href="#">Patient Eligibility Verification</a></li>
 								 <li class="menu-item"><a href="#">Denial Management</a></li>
-								 <li class="menu-item"><a href="#">Account Receivable (AR) Services</a></li>
-								 <li class="menu-item"><a href="#">Coding Management (Medical Coding Services)</a></li>
+								 <li class="menu-item"><a href="#">Account Receivable (AR)</a></li>
+								 <li class="menu-item"><a href="#">Coding Management</a></li>
 								 <li class="menu-item"><a href="#">Medical Billing</a></li>
-								 <li class="menu-item"><a href="#">Insurance Credentialing Services</a></li>
+								 <li class="menu-item"><a href="#">Insurance Credentialing</a></li>
 							 </ul>
 						 </li>
 						 <li class="menu-item"><a href="#">Who we Serve</a></li>

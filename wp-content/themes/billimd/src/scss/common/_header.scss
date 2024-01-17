@@ -477,6 +477,10 @@
 	position: absolute;
 	top: calc(50% - 12px);
 	right: 10px;
+
+	i{
+		opacity: 0.5;
+	}
 }
 
 
@@ -710,6 +714,10 @@
 		&:after{
 			display: none;
 		}
+	}
+
+	.header__menu .menu-item-has-children:hover > a{
+		color: $black50;
 	}
 
 	.header__menu .sub-menu{

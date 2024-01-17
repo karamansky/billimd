@@ -1,5 +1,11 @@
 jQuery(document).ready(function( $ ) {
 
+	if( jQuery('.menu-item-has-children').length ){
+		jQuery(document).on('click', '.menu-item-has-children > a[href="#"]', function(e){
+			e.preventDefault();
+		})
+	}
+
 	//sticky header
 	jQuery(window).scroll(function() {
 		const scrollPosition = jQuery(window).scrollTop();
@@ -12,9 +18,14 @@ jQuery(document).ready(function( $ ) {
 
 	//select2 init
 	setTimeout(function(){
-		jQuery('select').select2({
-			minimumResultsForSearch: -1
+		jQuery('.select-subject select').select2({
+			minimumResultsForSearch: -1,
+			placeholder: 'Choose subject',
 		});
+
+		// jQuery('select').select2({
+		// 	minimumResultsForSearch: -1
+		// });
 	}, 150);
 
 
