@@ -128,6 +128,10 @@ jQuery(document).ready(function( $ ) {
 
 
 	if( jQuery('.header__hidden').length ){
+		jQuery(document).on('click', '.header__hamburger', function(e){
+			e.preventDefault();
+		});
+
 		jQuery(document).on('click', '.header__hamburger .hamburger-icon', function(e){
 			e.preventDefault();
 			jQuery(this).hide();
