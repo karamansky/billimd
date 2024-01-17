@@ -1294,7 +1294,7 @@ select + .select2-container {
 }
 
 .emr__slider {
-  width: 100%;
+  width: 100vw;
   height: 95px;
   background: #fff;
   margin: 60px auto auto;
@@ -1327,6 +1327,55 @@ select + .select2-container {
   top: 0;
 }
 
+.emr__slider-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emr__slider-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emr__marquee {
+  -webkit-animation: scroll 20s linear infinite;
+  animation: scroll 20s linear infinite;
+}
+
+@-webkit-keyframes scroll {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(calc(-100% - 10px));
+    transform: translateX(calc(-100% - 10px));
+  }
+}
+
+@keyframes scroll {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(calc(-100% - 10px));
+    transform: translateX(calc(-100% - 10px));
+  }
+}
+
 .emr__slide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1343,10 +1392,7 @@ select + .select2-container {
   width: 200px;
   border-radius: 20px;
   background: #F3FCFE;
-}
-
-.emr__slide:not(:last-child) {
-  margin-right: 40px;
+  margin: 0 20px;
 }
 
 .emr__slide img {
@@ -1358,39 +1404,6 @@ select + .select2-container {
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
-}
-
-.emr__slider-track {
-  -webkit-animation: scroll 40s linear infinite;
-  animation: scroll 40s linear infinite;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 5280px;
-}
-
-@-webkit-keyframes scroll {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  100% {
-    -webkit-transform: translateX(-2200px);
-    transform: translateX(-2200px);
-  }
-}
-
-@keyframes scroll {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  100% {
-    -webkit-transform: translateX(-2200px);
-    transform: translateX(-2200px);
-  }
 }
 
 .emr__slider--mobile {

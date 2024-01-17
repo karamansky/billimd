@@ -209,71 +209,141 @@
 		<div class="emr__bottom" data-aos="fade-up" >
 			<div class="emr__slider">
 				<div class="emr__slider-track">
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo"  />
+					<div class="emr__slider-part emr__marquee">
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo"  />
+						</div>
 					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo"  />
-					</div>
-					<div class="emr__slide">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo"  />
+					<div class="emr__slider-part emr__marquee" aria-hidden="true">
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/1.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/2.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/3.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/4.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/5.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/6.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/7.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/8.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/9.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/10.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/11.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/12.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/13.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/14.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/15.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/16.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/17.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/18.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/19.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/20.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/21.png" alt="logo"  />
+						</div>
+						<div class="emr__slide">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/logos/22.png" alt="logo"  />
+						</div>
 					</div>
 				</div>
 			</div>
@@ -355,20 +425,6 @@
 				</div>
 			</div>
 		</div>
-		<style>
-			/*	Change 22 to count of logo images */
-			.emr__slider-track {
-				animation: scroll <?php echo 22 * 2.5; ?>s linear infinite;
-				display: flex;
-				transform: translateX(100vw);
-				width: calc(240px * 22 - 40px);
-			}
-			/*	Change 11 to half of count of logo images */
-			@keyframes scroll {
-				0% { transform: translateX(100vw); }
-				100% { transform: translateX(calc(-240px * 22 + 40px))}
-			}
-		</style>
 	</div>
 </section>
 
