@@ -226,11 +226,20 @@
 		line-height: 14px;
 		transition: all .3s;
 
+		svg {
+			opacity: 0.5;
+			margin-right: 5px;
+		}
+
 		&:hover{
 			color: $dark-green;
 
-			.clock-icon{
-				background-image: url('../img/icons/24h.svg');
+			svg {
+				opacity: 1;
+
+				path {
+					stroke: $dark-green;
+				}
 			}
 		}
 	}

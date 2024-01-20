@@ -160,11 +160,12 @@
 		display: flex!important;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		height: 100% !important;
 
 		.emr__slide{
 			width: calc(50% - 5px);
 			height: 82px;
-			margin-right: 0;
+			margin: 0;
 			margin-bottom: 10px;
 			border-radius: 15px;
 		}
