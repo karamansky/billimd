@@ -285,6 +285,32 @@ jQuery(document).ready(function( $ ) {
 	}
 
 
+	if( jQuery('.cards__items').length ){
+		initCardsSlider();
+
+		jQuery(window).resize(() => {
+			initCardsSlider();
+		});
+	}
+	function initCardsSlider(){
+		if( jQuery(window).width() > 768 ){
+			if ( jQuery('.cards__items').hasClass('slick-initialized') ){
+				jQuery('.cards__items').slick('unslick');
+			}
+		}else{
+			jQuery('.cards__items').not('.slick-initialized').slick({
+				dots: true,
+				arrows: false,
+				infinite: false,
+				speed: 300,
+				slidesToShow: 1,
+				centerMode: true,
+				variableWidth: true,
+			});
+		}
+	}
+
+
 	//scroll to element by id
 	jQuery(document).on('click','.header a, .footer a, .scrollto', function (e) {
 		if (this.hash) { //if link has #-anchor
