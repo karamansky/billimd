@@ -207,6 +207,14 @@ button {
 
 .slick-dots {
   bottom: -36px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .slick-dots li {
@@ -2115,14 +2123,6 @@ select + .select2-container {
   padding: 20px 30px;
 }
 
-.contact__form input.your-name {
-  padding-left: calc(50% - 44px);
-}
-
-.contact__form input.your-name:focus {
-  padding-left: 30px;
-}
-
 .contact__form input[type=submit] {
   background: #17C47B;
   color: #fff;
@@ -3133,6 +3133,10 @@ select + .select2-container {
     border-radius: 15px;
   }
 
+  .services {
+    padding: 35px 0;
+  }
+
   .services__title {
     margin-bottom: 30px;
   }
@@ -3142,7 +3146,7 @@ select + .select2-container {
   }
 
   .services__items .slick-dots {
-    bottom: -44px !important;
+    bottom: -35px !important;
   }
 
   .services__item {
@@ -3284,7 +3288,15 @@ select + .select2-container {
   }
 
   .blog-block__items .slick-dots {
-    bottom: -45px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    bottom: -35px !important;
+    height: 5px;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .blog-block__item {
@@ -3345,10 +3357,6 @@ select + .select2-container {
 
   .contact__form .input-wrap--half {
     width: 100%;
-  }
-
-  .contact__form input.your-name {
-    padding-left: 30px;
   }
 
   .contact__form .wpcf7-spinner {

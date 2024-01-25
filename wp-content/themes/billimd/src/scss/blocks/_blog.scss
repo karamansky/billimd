@@ -161,8 +161,12 @@
 	.blog-block__items{
 		margin-top: 30px;
 
-		.slick-dots{
-			bottom: -45px!important;
+		.slick-dots {
+			display: flex;
+			bottom: -35px!important;
+			height: 5px;
+			margin: 0 auto;
+			justify-content: center;
 		}
 	}
 

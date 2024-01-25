@@ -227,6 +227,10 @@ button {
 }
 .slick-dots{
 	bottom: -36px!important;
+	display: flex;
+	height: 5px;
+	margin: 0 auto;
+	justify-content: center;
 }
 .slick-dots li{
 	margin: 0!important;

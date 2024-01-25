@@ -104,14 +104,6 @@
 		padding: 20px 30px;
 	}
 
-	input.your-name{
-		padding-left: calc(50% - 44px);
-
-		&:focus{
-			padding-left: 30px;
-		}
-	}
-
 	input[type=submit]{
 		background: $green;
 		color: #fff;
@@ -202,10 +194,6 @@
 			&--half{
 				width: 100%;
 			}
-		}
-
-		input.your-name{
-			padding-left: 30px;
 		}
 
 		.wpcf7-spinner{

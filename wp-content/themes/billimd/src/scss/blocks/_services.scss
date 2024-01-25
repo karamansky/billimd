@@ -115,6 +115,10 @@
 
 
 @media ( $br_point_phone ){
+	.services{
+		padding: 35px 0;
+	}
+
 	.services__title{
 		margin-bottom: 30px;
 	}
@@ -123,7 +127,7 @@
 		overflow: visible;
 
 		.slick-dots{
-			bottom: -44px!important;
+			bottom: -35px!important;
 		}
 	}
 
