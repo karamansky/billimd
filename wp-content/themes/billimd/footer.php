@@ -4,10 +4,10 @@
 			<div class="footer__top">
 				<div class="footer__menu">
 					<ul>
-						<li class="menu-item menu-item-has-children">
+						<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-parent '; ?> menu-item-has-children">
 							<a href="#">Solutions</a>
 							<ul class="sub-menu">
-								<li class="menu-item"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
+								<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
 								<li class="menu-item"><a href="#">Denial Management</a></li>
 								<li class="menu-item"><a href="#">Account Receivable (AR)</a></li>
 								<li class="menu-item"><a href="#">Coding Management</a></li>
@@ -17,9 +17,9 @@
 						</li>
 						<li class="menu-item"><a href="#">Who we Serve</a></li>
 						<li class="menu-item"><a href="#">Inside Look</a></li>
-						<li class="menu-item"><a href="#testimonials">Testimonials</a></li>
-						<li class="menu-item"><a href="#blog">News & blog</a></li>
-						<li class="menu-item"><a href="#contact-us">Message Our Team</a></li>
+						<li class="menu-item"><a href="<?php if(is_page('patient-eligibility-verification')) echo '/'; ?>#testimonials">Testimonials</a></li>
+						<li class="menu-item"><a href="<?php if(is_page('patient-eligibility-verification')) echo '/'; ?>#blog">News & blog</a></li>
+						<li class="menu-item"><a href="<?php if(is_page('patient-eligibility-verification')) echo '/'; ?>#contact-us">Message Our Team</a></li>
 					</ul>
 				</div>
 				<div class="footer__certifications">

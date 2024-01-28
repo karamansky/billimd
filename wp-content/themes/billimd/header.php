@@ -43,10 +43,10 @@
 					</a>
 					<div class="header__menu">
 						<ul>
-							<li class="menu-item menu-item-has-children">
+							<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-parent '; ?> menu-item-has-children">
 								<a href="#">Solutions</a>
 								<ul class="sub-menu">
-									<li class="menu-item"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
+									<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
 									<li class="menu-item"><a href="#">Denial Management</a></li>
 									<li class="menu-item"><a href="#">Account Receivable (AR)</a></li>
 									<li class="menu-item"><a href="#">Coding Management</a></li>
@@ -83,7 +83,7 @@
 							</div>
 						</div>
 					</div>
-					<a href="#contact-us" class="btn scrollto header__actions-btn">Let’s Connect </a>
+					<a href="<?php if(is_page('patient-eligibility-verification')) echo get_home_url() . '/'; ?>#contact-us" class="btn header__actions-btn">Let’s Connect </a>
 				</div>
 			</div>
 		</div>
@@ -101,10 +101,10 @@
 					</div>
 					<div class="header__menu">
 						<ul>
-							<li class="menu-item menu-item-has-children">
+							<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-parent '; ?> menu-item-has-children">
 								<a href="#">Solutions</a>
 								<ul class="sub-menu">
-									<li class="menu-item"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
+									<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
 									<li class="menu-item"><a href="#">Denial Management</a></li>
 									<li class="menu-item"><a href="#">Account Receivable (AR)</a></li>
 									<li class="menu-item"><a href="#">Coding Management</a></li>
@@ -121,9 +121,9 @@
 			<div class="header__hidden-top">
 				<div class="header__hidden-menu1">
 					<ul>
-						<li class="menu-item"><a href="#testimonials">Testimonials</a></li>
-						<li class="menu-item"><a href="#blog">News & blog</a></li>
-						<li class="menu-item"><a href="#contact-us">Message Our Team</a></li>
+						<li class="menu-item"><a href="<?php if(is_page('patient-eligibility-verification')) echo '/'; ?>#testimonials">Testimonials</a></li>
+						<li class="menu-item"><a href="<?php if(is_page('patient-eligibility-verification')) echo '/'; ?>#blog">News & blog</a></li>
+						<li class="menu-item"><a href="<?php if(is_page('patient-eligibility-verification')) echo '/'; ?>#contact-us">Message Our Team</a></li>
 					</ul>
 				</div>
 				<div class="header__hidden-support">

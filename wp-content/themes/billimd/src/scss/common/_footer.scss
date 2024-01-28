@@ -37,6 +37,18 @@
 		&:hover a{
 			color: $black50;
 		}
+
+		&.current-menu-item{
+			a{
+				color: $dark-green;
+			}
+		}
+
+		&.current-menu-parent{
+			a{
+				color: $dark-green;
+			}
+		}
 	}
 
 	.menu-item-has-children{
@@ -84,6 +96,18 @@
 
 			&:hover a{
 				color: $dark-green;
+			}
+
+			&.current-menu-item{
+				a{
+					color: $dark-green;
+				}
+			}
+
+			&.current-menu-parent{
+				a{
+					color: $dark-green;
+				}
 			}
 		}
 	}
@@ -388,6 +412,10 @@
 		}
 	}
 
+	.footer__menu .menu-item.current-menu-parent a {
+		color: $black50;
+	}
+
 	.footer__certifications{
 		display: block;
 		width: 100%;
@@ -441,10 +469,14 @@
 			font-weight: 500;
 			line-height: 14px;
 			color: $dark-green;
-		}
 
-		.clock-icon{
-			background-image: url('../img/icons/24h.svg');
+			svg {
+				opacity: 1;
+
+				path {
+					stroke: $dark-green;
+				}
+			}
 		}
 	}
 

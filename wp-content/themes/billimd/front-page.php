@@ -556,7 +556,7 @@ get_header();
 	</section>
 	
 	
-	<section id="contact-us" class="contact-us" data-aos="fade-up">
+	<section id="contact-us" class="contact-us" >
 		<div class="wrapper">
 			<div class="contact__inner">
 				<h2 class="section-title contact__title" data-aos="fade-up" >Contact Us</h2>

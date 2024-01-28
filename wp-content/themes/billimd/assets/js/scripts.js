@@ -312,7 +312,7 @@ jQuery(document).ready(function( $ ) {
 
 
 	//scroll to element by id
-	jQuery(document).on('click','.header a, .footer a, .scrollto', function (e) {
+	jQuery(document).on('click','a[href^=\\#]:not([href=\\#])', function (e) {
 		if (this.hash) { //if link has #-anchor
 			e.preventDefault();
 			let id  = $(this).attr('href');
@@ -333,11 +333,13 @@ jQuery(document).ready(function( $ ) {
 	}, 100);
 
 
-	let wpcf7Elm = document.querySelector( '.wpcf7' );
-	wpcf7Elm.addEventListener( 'wpcf7submit', function( event ) {
-		jQuery('.wpcf7 select option:eq(0)').prop('selected',true);
-		jQuery('.wpcf7 select').trigger('change');
-	}, false );
+	if( jQuery('.wpcf7').length ) {
+		let wpcf7Elm = document.querySelector( '.wpcf7' );
+		wpcf7Elm.addEventListener( 'wpcf7submit', function( event ) {
+			jQuery('.wpcf7 select option:eq(0)').prop('selected',true);
+			jQuery('.wpcf7 select').trigger('change');
+		}, false );
+	}
 
 
 	function closeHeaderMenu(){
