@@ -540,10 +540,6 @@ select + .select2-container {
   padding: 15px 0;
 }
 
-.header__logo-wrap {
-  width: 264px;
-}
-
 .header__logo {
   display: block;
   width: 152px;
@@ -2667,7 +2663,7 @@ select + .select2-container {
 }
 
 .footer__social-menu {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 .footer__social-menu > ul {

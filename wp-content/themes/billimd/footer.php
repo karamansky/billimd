@@ -17,9 +17,9 @@
 						</li>
 						<li class="menu-item"><a href="#">Who we Serve</a></li>
 						<li class="menu-item"><a href="#">Inside Look</a></li>
-						<li class="menu-item"><a href="<?php if(is_page('patient-eligibility-verification')) echo '/'; ?>#testimonials">Testimonials</a></li>
-						<li class="menu-item"><a href="<?php if(is_page('patient-eligibility-verification')) echo '/'; ?>#blog">News & blog</a></li>
-						<li class="menu-item"><a href="<?php if(is_page('patient-eligibility-verification')) echo '/'; ?>#contact-us">Message Our Team</a></li>
+<!--						<li class="menu-item"><a href="--><?php //if(is_page('patient-eligibility-verification')) echo '/'; ?><!--#testimonials">Testimonials</a></li>-->
+<!--						<li class="menu-item"><a href="--><?php //if(is_page('patient-eligibility-verification')) echo '/'; ?><!--#blog">News & blog</a></li>-->
+<!--						<li class="menu-item"><a href="--><?php //if(is_page('patient-eligibility-verification')) echo '/'; ?><!--#contact-us">Message Our Team</a></li>-->
 					</ul>
 				</div>
 				<div class="footer__certifications">
@@ -70,10 +70,10 @@
 					</div>
 					<div class="footer__social-menu">
 						<ul>
-							<!--							<li class="menu-item linkedin"><a href="https://linkedin.com"></a></li>-->
-							<li class="menu-item twitter"><a href="https://twitter.com/billimd_com" target="_blank"></a></li>
-							<li class="menu-item facebook"><a href="https://www.facebook.com/profile.php?id=61555645943335" target="_blank"></a></li>
-							<li class="menu-item instagram"><a href="https://www.instagram.com/social.billimd" target="_blank"></a></li>
+								<li class="menu-item linkedin"><a href="https://www.linkedin.com/company/billimd-com/about/"></a></li>
+<!--							<li class="menu-item twitter"><a href="https://twitter.com/billimd_com" target="_blank"></a></li>-->
+<!--							<li class="menu-item facebook"><a href="https://www.facebook.com/profile.php?id=61555645943335" target="_blank"></a></li>-->
+<!--							<li class="menu-item instagram"><a href="https://www.instagram.com/social.billimd" target="_blank"></a></li>-->
 						</ul>
 					</div>
 				</div>
