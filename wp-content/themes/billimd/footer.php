@@ -70,7 +70,7 @@
 					</div>
 					<div class="footer__social-menu">
 						<ul>
-								<li class="menu-item linkedin"><a href="https://www.linkedin.com/company/billimd-com/about/"></a></li>
+							<li class="menu-item linkedin"><a href="https://www.linkedin.com/company/billimd-com/about/" target="_blank"></a></li>
 <!--							<li class="menu-item twitter"><a href="https://twitter.com/billimd_com" target="_blank"></a></li>-->
 <!--							<li class="menu-item facebook"><a href="https://www.facebook.com/profile.php?id=61555645943335" target="_blank"></a></li>-->
 <!--							<li class="menu-item instagram"><a href="https://www.instagram.com/social.billimd" target="_blank"></a></li>-->

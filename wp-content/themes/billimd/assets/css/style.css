@@ -947,6 +947,10 @@ select + .select2-container {
   z-index: 100;
 }
 
+.header__actions-btn {
+  width: 152px;
+}
+
 .header__hidden {
   display: none;
   padding: 105px 0 85px;
@@ -2875,6 +2879,7 @@ select + .select2-container {
   .header__actions-btn {
     width: 40px;
     height: 40px;
+    margin-left: 30px;
     padding: 0;
     font-size: 0;
     background-image: url("../img/icons/contact-button-icon.svg");
@@ -3718,7 +3723,7 @@ select + .select2-container {
   }
 
   .footer__menu .menu-item {
-    min-width: 50%;
+    min-width: 100%;
     padding: 0 10px 0 0;
     margin-bottom: 25px;
   }
