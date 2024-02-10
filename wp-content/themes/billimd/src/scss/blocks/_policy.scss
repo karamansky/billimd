@@ -1,0 +1,247 @@
+.policy {
+	padding: 85px 0;
+	background: #fff;
+}
+
+.policy__inner {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.policy__content {
+	font-family: $albert;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: $black;
+
+	p {
+		font-family: $albert;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 18px;
+		letter-spacing: -0.5px;
+		text-align: left;
+		color: $black70;
+
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+
+	a {
+		font-family: $albert;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 18px;
+		letter-spacing: -0.5px;
+		text-align: left;
+		color: $green;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	h2 {
+		font-family: $albert;
+		font-size: 54px;
+		font-weight: 600;
+		line-height: 56px;
+		letter-spacing: -2px;
+		text-align: left;
+		margin: 60px 0 40px;
+	}
+
+	h3 {
+		font-family: $albert;
+		font-size: 28px;
+		font-weight: 600;
+		line-height: 31px;
+		letter-spacing: -1px;
+		text-align: left;
+		margin: 40px 0 30px;
+	}
+
+	h4 {
+		font-family: $albert;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 18px;
+		letter-spacing: -0.5px;
+		text-align: left;
+		margin: 25px 0;
+	}
+
+	h5 {
+		font-family: $albert;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		letter-spacing: -0.5px;
+		text-align: left;
+		margin: 20px 0;
+	}
+
+	ul {
+		margin: 25px 0;
+
+		li {
+			position: relative;
+			padding-left: 30px;
+			color: $black70;
+
+			b,
+			strong {
+				font-weight: 700;
+				color: $black;
+			}
+
+			&:not(:last-child) {
+				margin-bottom: 20px;
+			}
+
+			&:before {
+				content: '';
+				display: block;
+				height: 1px;
+				width: 10px;
+				background: $black70;
+				position: absolute;
+				top: 9px;
+				left: 0;
+			}
+
+			& > div {
+				display: flex;
+				color: $black;
+
+				&:not(:last-child) {
+					margin-bottom: 10px;
+				}
+
+				span {
+					display: block;
+					width: 123px;
+					padding-right: 5px;
+					flex-shrink: 0;
+					color: $black70;
+				}
+			}
+		}
+
+		.ul-title {
+			display: block;
+			font-weight: 700;
+			color: $black;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.policy__title {
+	font-family: $albert;
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 66px;
+	letter-spacing: -2.5px;
+	text-align: left;
+	margin-bottom: 60px;
+	color: $black;
+}
+
+.policy__date {
+	font-family: $albert;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: $black;
+	margin-bottom: 40px;
+
+	span {
+		color: $black50;
+	}
+}
+
+
+
+
+
+@media ($br_point_phone) {
+	.policy {
+		padding: 30px 0 25px;
+	}
+
+	.policy__inner {
+		padding: 0 10px;
+	}
+
+	.policy__title {
+		font-size: 44px;
+		line-height: 46px;
+		letter-spacing: -1.5px;
+		margin-bottom: 30px;
+	}
+
+	.policy__date {
+		margin-bottom: 30px;
+	}
+
+	.policy__content {
+		h2 {
+			font-size: 38px;
+			line-height: 46px;
+			letter-spacing: -1.3px;
+			margin: 50px 0 30px;
+		}
+
+		h3 {
+			font-size: 24px;
+			line-height: 28px;
+			margin: 30px 0 20px;
+		}
+
+		h4 {
+			margin: 20px 0 15px;
+		}
+
+		h5 {
+			margin: 15px 0 10px;
+		}
+
+		ul {
+			margin: 15px 0;
+
+			li {
+				padding-left: 30px;
+
+				&:not(:last-child) {
+					margin-bottom: 10px;
+				}
+
+				& > div {
+					flex-wrap: wrap;
+
+					span {
+						width: 100%;
+						padding-right: 0;
+						margin-bottom: 5px;
+					}
+				}
+			}
+
+			.ul-title {
+				display: block;
+				font-weight: 700;
+				color: $black;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
