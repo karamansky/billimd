@@ -41,8 +41,8 @@
 				<div class="footer__bottom-left">
 					<div class="footer__policy-menu">
 						<ul>
-							<li class="menu-item"><a href="#">Terms of Service</a></li>
-							<li class="menu-item"><a href="#">Privacy Policy</a></li>
+							<li class="menu-item"><a href="/cookies-policy">Cookies Policy</a></li>
+							<li class="menu-item"><a href="/privacy-policy">Privacy Policy</a></li>
 						</ul>
 					</div>
 					<div class="footer__copy">
