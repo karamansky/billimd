@@ -2446,6 +2446,16 @@ select + .select2-container {
 
 .policy__content h4 {
   font-family: "Albert Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin: 25px 0;
+}
+
+.policy__content h5 {
+  font-family: "Albert Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
@@ -2454,7 +2464,7 @@ select + .select2-container {
   margin: 25px 0;
 }
 
-.policy__content h5 {
+.policy__content h6 {
   font-family: "Albert Sans", sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -2520,6 +2530,10 @@ select + .select2-container {
   font-weight: 700;
   color: #000000;
   margin-bottom: 10px;
+}
+
+.policy__content ul .dblock {
+  display: block;
 }
 
 .policy__title {
@@ -3950,10 +3964,16 @@ select + .select2-container {
   }
 
   .policy__content h4 {
-    margin: 20px 0 15px;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 25px 0 15px;
   }
 
   .policy__content h5 {
+    margin: 20px 0 15px;
+  }
+
+  .policy__content h6 {
     margin: 15px 0 10px;
   }
 

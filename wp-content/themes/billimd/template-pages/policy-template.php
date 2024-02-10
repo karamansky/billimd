@@ -25,7 +25,7 @@
 					<p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
 					
 					<h3>Definitions</h3>
-					<h4><b>For the purposes of this Cookies Policy:</b></h4>
+					<h5><b>For the purposes of this Cookies Policy:</b></h5>
 					<ul>
 						<li>
 							<b>Company</b> (referred to as either "the Company", "We", "Us" or "Our" in this Cookies Policy) refers to SYOAK LLC, 4300 BISCAYNE BLVD MIAMII, FL 33137.
@@ -44,7 +44,7 @@
 					<h2>The use of the Cookies</h2>
 					<h3>Type of Cookies We Use</h3>
 					<p>Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close your web browser.</p>
-					<h4><b>We use both session and persistent Cookies for the purposes set out below:</b></h4>
+					<h5><b>We use both session and persistent Cookies for the purposes set out below:</b></h5>
 					<ul>
 						<li>
 							<span class="ul-title">Necessary / Essential Cookies</span>
@@ -87,7 +87,7 @@
 					<h3>Your Choices Regarding Cookies</h3>
 					<p>If You prefer to avoid the use of Cookies on the Website, first You must disable the use of Cookies in your browser and then delete the Cookies saved in your browser associated with this website. You may use this option for preventing the use of Cookies at any time.</p>
 					<p>If You do not accept Our Cookies, You may experience some inconvenience in your use of the Website and some features may not function properly.</p>
-					<h4>If You'd like to delete Cookies or instruct your web browser to delete or refuse Cookies, please visit the help pages of your web browser.</h4>
+					<h5>If You'd like to delete Cookies or instruct your web browser to delete or refuse Cookies, please visit the help pages of your web browser.</h5>
 					<ul>
 						<li>
 							For the Chrome web browser, please visit this page from Google: <a href="//support.google.com/accounts/answer/32050">https://support.google.com/accounts/answer/32050</a>
@@ -108,7 +108,7 @@
 					<p>You can learn more about cookies: <a href="https://www.privacypolicies.com/blog/cookies/">What Are Cookies?</a></p>
 					
 					<h3>Contact Us</h3>
-					<h4>If you have any questions about this Cookies Policy, You can contact us:</h4>
+					<h5>If you have any questions about this Cookies Policy, You can contact us:</h5>
 					<ul>
 						<li>By email: <a href="mailto:info@billimd.com">info@billimd.com</a></li>
 						<li>By visiting this page on our website: <a href="https://billimd.com/">https://billimd.com/</a></li>
