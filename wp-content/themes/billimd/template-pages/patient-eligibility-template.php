@@ -1,6 +1,6 @@
 <?php
 	/*
-	 * Template Name: Patient Eligibility template
+	 * Template Name: Page: Patient Eligibility template
 	 */
 	get_header();
 ?>
@@ -10,7 +10,7 @@
 		<div class="page-hero1__inner">
 			<div class="page-hero1__left">
 				<h1 class="page-hero1__title">Patient Eligibility Verification</h1>
-				<a href="<?php echo get_home_url(); ?>/#contact-us" class="btn btn--big btn--green page-hero1__button">Contact Us Now</a>
+				<a href="/contact-us" class="btn btn--big btn--green page-hero1__button">Contact Us Now</a>
 			</div>
 			<div class="page-hero1__right">
 				<div class="page-hero1__content">

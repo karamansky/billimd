@@ -96,7 +96,7 @@
 <!--							</div>-->
 <!--						</div>-->
 <!--					</div>-->
-					<a href="<?php if(is_page('patient-eligibility-verification')) echo get_home_url() . '/'; ?>#contact-us" class="btn header__actions-btn">Contact Us</a>
+					<a href="/contact-us" class="btn header__actions-btn">Contact Us</a>
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,44 @@
+.thnx {
+	padding: 100px 0 330px;
+	background: #fff;
+}
+
+.thnx__title {
+	font-family: $albert;
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 66px;
+	letter-spacing: -2.5px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.thnx__subtitle {
+	font-family: $albert;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: -0.5px;
+	text-align: center;
+}
+
+
+
+
+@media ($br_point_phone) {
+	.thnx {
+		padding: 30px 10px 35px;
+	}
+
+	.thnx__title {
+		font-size: 44px;
+		line-height: 46px;
+		letter-spacing: -1.5px;
+	}
+
+	.thnx__subtitle {
+		font-size: 16px;
+		line-height: 22px;
+		letter-spacing: -0.44px;
+	}
+}
