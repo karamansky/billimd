@@ -419,3 +419,17 @@ select + .select2-container{
 		}
 	}
 }
+
+
+
+//cookie plugin banner
+.cky-notice .cky-title {
+	display: none !important;
+}
+.cky-notice-btn-wrapper .cky-btn {
+	border-radius: 10px;
+}
+.cky-consent-container .cky-consent-bar {
+	box-shadow: none !important;
+	padding: 18px 40px !important;
+}
