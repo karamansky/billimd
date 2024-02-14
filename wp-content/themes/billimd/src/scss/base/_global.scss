@@ -433,3 +433,31 @@ select + .select2-container{
 	box-shadow: none !important;
 	padding: 18px 40px !important;
 }
+@media (max-width: 576px) {
+	.cky-consent-container .cky-consent-bar {
+		padding: 20px !important;
+	}
+	.cky-notice-des {
+		padding: 0 !important;
+	}
+	.cky-notice-btn-wrapper {
+		padding: 0 !important;
+		margin-top: 15px !important;
+		justify-content: space-between !important;
+		flex-direction: row-reverse !important;
+	}
+	.cky-notice-btn-wrapper .cky-btn-customize {
+		text-align: left !important;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	.cky-notice-btn-wrapper .cky-btn-accept {
+		margin-top: 0 !important;
+	}
+	.cky-consent-container .cky-consent-bar {
+		padding: 20px !important;
+	}
+	.cky-notice-des {
+		padding: 0 !important;
+	}
+}

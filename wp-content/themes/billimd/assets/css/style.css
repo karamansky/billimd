@@ -4187,6 +4187,46 @@ select + .select2-container {
   }
 }
 
+@media (max-width: 576px) {
+  .cky-consent-container .cky-consent-bar {
+    padding: 20px !important;
+  }
+
+  .cky-notice-des {
+    padding: 0 !important;
+  }
+
+  .cky-notice-btn-wrapper {
+    padding: 0 !important;
+    margin-top: 15px !important;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+    -ms-flex-direction: row-reverse !important;
+    flex-direction: row-reverse !important;
+  }
+
+  .cky-notice-btn-wrapper .cky-btn-customize {
+    text-align: left !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .cky-notice-btn-wrapper .cky-btn-accept {
+    margin-top: 0 !important;
+  }
+
+  .cky-consent-container .cky-consent-bar {
+    padding: 20px !important;
+  }
+
+  .cky-notice-des {
+    padding: 0 !important;
+  }
+}
+
 @media (max-width: 380px) {
   .footer__certifications-items {
     -webkit-box-pack: justify;
