@@ -2438,7 +2438,6 @@ select + .select2-container {
   font-weight: 600;
   line-height: 31px;
   letter-spacing: -1px;
-  margin-bottom: 15px;
 }
 
 .cards__item-description {
@@ -2448,6 +2447,25 @@ select + .select2-container {
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.5px;
+  margin-top: 15px;
+}
+
+.cards--noimage {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.cards--noimage .cards__item {
+  background: #F2FCF8;
+  -webkit-box-shadow: 0 1px 0 0 rgba(12, 57, 83, 0.09);
+  box-shadow: 0 1px 0 0 rgba(12, 57, 83, 0.09);
+}
+
+.cards--noimage .cards__item-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: -1px;
 }
 
 .thnx {
@@ -2701,6 +2719,10 @@ select + .select2-container {
   letter-spacing: -0.5px;
 }
 
+.text-columns__col span {
+  color: #000000;
+}
+
 .text-columns__col p {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Albert Sans", sans-serif;
@@ -2708,6 +2730,10 @@ select + .select2-container {
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.5px;
+}
+
+.text-columns__col a {
+  color: #1B9260;
 }
 
 .text-columns__col h3 {
@@ -4180,7 +4206,6 @@ select + .select2-container {
     font-size: 28px;
     line-height: 31px;
     letter-spacing: -1px;
-    margin-bottom: 15px;
   }
 
   .cards__item-description {
@@ -4189,6 +4214,24 @@ select + .select2-container {
     font-weight: 500;
     line-height: 18px;
     letter-spacing: -0.5px;
+  }
+
+  .cards--noimage {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .cards--noimage .cards__item {
+    padding: 25px 30px;
+    margin-bottom: 0;
+  }
+
+  .cards--noimage .cards__item-title {
+    text-align: left;
+  }
+
+  .cards--noimage .cards__item-description {
+    text-align: left;
   }
 
   .thnx {

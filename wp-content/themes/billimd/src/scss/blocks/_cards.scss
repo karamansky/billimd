@@ -77,7 +77,6 @@
 	font-weight: 600;
 	line-height: 31px;
 	letter-spacing: -1px;
-	margin-bottom: 15px;
 }
 
 .cards__item-description{
@@ -87,8 +86,25 @@
 	font-weight: 500;
 	line-height: 18px;
 	letter-spacing: -0.5px;
+	margin-top: 15px;
 }
 
+.cards--noimage {
+	padding-top: 0;
+	padding-bottom: 20px;
+
+	.cards__item {
+		background: #F2FCF8;
+		box-shadow: 0 1px 0 0 rgba(12, 57, 83, 0.09);
+	}
+
+	.cards__item-title {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 27px;
+		letter-spacing: -1px;
+	}
+}
 
 
 
@@ -155,7 +171,6 @@
 		font-size: 28px;
 		line-height: 31px;
 		letter-spacing: -1px;
-		margin-bottom: 15px;
 	}
 
 	.cards__item-description {
@@ -164,5 +179,23 @@
 		font-weight: 500;
 		line-height: 18px;
 		letter-spacing: -0.5px;
+	}
+
+	.cards--noimage {
+		padding-top: 25px;
+		padding-bottom: 20px;
+
+		.cards__item {
+			padding: 25px 30px;
+			margin-bottom: 0;
+		}
+
+		.cards__item-title {
+			text-align: left;
+		}
+
+		.cards__item-description {
+			text-align: left;
+		}
 	}
 }
