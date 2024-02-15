@@ -2397,24 +2397,28 @@ select + .select2-container {
   margin: 0 20px 40px 20px;
 }
 
-.cards__item:nth-child(1),
-.cards__item:nth-child(5n) {
+.cards__item:nth-child(6n+1) {
   background: #F3FCFE;
 }
 
-.cards__item:nth-child(2),
-.cards__item:nth-child(6n) {
+.cards__item:nth-child(6n+2) {
   background: #FEFBF3;
 }
 
-.cards__item:nth-child(3),
-.cards__item:nth-child(7n) {
+.cards__item:nth-child(6n+3) {
   background: #FEF6F3;
 }
 
-.cards__item:nth-child(4),
-.cards__item:nth-child(8n) {
+.cards__item:nth-child(6n+4) {
   background: #F2FCF8;
+}
+
+.cards__item:nth-child(6n+5) {
+  background: #EFF2FB;
+}
+
+.cards__item:nth-child(6n+6) {
+  background: #F2EEFC;
 }
 
 .cards__item-image {
