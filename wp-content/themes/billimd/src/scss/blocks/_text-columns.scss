@@ -1,0 +1,65 @@
+.text-columns {
+	padding-top: 105px;
+	padding-bottom: 60px;
+	background: #fff;
+}
+
+.page-hero2__title {
+	max-width: calc(50% - 20px);
+	color: $black;
+	font-family: $albert;
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 66px;
+	letter-spacing: -2.5px;
+	margin-bottom: 60px;
+}
+
+.page-hero2__subtitle {
+	max-width: calc(50% - 20px);
+	color: $black;
+	font-family: $albert;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 31px;
+	letter-spacing: -1px;
+	margin-bottom: 40px;
+}
+
+.page-hero2__columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-hero2__col {
+	width: calc(50% - 20px);
+
+	color: $black70;
+	font-family: $albert;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px;
+	letter-spacing: -0.5px;
+
+	p {
+		color: $black70;
+		font-family: $albert;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 18px;
+		letter-spacing: -0.5px;
+	}
+
+	ul, ol {
+		padding-left: 30px;
+		list-style-position: inside;
+	}
+
+	ul li {
+		list-style-type: disc;
+	}
+
+	ol li {
+		list-style-type: decimal;
+	}
+}

@@ -158,8 +158,8 @@ button {
 
 .help-btn {
   position: fixed;
-  left: 40px;
-  top: 90%;
+  left: 15px;
+  bottom: 70px;
   padding-left: 15px;
   padding-right: 15px;
   z-index: 95;
@@ -187,6 +187,11 @@ button {
 .header + div,
 .header + section {
   margin-top: 70px;
+}
+
+.header + div.hero,
+.header + section.hero {
+  padding-top: 105px;
 }
 
 /* slick */
@@ -2277,9 +2282,90 @@ select + .select2-container {
   margin-bottom: 20px;
 }
 
+.page-hero2 {
+  padding-top: 105px;
+  padding-bottom: 60px;
+  background: #fff;
+}
+
+.page-hero2__title {
+  max-width: calc(50% - 20px);
+  color: #000000;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: -2.5px;
+  margin-bottom: 60px;
+}
+
+.page-hero2__subtitle {
+  max-width: calc(50% - 20px);
+  color: #000000;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: -1px;
+  margin-bottom: 40px;
+}
+
+.page-hero2__columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.page-hero2__col {
+  width: calc(50% - 20px);
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Albert Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+}
+
+.page-hero2__col p {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Albert Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+}
+
+.page-hero2__col ul,
+.page-hero2__col ol {
+  padding-left: 30px;
+  list-style-position: inside;
+}
+
+.page-hero2__col ul li {
+  list-style-type: disc;
+}
+
+.page-hero2__col ol li {
+  list-style-type: decimal;
+}
+
 .cards {
   padding: 60px 0;
   background: #fff;
+}
+
+.cards__title {
+  max-width: 660px;
+  color: #000000;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -2px;
+  margin-bottom: 60px;
 }
 
 .cards__items {
@@ -3181,6 +3267,12 @@ select + .select2-container {
     line-height: 54px;
   }
 
+  .cards__title {
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: -1.295px;
+  }
+
   .cards__items {
     margin-left: -10px;
     margin-right: -10px;
@@ -3225,6 +3317,11 @@ select + .select2-container {
   .header + div,
   .header + section {
     margin-top: 80px;
+  }
+
+  .header + div.hero,
+  .header + section.hero {
+    margin-top: 30px;
   }
 
   .select2-results__option:not(:last-child) {
@@ -3896,6 +3993,50 @@ select + .select2-container {
 
   .page-hero1__content p:not(:last-child) {
     margin-bottom: 10px;
+  }
+
+  .page-hero2 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .page-hero2__title {
+    max-width: 100%;
+    font-size: 44px;
+    line-height: 46px;
+    letter-spacing: -1.5px;
+    margin-bottom: 30px;
+  }
+
+  .page-hero2__subtitle {
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .page-hero2__columns {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .page-hero2__col {
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.44px;
+  }
+
+  .page-hero2__col:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .page-hero2__col p {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.44px;
   }
 
   .cards {

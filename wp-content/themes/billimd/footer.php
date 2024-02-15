@@ -8,7 +8,7 @@
 							<a href="#">Solutions</a>
 							<ul class="sub-menu">
 								<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
-								<li class="menu-item"><a href="#">Denial Management</a></li>
+								<li class="menu-item"><a href="/denial-management/">Denial Management</a></li>
 								<li class="menu-item"><a href="#">Account Receivable (AR)</a></li>
 								<li class="menu-item"><a href="#">Coding Management</a></li>
 								<li class="menu-item"><a href="#">Medical Billing</a></li>

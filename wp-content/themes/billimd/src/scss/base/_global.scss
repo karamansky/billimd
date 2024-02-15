@@ -180,8 +180,8 @@ button {
 
 .help-btn{
 	position: fixed;
-	left: 40px;
-	top: 90%;
+	left: 15px;
+	bottom: 70px;
 	padding-left: 15px;
 	padding-right: 15px;
 	z-index: 95;
@@ -210,6 +210,14 @@ button {
 
 	@media ( $br_point_phone ){
 		margin-top: 80px;
+	}
+}
+.header + div.hero,
+.header + section.hero{
+	padding-top: 105px;
+
+	@media ( $br_point_phone ){
+		margin-top: 30px;
 	}
 }
 

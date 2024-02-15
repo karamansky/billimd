@@ -3,6 +3,17 @@
 	background: #fff;
 }
 
+.cards__title {
+	max-width: 660px;
+	color: $black;
+	font-family: $albert;
+	font-size: 54px;
+	font-weight: 600;
+	line-height: 56px;
+	letter-spacing: -2px;
+	margin-bottom: 60px;
+}
+
 .cards__items{
 	display: flex;
 	flex-wrap: wrap;
@@ -96,6 +107,12 @@
 
 
 @media ($br_point_tablet) {
+	.cards__title {
+		font-size: 38px;
+		line-height: 46px;
+		letter-spacing: -1.295px;
+	}
+
 	.cards__items {
 		margin-left: -10px;
 		margin-right: -10px;
