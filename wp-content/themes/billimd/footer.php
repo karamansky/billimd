@@ -10,7 +10,7 @@
 								<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
 								<li class="menu-item"><a href="/denial-management/">Denial Management</a></li>
 								<li class="menu-item"><a href="/ar-services/ ">Account Receivable (AR)</a></li>
-								<li class="menu-item"><a href="#">Coding Management</a></li>
+								<li class="menu-item"><a href="/coding-management/">Coding Management</a></li>
 								<li class="menu-item"><a href="#">Medical Billing</a></li>
 								<li class="menu-item"><a href="#">Insurance Credentialing</a></li>
 							</ul>
