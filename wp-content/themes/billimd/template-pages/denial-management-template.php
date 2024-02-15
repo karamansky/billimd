@@ -22,7 +22,7 @@
 </section>
 
 
-<section class="cards">
+<section class="cards" data-aos="fade-up">
 	<div class="wrapper">
 		<div class="cards__inner">
 			<h2 class="cards__title">Our Denial Management Service prioritizes these fundamental aspects.</h2>
@@ -69,7 +69,7 @@
 </section>
 
 
-<section class="text-columns">
+<section class="text-columns" data-aos="fade-up">
 	<div class="wrapper">
 		<div class="text-columns__inner">
 			<h2 class="text-columns__title">Enhance Precision in Payment Processing</h2>
