@@ -22,10 +22,6 @@
 	padding: 15px 0;
 }
 
-//.header__logo-wrap{
-//	width: 264px;
-//}
-
 .header__logo{
 	display: block;
 	width: 152px;
@@ -249,7 +245,7 @@
 		width: 24px;
 	}
 	100% {
-		width: 480px;
+		width: 420px;
 	}
 }
 
@@ -560,7 +556,7 @@
 			width: 24px;
 		}
 		100% {
-			width: 430px;
+			width: 385px;
 		}
 	}
 
@@ -795,7 +791,7 @@
 		margin-bottom: 25px;
 	}
 
-	.header__menu .menu-item.current-menu-parent a{
+	.header__menu .menu-item.current-menu-parent > a{
 		color: $black50;
 	}
 
@@ -806,6 +802,7 @@
 	.header__hidden-top{
 		display: block;
 		margin-bottom: 0;
+		margin-top: 40px;
 	}
 
 	.header__hidden-menu1 {

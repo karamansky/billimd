@@ -60,9 +60,9 @@
 								<a href="#">Solutions</a>
 								<ul class="sub-menu">
 									<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
-									<li class="menu-item"><a href="/denial-management/">Denial Management</a></li>
-									<li class="menu-item"><a href="/ar-services/">Account Receivable (AR)</a></li>
-									<li class="menu-item"><a href="/coding-management/">Coding Management</a></li>
+									<li class="menu-item <?php if(is_page('denial-management')) echo ' current-menu-item '; ?>"><a href="/denial-management/">Denial Management</a></li>
+									<li class="menu-item <?php if(is_page('ar-services')) echo ' current-menu-item '; ?>"><a href="/ar-services/">Account Receivable (AR)</a></li>
+									<li class="menu-item <?php if(is_page('coding-management')) echo ' current-menu-item '; ?>"><a href="/coding-management/">Coding Management</a></li>
 									<li class="menu-item"><a href="#">Medical Billing</a></li>
 									<li class="menu-item"><a href="#">Insurance Credentialing</a></li>
 								</ul>
@@ -118,9 +118,9 @@
 								<a href="#">Solutions</a>
 								<ul class="sub-menu">
 									<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
-									<li class="menu-item"><a href="/denial-management/">Denial Management</a></li>
-									<li class="menu-item"><a href="/ar-services/">Account Receivable (AR)</a></li>
-									<li class="menu-item"><a href="/coding-management/">Coding Management</a></li>
+									<li class="menu-item <?php if(is_page('denial-management')) echo ' current-menu-item '; ?>"><a href="/denial-management/">Denial Management</a></li>
+									<li class="menu-item <?php if(is_page('ar-services')) echo ' current-menu-item '; ?>"><a href="/ar-services/">Account Receivable (AR)</a></li>
+									<li class="menu-item <?php if(is_page('coding-management')) echo ' current-menu-item '; ?>"><a href="/coding-management/">Coding Management</a></li>
 									<li class="menu-item"><a href="#">Medical Billing</a></li>
 									<li class="menu-item"><a href="#">Insurance Credentialing</a></li>
 								</ul>
@@ -157,8 +157,8 @@
 			<div class="header__hidden-bot">
 				<div class="header__policy-menu">
 					<ul>
-						<li class="menu-item"><a href="#">Terms of Service</a></li>
-						<li class="menu-item"><a href="#">Privacy Policy</a></li>
+						<li class="menu-item <?php if(is_page('cookies-policy')) echo ' current-menu-item '; ?>"><a href="/cookies-policy">Cookies Policy</a></li>
+						<li class="menu-item <?php if(is_page('privacy-policy')) echo ' current-menu-item '; ?>"><a href="/privacy-policy">Privacy Policy</a></li>
 					</ul>
 				</div>
 				<div class="header__social-menu">

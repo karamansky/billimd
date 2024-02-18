@@ -4,7 +4,7 @@
 	 */
 	get_header();
 ?>
-	<section class="text-columns" >
+	<section class="text-columns text-columns--hero">
 		<div class="wrapper">
 			<div class="text-columns__inner">
 				<h2 class="text-columns__title">Coding Management (Medical Coding Services)</h2>
@@ -26,12 +26,15 @@
 					<div class="text-columns__col">
 						<h4>How crucial are medical coding services for the functioning of healthcare organizations?</h4>
 						<p>Medical coding is the process of translating healthcare services, diagnoses, and medical equipment into universal alphanumeric codes. This task requires a medical coder to review patient records, including doctors' notes, lab results, and lists of services rendered, to identify the correct codes for procedures and diagnoses. These codes are then used to craft a claim for submission to insurance payers, ensuring that all medical information from the documentation is accurately represented for billing purposes.</p>
-						<br>
-						<span>Medical coding services offered by <a href="billimd.com">Billimd.com</a></span>
 					</div>
 					<div class="text-columns__col">
 						<h4>Comprehensive Medical Coding in ICD-10, CPT, HCPCS, and DRG</h4>
 						<p>Expert services in diverse coding systems including International Classification of Diseases, Current Procedural Terminology, Healthcare Common Procedure Coding System, and Diagnosis-Related Group.</p>
+					</div>
+				</div>
+				<div class="text-columns__block" style="margin-top: -20px;">
+					<div class="text-columns__col">
+						<span>Medical coding services offered by <a href="https://billimd.com/">Billimd.com</a></span>
 					</div>
 				</div>
 			</div>
@@ -114,7 +117,7 @@
 	<section class="cards" data-aos="fade-up">
 		<div class="wrapper">
 			<div class="cards__inner">
-				<h2 class="cards__title">What common obstacles do healthcare institutions encounter in medical coding?</h2>
+				<h2 class="cards__title mb30">What common obstacles do healthcare institutions encounter in medical coding?</h2>
 				<div class="cards__items">
 					<div class="cards__item">
 						<div class="cards__item-image">

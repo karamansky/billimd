@@ -4,7 +4,7 @@
 	 */
 	get_header();
 ?>
-<section class="hero page-hero2">
+<section class="hero-block page-hero2" style="min-height: calc(100vh - 300px);">
 	<div class="wrapper">
 		<div class="page-hero2__inner">
 			<h1 class="page-hero2__title">Account Receivable (AR) Services </h1>

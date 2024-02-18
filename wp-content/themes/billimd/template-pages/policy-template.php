@@ -90,22 +90,22 @@
 					<h5>If You'd like to delete Cookies or instruct your web browser to delete or refuse Cookies, please visit the help pages of your web browser.</h5>
 					<ul>
 						<li>
-							For the Chrome web browser, please visit this page from Google: <a href="//support.google.com/accounts/answer/32050">https://support.google.com/accounts/answer/32050</a>
+							For the Chrome web browser, please visit this page from Google: <a href="//support.google.com/accounts/answer/32050" target="_blank">https://support.google.com/accounts/answer/32050</a>
 						</li>
 						<li>
-							For the Internet Explorer web browser, please visit this page from Microsoft: <a href="//support.microsoft.com/kb/278835">https://support.microsoft.com/kb/278835</a>
+							For the Internet Explorer web browser, please visit this page from Microsoft: <a href="//support.microsoft.com/kb/278835" target="_blank">https://support.microsoft.com/kb/278835</a>
 						</li>
 						<li>
-							For the Firefox web browser, please visit this page from Mozilla: <a href="//support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored">https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored</a>
+							For the Firefox web browser, please visit this page from Mozilla: <a href="//support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored" target="_blank">https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored</a>
 						</li>
 						<li>
-							For the Safari web browser, please visit this page from Apple: <a href="//support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac">https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac</a>
+							For the Safari web browser, please visit this page from Apple: <a href="//support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank">https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac</a>
 						</li>
 					</ul>
 					<p>For any other web browser, please visit your web browser's official web pages.</p>
 					
 					<h3>More Information about Cookies</h3>
-					<p>You can learn more about cookies: <a href="https://www.privacypolicies.com/blog/cookies/">What Are Cookies?</a></p>
+					<p>You can learn more about cookies: <a href="https://www.privacypolicies.com/blog/cookies/" target="_blank">What Are Cookies?</a></p>
 					
 					<h3>Contact Us</h3>
 					<h5>If you have any questions about this Cookies Policy, You can contact us:</h5>

@@ -4,7 +4,7 @@
 	 */
 	get_header();
 ?>
-<section class="hero page-hero2">
+<section class="hero-block page-hero2">
 	<div class="wrapper">
 		<div class="page-hero2__inner">
 			<h1 class="page-hero2__title">Denial Management</h1>
@@ -25,7 +25,7 @@
 <section class="cards" data-aos="fade-up">
 	<div class="wrapper">
 		<div class="cards__inner">
-			<h2 class="cards__title">Our Denial Management Service prioritizes these fundamental aspects.</h2>
+			<h2 class="cards__title mb30">Our Denial Management Service prioritizes these fundamental aspects.</h2>
 			<div class="cards__items">
 				<div class="cards__item">
 					<div class="cards__item-image">

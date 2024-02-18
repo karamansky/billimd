@@ -212,12 +212,12 @@ button {
 		margin-top: 80px;
 	}
 }
-.header + div.hero,
-.header + section.hero{
+.header + div.hero-block,
+.header + section.hero-block{
 	padding-top: 105px;
 
 	@media ( $br_point_phone ){
-		margin-top: 30px;
+		padding-top: 30px;
 	}
 }
 
@@ -441,6 +441,12 @@ select + .select2-container{
 	box-shadow: none !important;
 	padding: 18px 40px !important;
 }
+.cky-revisit-bottom-left {
+	display: none !important;
+}
+.cky-prefrence-btn-wrapper .cky-btn {
+	border-radius: 10px;
+}
 @media (max-width: 576px) {
 	.cky-consent-container .cky-consent-bar {
 		padding: 20px !important;
@@ -467,5 +473,11 @@ select + .select2-container{
 	}
 	.cky-notice-des {
 		padding: 0 !important;
+		color: $black70 !important;
+		font-family: $albert !important;
+		font-size: 14px !important;
+		font-weight: 500 !important;
+		line-height: 18px !important;
+		letter-spacing: -0.5px !important;
 	}
 }
