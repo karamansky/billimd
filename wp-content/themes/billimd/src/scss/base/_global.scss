@@ -447,6 +447,11 @@ select + .select2-container{
 .cky-prefrence-btn-wrapper .cky-btn {
 	border-radius: 10px;
 }
+.cky-btn-preferences:hover {
+	opacity: 1!important;
+	background: $dark-green!important;
+	border-color: $dark-green!important;
+}
 @media (max-width: 576px) {
 	.cky-consent-container .cky-consent-bar {
 		padding: 20px !important;

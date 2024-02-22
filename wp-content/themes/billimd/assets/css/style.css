@@ -491,6 +491,12 @@ select + .select2-container {
   border-radius: 10px;
 }
 
+.cky-btn-preferences:hover {
+  opacity: 1 !important;
+  background: #2EA170 !important;
+  border-color: #2EA170 !important;
+}
+
 .icon {
   display: inline-block;
   width: 24px;
@@ -2698,6 +2704,10 @@ select + .select2-container {
   background: #fff;
 }
 
+.text-columns.text-columns--hero {
+  padding-top: 105px;
+}
+
 .text-columns__title {
   max-width: calc(50% - 20px);
   color: #000000;
@@ -2753,7 +2763,12 @@ select + .select2-container {
 }
 
 .text-columns__col a {
-  color: #1B9260;
+  color: #17c47b;
+  text-decoration: none;
+}
+
+.text-columns__col a:hover {
+  text-decoration: underline;
 }
 
 .text-columns__col h3 {
@@ -4436,6 +4451,11 @@ select + .select2-container {
     top: 11px;
   }
 
+  .text-columns--hero .text-columns__col h4:not(:last-child) {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
   .footer {
     padding-top: 35px;
     padding-bottom: 40px;
@@ -4496,7 +4516,7 @@ select + .select2-container {
     margin-bottom: 25px;
   }
 
-  .footer__menu .menu-item.current-menu-parent a {
+  .footer__menu .menu-item.current-menu-parent > a {
     color: rgba(0, 0, 0, 0.5);
   }
 

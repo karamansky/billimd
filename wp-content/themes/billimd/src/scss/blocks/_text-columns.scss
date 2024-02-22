@@ -1,6 +1,10 @@
 .text-columns {
 	padding: 60px;
 	background: #fff;
+
+	&.text-columns--hero {
+		padding-top: 105px;
+	}
 }
 
 .text-columns__title {
@@ -53,7 +57,12 @@
 	}
 
 	a {
-		color: #1B9260;
+		color: #17c47b;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	h3 {
@@ -214,6 +223,13 @@
 			li:before {
 				top: 11px;
 			}
+		}
+	}
+
+	.text-columns--hero {
+		.text-columns__col h4:not(:last-child) {
+			margin-bottom: 20px;
+			margin-top: 20px;
 		}
 	}
 }
