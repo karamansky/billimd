@@ -70,6 +70,13 @@
 		}
 	}
 
+	.menu-item-has-children.current-menu-parent{
+		& > a:after{
+			background: url('../img/icons/arrow-dropdown-green-icon.svg') center center no-repeat;
+			background-size: 100%;
+		}
+	}
+
 	.sub-menu{
 		display: none;
 		position: absolute;

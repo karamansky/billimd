@@ -140,6 +140,10 @@
 @media ($br_point_phone) {
 	.text-columns {
 		padding: 30px 10px;
+
+		&.text-columns--hero {
+			padding-top: 30px;
+		}
 	}
 
 	.text-columns__title {

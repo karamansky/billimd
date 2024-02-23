@@ -4,7 +4,7 @@
 			<div class="footer__top">
 				<div class="footer__menu">
 					<ul>
-						<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-parent '; ?> menu-item-has-children">
+						<li class="menu-item <?php if(is_page('patient-eligibility-verification') || is_page('denial-management') || is_page('ar-services') || is_page('coding-management')) echo ' current-menu-parent '; ?> menu-item-has-children">
 							<a href="#">Solutions</a>
 							<ul class="sub-menu">
 								<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>

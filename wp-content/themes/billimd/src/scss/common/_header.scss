@@ -664,6 +664,10 @@
 		z-index: -1;
 	}
 
+	.header__actions-btn {
+		margin-left: 0;
+	}
+
 	.header__container {
 		height: 80px;
 		padding: 20px 0;
@@ -674,13 +678,14 @@
 	}
 
 	.header__left{
+		width: 100%;
 		display: flex;
 		align-items: center;
 	}
 
-	.header__hamburger--mobile{
+	.header__hamburger--mobile {
 		display: flex;
-		margin-right: 20px;
+		margin-right: calc(50% - 115px + 40px);
 	}
 
 	.header__hidden-mob{

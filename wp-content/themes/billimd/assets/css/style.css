@@ -2923,6 +2923,11 @@ select + .select2-container {
   transition: all 0.3s;
 }
 
+.footer__menu .menu-item-has-children.current-menu-parent > a:after {
+  background: url("../img/icons/arrow-dropdown-green-icon.svg") center center no-repeat;
+  background-size: 100%;
+}
+
 .footer__menu .sub-menu {
   display: none;
   position: absolute;
@@ -3515,6 +3520,10 @@ select + .select2-container {
     z-index: -1;
   }
 
+  .header__actions-btn {
+    margin-left: 0;
+  }
+
   .header__container {
     height: 80px;
     padding: 20px 0;
@@ -3525,6 +3534,7 @@ select + .select2-container {
   }
 
   .header__left {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3537,7 +3547,7 @@ select + .select2-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 20px;
+    margin-right: calc(50% - 115px + 40px);
   }
 
   .header__hidden-mob {
@@ -4368,6 +4378,10 @@ select + .select2-container {
 
   .text-columns {
     padding: 30px 10px;
+  }
+
+  .text-columns.text-columns--hero {
+    padding-top: 30px;
   }
 
   .text-columns__title {
