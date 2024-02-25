@@ -25,7 +25,7 @@
 			<div class="image-text__right">
 				<div class="image-text__text image-text__text--card">
 					<h2>Boost Your Income Stream with Next-Gen</h2>
-					<h4><a href="#">Super-Efficient Medical Billing Services Perfect</a> for All Medical Specialties, Winning the Trust of Thousands of Healthcare Experts</h4>
+					<h4><span>Super-Efficient Medical Billing Services Perfect</span> for All Medical Specialties, Winning the Trust of Thousands of Healthcare Experts</h4>
 				</div>
 			</div>
 		</div>
