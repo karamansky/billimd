@@ -11,7 +11,7 @@
 								<li class="menu-item <?php if(is_page('denial-management')) echo ' current-menu-item '; ?>"><a href="/denial-management/">Denial Management</a></li>
 								<li class="menu-item <?php if(is_page('ar-services')) echo ' current-menu-item '; ?>"><a href="/ar-services/ ">Account Receivable (AR)</a></li>
 								<li class="menu-item <?php if(is_page('coding-management')) echo ' current-menu-item '; ?>"><a href="/coding-management/">Coding Management</a></li>
-								<li class="menu-item <?php if(is_page('medical-billing')) echo ' current-menu-item '; ?>"><a href="#">Medical Billing</a></li>
+								<li class="menu-item <?php if(is_page('medical-billing')) echo ' current-menu-item '; ?>"><a href="/medical-billing/">Medical Billing</a></li>
 								<li class="menu-item <?php if(is_page('insurance-credentialing')) echo ' current-menu-item '; ?>"><a href="#">Insurance Credentialing</a></li>
 							</ul>
 						</li>
