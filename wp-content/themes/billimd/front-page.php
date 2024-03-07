@@ -3,47 +3,16 @@
  * Template Name: Home page template
  */
 get_header();
+
+
+the_content();
 ?>
 	
 	
-	<section class="hero">
-		<div class="wrapper">
-			<div class="hero__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri() ?>/assets/img/top-img.png);">
-				<div class="hero__img">
-					<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/top-img-mob.png" alt="billimd image" loading="lazy" />
-				</div>
-				<div class="hero__content">
-					<h1 class="hero__title">
-						Simplify Your Medical Billing.
-						Accelerate Your Payments.
-					</h1>
-					<div class="hero__text">
-						<p>At BilliMD.com, we transform the complex world of medical billing
-						   into a streamlined, stress-free process, ensuring you get paid faster
-						   and with minimal hassle.</p>
-					</div>
-					<a href="/contact-us" class="btn btn--big btn--green scrollto hero__btn">Contact Us</a>
-				</div>
-			</div>
-		</div>
-	</section>
+
 	
 	
-	<section data-aos="fade-up" class="commitment">
-		<div class="wrapper">
-			<div class="commitment__inner">
-				<div class="commitment__image" data-aos="fade-up" >
-					<img src="<?php echo get_template_directory_uri() ?>/assets/img/commitment.svg" alt="commitment" loading="lazy" />
-				</div>
-				<h2 class="section-title commitment__title" data-aos="fade-up" >Our Commitment</h2>
-				<div class="commitment__description" data-aos="fade-up" >
-					<p>
-						Dedicated to making medical billing effortless and more efficient, BilliMD.com is your partner in financial success. We handle the complexities of billing and coding, so you can focus on what you do best - caring for patients.
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+	
 	
 	
 	<section class="emr">

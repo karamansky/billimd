@@ -36,8 +36,6 @@
 	$logo = get_field('logo', 'option');
 	$button = get_field('button', 'option');
 	$support_phone = get_field('support_phone', 'option');
-	
-	
 ?>
 <header class="header">
 	<div class="header__inner">

@@ -59,7 +59,7 @@ class GutenbergBlocks {
 					'description'     => !empty( $block['description'] ) ? __( $block['description'] ) : '',
 					'render_template' => 'template-parts/blocks/'.$block['name'].'.php',
 					'category'        => !empty( $block['category'] ) ? $block['category'] : '',
-					'icon'            => !empty( $block['icon'] ) ? $block['icon'] : [ 'background' => '#000133', 'src' => 'desktop' ],
+					'icon'            => !empty( $block['icon'] ) ? $block['icon'] : [ 'background' => '#17C47B', 'src' => 'desktop' ],
 					'keywords'        => !empty( $block['keywords'] ) ? $block['keywords'] : [],
 					'example'         => !empty( $block['example'] ) ? $block['example'] : [],
 				]
@@ -74,13 +74,29 @@ class GutenbergBlocks {
 				'title'       => 'Home Hero block',
 				'category'    => 'billi-blocks',
 				'description' => '',
-				'icon'        => [ 'background' => '#1c2335', 'src' => 'admin-home' ],
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'admin-home' ],
 				'keywords'    => [ 'hero', 'page', 'top', 'block' ],
 				'example'     => [
 					'attributes' => [
 						'mode' => 'preview',
 						'data' => [
-							'image' => 'hero-module.png',
+							'image' => 'home-hero.png',
+						]
+					]
+				]
+			],
+			[
+				'name'        => 'commitment',
+				'title'       => 'Сommitment block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'align-full-width' ],
+				'keywords'    => [ 'commitment', 'page', 'image', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'commitment.png',
 						]
 					]
 				]
