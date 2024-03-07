@@ -447,6 +447,10 @@
 		&:hover a{
 			color: $dark-green;
 		}
+
+		&.current-menu-item a {
+			color: $dark-green;
+		}
 	}
 }
 
@@ -474,6 +478,7 @@
 		justify-content: center;
 		width: 24px;
 		height: 24px;
+		font-size: 0;
 		background-size: 100%;
 		background-position: center center;
 		background-repeat: no-repeat;

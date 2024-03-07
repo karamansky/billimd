@@ -32,7 +32,13 @@
 
 <div class="body-overlay"></div>
 
-
+<?php
+	$logo = get_field('logo', 'option');
+	$button = get_field('button', 'option');
+	$support_phone = get_field('support_phone', 'option');
+	
+	
+?>
 <header class="header">
 	<div class="header__inner">
 		<div class="wrapper">
@@ -42,11 +48,13 @@
 						<i class="icon hamburger-icon"></i>
 						<i class="icon close-icon" style="display: none;"></i>
 					</a>
-					<div class="header__logo-wrap">
-						<a href="<?php echo home_url(); ?>" class="header__logo">
-							<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo.svg" alt="logo" loading="lazy" />
-						</a>
-					</div>
+					<?php if( !empty($logo) ) { ?>
+						<div class="header__logo-wrap">
+							<a href="<?php echo home_url(); ?>" class="header__logo">
+								<?php DisplayGlobal::renderAcfImage($logo); ?>
+							</a>
+						</div>
+					<?php } ?>
 				</div>
 				
 				<nav class="header__nav">
@@ -55,21 +63,15 @@
 <!--						<i class="icon close-icon" style="display: none;"></i>-->
 <!--					</a>-->
 					<div class="header__menu">
-						<ul>
-							<li class="menu-item <?php if(is_page('patient-eligibility-verification') || is_page('denial-management') || is_page('ar-services') || is_page('coding-management') || is_page('medical-billing') || is_page('insurance-credentialing-services')) echo ' current-menu-parent '; ?> menu-item-has-children">
-								<a href="#">Solutions</a>
-								<ul class="sub-menu">
-									<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
-									<li class="menu-item <?php if(is_page('denial-management')) echo ' current-menu-item '; ?>"><a href="/denial-management/">Denial Management</a></li>
-									<li class="menu-item <?php if(is_page('ar-services')) echo ' current-menu-item '; ?>"><a href="/ar-services/">Account Receivable (AR)</a></li>
-									<li class="menu-item <?php if(is_page('coding-management')) echo ' current-menu-item '; ?>"><a href="/coding-management/">Coding Management</a></li>
-									<li class="menu-item <?php if(is_page('medical-billing')) echo ' current-menu-item '; ?>"><a href="/medical-billing/">Medical Billing</a></li>
-									<li class="menu-item <?php if(is_page('insurance-credentialing-services')) echo ' current-menu-item '; ?>"><a href="/insurance-credentialing-services/">Insurance Credentialing</a></li>
-								</ul>
-							</li>
-							<li class="menu-item"><a href="#">Who we Serve</a></li>
-							<li class="menu-item"><a href="#">Inside Look</a></li>
-						</ul>
+						<?php
+							wp_nav_menu(
+								[
+									'theme_location' => 'primary-menu',
+									'menu_class'     => 'header-menu',
+									'container'       => '',
+								]
+							);
+						?>
 					</div>
 					<div class="header__search">
 						<a href="#" class="header__search-btn"><i class="icon search-icon"></i></a>
@@ -96,7 +98,8 @@
 <!--							</div>-->
 <!--						</div>-->
 <!--					</div>-->
-					<a href="/contact-us" class="btn header__actions-btn">Contact Us</a>
+					
+					<?php if( !empty($button) ) { DisplayGlobal::renderAcfLink($button, 'btn header__actions-btn'); } ?>
 				</div>
 			</div>
 		</div>
@@ -113,21 +116,15 @@
 						</form>
 					</div>
 					<div class="header__menu">
-						<ul>
-							<li class="menu-item <?php if(is_page('patient-eligibility-verification') || is_page('denial-management') || is_page('ar-services') || is_page('coding-management') || is_page('medical-billing') || is_page('insurance-credentialing-services')) echo ' current-menu-parent '; ?> menu-item-has-children">
-								<a href="#">Solutions</a>
-								<ul class="sub-menu">
-									<li class="menu-item <?php if(is_page('patient-eligibility-verification')) echo ' current-menu-item '; ?>"><a href="/patient-eligibility-verification">Patient Eligibility Verification</a></li>
-									<li class="menu-item <?php if(is_page('denial-management')) echo ' current-menu-item '; ?>"><a href="/denial-management/">Denial Management</a></li>
-									<li class="menu-item <?php if(is_page('ar-services')) echo ' current-menu-item '; ?>"><a href="/ar-services/">Account Receivable (AR)</a></li>
-									<li class="menu-item <?php if(is_page('coding-management')) echo ' current-menu-item '; ?>"><a href="/coding-management/">Coding Management</a></li>
-									<li class="menu-item <?php if(is_page('medical-billing')) echo ' current-menu-item '; ?>"><a href="/medical-billing/">Medical Billing</a></li>
-									<li class="menu-item <?php if(is_page('insurance-credentialing-services')) echo ' current-menu-item '; ?>"><a href="/insurance-credentialing-services/">Insurance Credentialing</a></li>
-								</ul>
-							</li>
-							<li class="menu-item"><a href="#">Who we Serve</a></li>
-							<li class="menu-item"><a href="#">Inside Look</a></li>
-						</ul>
+						<?php
+							wp_nav_menu(
+								[
+									'theme_location' => 'primary-menu',
+									'menu_class'     => 'header-menu',
+									'container'       => '',
+								]
+							);
+						?>
 					</div>
 				</nav>
 			</div>
@@ -139,35 +136,45 @@
 <!--						<li class="menu-item"><a href="--><?php //if(is_page('patient-eligibility-verification')) echo '/'; ?><!--#contact-us">Message Our Team</a></li>-->
 <!--					</ul>-->
 <!--				</div>-->
-				<div class="header__hidden-support">
-					<span>Support</span>
-					<a href="tel:18772455163">
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M20.7358 5.537V7.537H18.7358H20.7358" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M7.58691 10.729C7.58691 9.91799 8.24491 9.25999 9.05591 9.25999C9.86691 9.25999 10.5249 9.91799 10.5249 10.729C10.5249 12.565 7.58791 12.565 7.58791 14.739H10.5249" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M15.894 12.03L13.382 12.003C13.24 12.001 13.125 11.886 13.125 11.743V9.261" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M15.8901 9.32001V14.74" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M20.3 7.53801C18.697 4.63601 15.582 2.66701 12 2.66701C6.84499 2.66701 2.66699 6.84601 2.66699 12C2.66699 17.154 6.84499 21.333 12 21.333C17.155 21.333 21.333 17.154 21.333 12" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
-						</svg>
-						1 (877) 245-5163
-					</a>
-				</div>
+				<?php if( !empty($support_phone) ) { ?>
+					<div class="header__hidden-support">
+						<span>Support</span>
+						<a href="tel:<?php echo preg_replace("/[^0-9]/", "", $support_phone) ?>">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M20.7358 5.537V7.537H18.7358H20.7358" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M7.58691 10.729C7.58691 9.91799 8.24491 9.25999 9.05591 9.25999C9.86691 9.25999 10.5249 9.91799 10.5249 10.729C10.5249 12.565 7.58791 12.565 7.58791 14.739H10.5249" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M15.894 12.03L13.382 12.003C13.24 12.001 13.125 11.886 13.125 11.743V9.261" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M15.8901 9.32001V14.74" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M20.3 7.53801C18.697 4.63601 15.582 2.66701 12 2.66701C6.84499 2.66701 2.66699 6.84601 2.66699 12C2.66699 17.154 6.84499 21.333 12 21.333C17.155 21.333 21.333 17.154 21.333 12" stroke="black" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+							<?php echo $support_phone; ?>
+						</a>
+					</div>
+				<?php } ?>
 			</div>
 
 			<div class="header__hidden-bot">
 				<div class="header__policy-menu">
-					<ul>
-						<li class="menu-item <?php if(is_page('cookies-policy')) echo ' current-menu-item '; ?>"><a href="/cookies-policy">Cookies Policy</a></li>
-						<li class="menu-item <?php if(is_page('privacy-policy')) echo ' current-menu-item '; ?>"><a href="/privacy-policy">Privacy Policy</a></li>
-					</ul>
+					<?php
+						wp_nav_menu(
+							[
+								'theme_location' => 'policy-menu',
+								'menu_class'     => 'policy-menu',
+								'container'       => '',
+							]
+						);
+					?>
 				</div>
 				<div class="header__social-menu">
-					<ul>
-						<li class="menu-item linkedin"><a href="https://www.linkedin.com/company/billimd-com/about/" target="_blank"></a></li>
-<!--						<li class="menu-item twitter"><a href="https://twitter.com/billimd_com" target="_blank"></a></li>-->
-<!--						<li class="menu-item facebook"><a href="https://www.facebook.com/profile.php?id=61555645943335" target="_blank"></a></li>-->
-<!--						<li class="menu-item instagram"><a href="https://www.instagram.com/social.billimd/" target="_blank"></a></li>-->
-					</ul>
+					<?php
+						wp_nav_menu(
+							[
+								'theme_location' => 'social-menu',
+								'menu_class'     => 'social-menu',
+								'container'       => '',
+							]
+						);
+					?>
 				</div>
 			</div>
 		</div>

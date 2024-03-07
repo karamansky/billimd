@@ -1129,6 +1129,10 @@ select + .select2-container {
   color: #2EA170;
 }
 
+.header__policy-menu .menu-item.current-menu-item a {
+  color: #2EA170;
+}
+
 .header__hamburger--mobile {
   display: none;
   -webkit-box-align: center;
@@ -1168,6 +1172,7 @@ select + .select2-container {
   justify-content: center;
   width: 24px;
   height: 24px;
+  font-size: 0;
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3334,6 +3339,11 @@ select + .select2-container {
   opacity: 0.5;
 }
 
+.footer__policy-menu--mob > ul .menu-item.current-menu-item a,
+.footer__policy-menu > ul .menu-item.current-menu-item a {
+  color: #2EA170;
+}
+
 .footer__bottom-copy,
 .footer__copy {
   color: rgba(0, 0, 0, 0.5);
@@ -3410,6 +3420,7 @@ select + .select2-container {
   justify-content: center;
   width: 24px;
   height: 24px;
+  font-size: 0;
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
