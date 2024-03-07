@@ -197,6 +197,22 @@ class GutenbergBlocks {
 					]
 				]
 			],
+			[
+				'name'        => 'text_columns',
+				'title'       => 'Text columns block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'media-spreadsheet' ],
+				'keywords'    => [ 'columns', 'text', 'title', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'text-columns.png',
+						]
+					]
+				]
+			],
 		];
 	}
 
