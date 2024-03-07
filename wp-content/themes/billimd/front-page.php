@@ -9,21 +9,6 @@ the_content();
 ?>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--	<section id="testimonials" class="testimonials">-->
 <!--		<div class="testimonials__inner">-->
 <!--			<div class="wrapper">-->

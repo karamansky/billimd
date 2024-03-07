@@ -86,6 +86,22 @@ class GutenbergBlocks {
 				]
 			],
 			[
+				'name'        => 'page_hero1',
+				'title'       => 'Page hero1 block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'admin-home' ],
+				'keywords'    => [ 'hero', 'page', 'top', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'page-hero1.png',
+						]
+					]
+				]
+			],
+			[
 				'name'        => 'commitment',
 				'title'       => 'Сommitment block',
 				'category'    => 'billi-blocks',
