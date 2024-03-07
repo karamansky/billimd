@@ -117,6 +117,22 @@ class GutenbergBlocks {
 					]
 				]
 			],
+			[
+				'name'        => 'scrolling_cards',
+				'title'       => 'Scrolling Cards block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'editor-insertmore' ],
+				'keywords'    => [ 'scrolling', 'cards', 'image', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'scrolling-cards.png',
+						]
+					]
+				]
+			],
 		];
 	}
 
