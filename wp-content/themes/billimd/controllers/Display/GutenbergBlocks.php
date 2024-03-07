@@ -90,13 +90,29 @@ class GutenbergBlocks {
 				'title'       => 'Сommitment block',
 				'category'    => 'billi-blocks',
 				'description' => '',
-				'icon'        => [ 'background' => '#17C47B', 'src' => 'align-full-width' ],
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'cover-image' ],
 				'keywords'    => [ 'commitment', 'page', 'image', 'block' ],
 				'example'     => [
 					'attributes' => [
 						'mode' => 'preview',
 						'data' => [
 							'image' => 'commitment.png',
+						]
+					]
+				]
+			],
+			[
+				'name'        => 'running_images',
+				'title'       => 'Running images block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'editor-insertmore' ],
+				'keywords'    => [ 'running', 'ticker', 'image', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'running-images.png',
 						]
 					]
 				]
