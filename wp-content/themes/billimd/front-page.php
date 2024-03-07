@@ -7,76 +7,23 @@ get_header();
 
 the_content();
 ?>
-	
-	
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<section id="insurance" class="insurance">
-		<div class="wrapper">
-			<div class="insurance__inner">
-				<h2 class="section-title insurance__title" data-aos="fade-up" >Insurance</h2>
-				<div class="insurance__description" data-aos="fade-up" >
-					<p>
-						Insurance companies we provide credentialing services for
-					</p>
-				</div>
-				<div class="insurance__logos" data-aos="fade-up" >
-					<div class="insurance__logos-slide">
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/1.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/2.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/3.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/4.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/5.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/6.png" alt="logo" loading="lazy" />
-						</div>
-					</div>
-					<div class="insurance__logos-slide">
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/7.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/8.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/9.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/10.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/11.png" alt="logo" loading="lazy" />
-						</div>
-						<div class="insurance__logo">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/img/ins/12.png" alt="logo" loading="lazy" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--	<section id="testimonials" class="testimonials">-->
 <!--		<div class="testimonials__inner">-->
 <!--			<div class="wrapper">-->

@@ -133,6 +133,22 @@ class GutenbergBlocks {
 					]
 				]
 			],
+			[
+				'name'        => 'logos',
+				'title'       => 'Logo images block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'images-alt' ],
+				'keywords'    => [ 'logo', 'cards', 'image', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'logos.png',
+						]
+					]
+				]
+			],
 		];
 	}
 
