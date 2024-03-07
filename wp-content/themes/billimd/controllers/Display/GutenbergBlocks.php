@@ -165,6 +165,22 @@ class GutenbergBlocks {
 					]
 				]
 			],
+			[
+				'name'        => 'cards',
+				'title'       => 'Cards block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'table-row-before' ],
+				'keywords'    => [ 'cards', 'image', 'text', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'cards.png',
+						]
+					]
+				]
+			],
 		];
 	}
 
