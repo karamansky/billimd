@@ -39,8 +39,8 @@
 			<?php } ?>
 			<div class="cards__items">
 				<?php foreach ($cards as $item) {
-				
-				?>
+					$desc_type = !empty($item['description_type']) ? $item['description_type'] : 'text';
+					?>
 					<div class="cards__item <?php if( !empty($item['description_type']) && $item['description_type'] == 'button' && !empty($item['button']) ) { echo 'cards__item--center'; } ?>">
 						<?php if( !empty($item['image']) ) { ?>
 							<div class="cards__item-image">
@@ -50,12 +50,12 @@
 						<?php if( !empty($item['title']) ) { ?>
 							<h3 class="cards__item-title"><?php echo $item['title'] ?></h3>
 						<?php } ?>
-						<?php if( !empty($item['description_type']) && $item['description_type'] == 'text' && !empty($item['text']) ) { ?>
+						<?php if( $desc_type == 'text' && !empty($item['text']) ) { ?>
 							<div class="cards__item-description">
 								<?php echo $item['text']; ?>
 							</div>
 						<?php } ?>
-						<?php if( !empty($item['description_type']) && $item['description_type'] == 'button' && !empty($item['button']) ) { ?>
+						<?php if( $desc_type == 'button' && !empty($item['button']) ) { ?>
 							<div class="cards__item-description">
 								<?php DisplayGlobal::renderAcfLink($item['button'], 'btn cards__item-button') ?>
 							</div>

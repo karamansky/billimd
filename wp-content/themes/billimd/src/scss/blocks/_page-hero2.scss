@@ -2,6 +2,13 @@
 	padding-top: 105px;
 	padding-bottom: 60px;
 	background: #fff;
+
+	& + .footer {
+		@media (min-width: 1300px) {
+			padding-top: 230px;
+		}
+	}
+
 }
 
 .page-hero2__title {
@@ -63,6 +70,17 @@
 		list-style-type: decimal;
 	}
 }
+
+
+
+
+@media ($br_point_tablet) {
+	.page-hero2__title {
+		font-size: 54px;
+		line-height: 56px;
+	}
+}
+
 
 
 

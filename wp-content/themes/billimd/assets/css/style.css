@@ -637,6 +637,7 @@ select + .select2-container {
 }
 
 .header__menu .menu-item {
+  position: relative;
   padding: 10px 0;
 }
 
@@ -696,7 +697,7 @@ select + .select2-container {
   position: absolute;
   left: -30px;
   top: 100%;
-  width: 300px;
+  min-width: 200px;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   padding: 25px 30px 15px 30px;
@@ -709,6 +710,7 @@ select + .select2-container {
 .header__menu .sub-menu .menu-item {
   padding: 0;
   margin-bottom: 15px;
+  margin-right: 0;
 }
 
 .header__menu .sub-menu .menu-item a {
@@ -717,6 +719,7 @@ select + .select2-container {
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
+  white-space: nowrap;
 }
 
 .header__menu .sub-menu .menu-item:hover a {
@@ -3116,6 +3119,7 @@ select + .select2-container {
 
 .footer__menu .menu-item {
   padding: 10px 0;
+  position: relative;
 }
 
 .footer__menu .menu-item:not(:last-child) {
@@ -3173,21 +3177,6 @@ select + .select2-container {
   background-size: 100%;
 }
 
-.footer__menu .sub-menu {
-  display: none;
-  position: absolute;
-  left: -30px;
-  top: 100%;
-  width: 300px;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  padding: 25px 30px 15px 30px;
-  background: #FFF;
-  border-radius: 15px;
-  -webkit-box-shadow: 5px 20px 50px rgba(17, 33, 53, 0.16);
-  box-shadow: 5px 20px 50px rgba(17, 33, 53, 0.16);
-}
-
 .footer__menu .sub-menu .menu-item {
   padding: 0;
   margin-bottom: 15px;
@@ -3219,7 +3208,7 @@ select + .select2-container {
   left: -30px;
   bottom: 100%;
   top: auto;
-  width: 300px;
+  min-width: 200px;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   padding: 25px 30px 15px 30px;
@@ -3232,6 +3221,7 @@ select + .select2-container {
 .footer__menu .sub-menu .menu-item {
   padding: 0;
   margin-bottom: 15px;
+  margin-right: 0;
 }
 
 .footer__menu .sub-menu .menu-item a {
@@ -3240,6 +3230,7 @@ select + .select2-container {
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
+  white-space: nowrap;
 }
 
 .footer__menu .sub-menu .menu-item:hover a {
@@ -3477,6 +3468,12 @@ select + .select2-container {
   display: none;
 }
 
+@media (min-width: 1300px) {
+  .page-hero2 + .footer {
+    padding-top: 230px;
+  }
+}
+
 @media (max-width: 1300px) {
   .wrapper {
     max-width: 992px;
@@ -3527,10 +3524,6 @@ select + .select2-container {
 
   .cards__item {
     width: calc(33.3333333333% - 40px);
-  }
-
-  .footer__menu {
-    margin-bottom: 30px;
   }
 }
 
@@ -3700,6 +3693,11 @@ select + .select2-container {
     line-height: 54px;
   }
 
+  .page-hero2__title {
+    font-size: 54px;
+    line-height: 56px;
+  }
+
   .cards__title {
     font-size: 38px;
     line-height: 46px;
@@ -3805,6 +3803,10 @@ select + .select2-container {
 
   .footer__menu .sub-menu {
     left: 0;
+  }
+
+  .footer__certifications-item:not(:last-child) {
+    margin-right: 25px;
   }
 }
 
