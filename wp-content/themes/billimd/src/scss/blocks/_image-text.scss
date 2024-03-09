@@ -83,6 +83,10 @@
 		font-weight: 600;
 		line-height: 28px;
 		letter-spacing: -1px;
+
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
 	}
 
 	a {
@@ -158,8 +162,9 @@
 		}
 
 		h5 {
-			font-size: 20px;
-			line-height: 24px;
+			&:not(:last-child) {
+				margin-bottom: 15px;
+			}
 		}
 
 		p {

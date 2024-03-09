@@ -3,6 +3,52 @@
     "title": "Block: Cards",
     "fields": [
         {
+            "key": "field_65ecb2711f243",
+            "label": "All cards same color",
+            "name": "all_card_same_color",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_65ecbcc0b391d",
+            "label": "Cards columns",
+            "name": "cards_columns",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "4 - Four": "4 - Four",
+                "2 - Two": "2 - Two"
+            },
+            "default_value": 4,
+            "return_format": "",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
             "key": "field_65e9b785279e7",
             "label": "Title",
             "name": "title",
@@ -99,7 +145,7 @@
             "min": 0,
             "max": 0,
             "collapsed": "",
-            "button_label": "Add Row",
+            "button_label": "Add Card",
             "rows_per_page": 20,
             "sub_fields": [
                 {
@@ -150,6 +196,33 @@
                     "parent_repeater": "field_65e9b7ea279eb"
                 },
                 {
+                    "key": "field_65eccfc622aeb",
+                    "label": "Description type",
+                    "name": "description_type",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "text": "Text",
+                        "button": "Read More Button"
+                    },
+                    "default_value": false,
+                    "return_format": "",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "parent_repeater": "field_65e9b7ea279eb"
+                },
+                {
                     "key": "field_65e9b809279ee",
                     "label": "Description",
                     "name": "text",
@@ -157,7 +230,15 @@
                     "type": "textarea",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_65eccfc622aeb",
+                                "operator": "==",
+                                "value": "text"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -168,6 +249,31 @@
                     "rows": "",
                     "placeholder": "",
                     "new_lines": "",
+                    "parent_repeater": "field_65e9b7ea279eb"
+                },
+                {
+                    "key": "field_65ecd00022aec",
+                    "label": "Button",
+                    "name": "button",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_65eccfc622aeb",
+                                "operator": "==",
+                                "value": "button"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
                     "parent_repeater": "field_65e9b7ea279eb"
                 }
             ]
@@ -191,5 +297,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1709815841
+    "modified": 1710018583
 }

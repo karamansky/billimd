@@ -11,7 +11,7 @@
 	<div class="wrapper">
 		<div class="policy__inner">
 			<div class="policy__content">
-				<h1 class="policy__title">Cookies Policy</h1>
+				<h1 class="policy__title"><?php the_title(); ?></h1>
 				<div class="policy__date">
 					<span>Last updated: </span>February 05, 2024
 				</div>

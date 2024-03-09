@@ -543,7 +543,7 @@ select + .select2-container {
 }
 
 .header {
-  width: 100%;
+  width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
@@ -2481,18 +2481,18 @@ select + .select2-container {
   margin-top: 15px;
 }
 
-.cards--noimage {
+.cards--samecolor {
   padding-top: 0;
   padding-bottom: 20px;
 }
 
-.cards--noimage .cards__item {
+.cards--samecolor .cards__item {
   background: #F2FCF8;
   -webkit-box-shadow: 0 1px 0 0 rgba(12, 57, 83, 0.09);
   box-shadow: 0 1px 0 0 rgba(12, 57, 83, 0.09);
 }
 
-.cards--noimage .cards__item-title {
+.cards--samecolor .cards__item-title {
   font-size: 24px;
   font-weight: 600;
   line-height: 27px;
@@ -2573,6 +2573,8 @@ select + .select2-container {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .cards--col-2 .cards__item {
@@ -2588,6 +2590,15 @@ select + .select2-container {
 
 .cards--col-2 .cards__item-title {
   text-align: center;
+}
+
+.cards__item--center .cards__item-title {
+  text-align: center;
+}
+
+.cards__item-button {
+  width: 100%;
+  margin-top: 10px;
 }
 
 .thnx {
@@ -2866,6 +2877,10 @@ select + .select2-container {
   letter-spacing: -0.5px;
 }
 
+.text-columns__col p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 .text-columns__col a {
   color: #17c47b;
   text-decoration: none;
@@ -3033,6 +3048,10 @@ select + .select2-container {
   font-weight: 600;
   line-height: 28px;
   letter-spacing: -1px;
+}
+
+.image-text__text h5:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .image-text__text a {
@@ -3720,6 +3739,11 @@ select + .select2-container {
     margin-bottom: 20px;
   }
 
+  .cards--col-2 .cards__items {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .image-text__left {
     width: calc(50% - 10px);
   }
@@ -3756,9 +3780,8 @@ select + .select2-container {
     line-height: 28px;
   }
 
-  .image-text__text h5 {
-    font-size: 20px;
-    line-height: 24px;
+  .image-text__text h5:not(:last-child) {
+    margin-bottom: 15px;
   }
 
   .image-text__text p {
@@ -4613,22 +4636,26 @@ select + .select2-container {
     letter-spacing: -0.5px;
   }
 
-  .cards--noimage {
+  .cards--samecolor {
     padding-top: 25px;
     padding-bottom: 20px;
   }
 
-  .cards--noimage .cards__item {
+  .cards--samecolor .cards__item {
     padding: 25px 30px;
     margin-bottom: 0;
   }
 
-  .cards--noimage .cards__item-title {
+  .cards--samecolor .cards__item-title {
     text-align: left;
   }
 
-  .cards--noimage .cards__item-description {
+  .cards--samecolor .cards__item-description {
     text-align: left;
+  }
+
+  .cards__item--center {
+    padding: 40px 30px;
   }
 
   .thnx {
@@ -4775,6 +4802,10 @@ select + .select2-container {
     font-size: 16px;
     line-height: 22px;
     letter-spacing: -0.44px;
+  }
+
+  .text-columns__col p:not(:last-child) {
+    margin-bottom: 10px;
   }
 
   .text-columns__col h3 {

@@ -213,6 +213,38 @@ class GutenbergBlocks {
 					]
 				]
 			],
+			[
+				'name'        => 'policy_text',
+				'title'       => 'Policy text block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'text-page' ],
+				'keywords'    => [ 'policy', 'text', 'title', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'policy-text.png',
+						]
+					]
+				]
+			],
+			[
+				'name'        => 'image_text',
+				'title'       => 'Image + text block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'align-left' ],
+				'keywords'    => [ 'image', 'text', 'image with text', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'image-text.png',
+						]
+					]
+				]
+			],
 		];
 	}
 

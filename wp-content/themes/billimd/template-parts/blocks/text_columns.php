@@ -5,12 +5,13 @@
 		if( GutenbergBlocks::checkForPreview($block) ) return;
 	}
 	
+	$is_first_block = !empty(get_field('is_first_block')) ? get_field('is_first_block') : false ;
 	$title = get_field('title');
 	$text_rows = get_field('text_rows');
 	
 	if( empty($text_rows) ) return false;
 ?>
-<section class="text-columns" data-aos="fade-up">
+<section class="text-columns <?php if( $is_first_block ) echo 'text-columns--hero'; ?> " data-aos="fade-up">
 	<div class="wrapper">
 		<div class="text-columns__inner">
 			<?php if( !empty($title) ) { ?>

@@ -43,7 +43,7 @@
 
 
 
-	<section class="cards cards--noimage" data-aos="fade-up">
+	<section class="cards cards--samecolor" data-aos="fade-up">
 		<div class="wrapper">
 			<div class="cards__inner">
 				<div class="cards__items">

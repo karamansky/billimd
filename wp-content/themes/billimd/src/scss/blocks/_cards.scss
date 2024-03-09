@@ -101,7 +101,7 @@
 	margin-top: 15px;
 }
 
-.cards--noimage {
+.cards--samecolor {
 	padding-top: 0;
 	padding-bottom: 20px;
 
@@ -185,6 +185,8 @@
 .cards--col-2 {
 	.cards__items {
 		justify-content: space-between;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.cards__item {
@@ -203,7 +205,16 @@
 	}
 }
 
+.cards__item--center {
+	.cards__item-title {
+		text-align: center;
+	}
+}
 
+.cards__item-button {
+	width: 100%;
+	margin-top: 10px;
+}
 
 
 @media ($br_point_small_laptop) {
@@ -259,6 +270,13 @@
 		margin-left: 10px;
 		margin-right: 10px;
 		margin-bottom: 20px;
+	}
+
+	.cards--col-2 {
+		.cards__items {
+			margin-left: 0;
+			margin-right: 0;
+		}
 	}
 }
 
@@ -351,7 +369,7 @@
 		letter-spacing: -0.5px;
 	}
 
-	.cards--noimage {
+	.cards--samecolor{
 		padding-top: 25px;
 		padding-bottom: 20px;
 
@@ -367,5 +385,9 @@
 		.cards__item-description {
 			text-align: left;
 		}
+	}
+
+	.cards__item--center {
+		padding: 40px 30px;
 	}
 }
