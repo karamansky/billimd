@@ -13,7 +13,7 @@
 	
 	if( empty($cards) ) return false;
 ?>
-<section class="cards cards--col-<?php echo $cards_columns; if ($all_card_same_color) { echo 'cards--samecolor'; } ?>" data-aos="fade-up">
+<section class="cards cards--col-<?php echo $cards_columns;?> <?php if ($all_card_same_color) { echo 'cards--samecolor'; } ?>" data-aos="fade-up">
 	<div class="wrapper">
 		<div class="cards__inner">
 			<?php if( !empty($title) ) { ?>
