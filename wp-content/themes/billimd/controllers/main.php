@@ -25,6 +25,9 @@ $controllers = [
         'RegisterCustom',
         'TaxonomiesQuery'
     ],
+    'Forms'   => [
+        'CF7',
+    ],
 ];
 
 foreach( $controllers as $key => $controller ) {
