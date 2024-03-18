@@ -37,11 +37,11 @@
                 "id": ""
             },
             "choices": {
-                "4 - Four": "4 - Four",
-                "2 - Two": "2 - Two"
+                "4": "Four",
+                "2": "Two"
             },
             "default_value": 4,
-            "return_format": "",
+            "return_format": "value",
             "multiple": 0,
             "allow_null": 0,
             "ui": 0,
@@ -297,5 +297,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1710018583
+    "modified": 1710753584
 }

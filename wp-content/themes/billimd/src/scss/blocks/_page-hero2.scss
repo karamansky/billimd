@@ -30,12 +30,12 @@
 	font-weight: 600;
 	line-height: 31px;
 	letter-spacing: -1px;
-	margin-bottom: 40px;
 }
 
 .page-hero2__columns {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 40px;
 }
 
 .page-hero2__col {
@@ -105,10 +105,10 @@
 		max-width: 100%;
 		font-size: 24px;
 		line-height: 28px;
-		margin-bottom: 20px;
 	}
 
 	.page-hero2__columns {
+		margin-top: 20px;
 		flex-wrap: wrap;
 	}
 

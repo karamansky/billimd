@@ -214,6 +214,22 @@ class GutenbergBlocks {
 				]
 			],
 			[
+				'name'        => 'simple_cards',
+				'title'       => 'Simple cards block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'table-row-before' ],
+				'keywords'    => [ 'cards', 'image', 'text', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'simple-cards.png',
+						]
+					]
+				]
+			],
+			[
 				'name'        => 'text_columns',
 				'title'       => 'Text columns block',
 				'category'    => 'billi-blocks',

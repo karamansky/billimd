@@ -3,6 +3,32 @@
     "title": "Block: Logo images",
     "fields": [
         {
+            "key": "field_65f805c430fe0",
+            "label": "Align",
+            "name": "align",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left": "Left"
+            },
+            "default_value": "center",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
             "key": "field_65e9acc3659b2",
             "label": "Title",
             "name": "title",
@@ -111,5 +137,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1709813001
+    "modified": 1710753256
 }

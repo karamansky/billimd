@@ -20,7 +20,7 @@
 			<?php if( !empty($title) ) { ?>
 				<h2 class="page-hero2__subtitle"><?php echo $subtitle ?></h2>
 			<?php } ?>
-			<?php if( !empty($content) ) { ?>
+			<?php if( !empty($content['left']) || !empty($content['right']) ) { ?>
 				<div class="page-hero2__columns">
 					<?php if( !empty($content['left']) ) { ?>
 						<div class="page-hero2__col">
