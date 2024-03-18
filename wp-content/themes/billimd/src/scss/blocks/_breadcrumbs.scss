@@ -1,0 +1,56 @@
+.breadcrumbs {
+	background: #fff;
+	padding: 2px 0 5px;
+}
+
+.breadcrumbs__items {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	overflow-x: auto;
+}
+
+.breadcrumbs__item {
+	display: flex;
+	align-items: center;
+	color: $black;
+	font-family: $albert;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 12px;
+	letter-spacing: -0.5px;
+
+	a {
+		display: block;
+		color: $black;
+		opacity: 1;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	svg {
+		display: block;
+		margin: 0 4px;
+	}
+
+	span {
+		display: block;
+		color: $black50;
+	}
+}
+
+
+
+@media ($br_point_phone) {
+	.breadcrumbs {
+		padding: 10px 0;
+	}
+
+	.breadcrumbs__items {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

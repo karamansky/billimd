@@ -118,6 +118,22 @@ class GutenbergBlocks {
 				]
 			],
 			[
+				'name'        => 'breadcrumbs',
+				'title'       => 'Breadcrumbs block',
+				'category'    => 'billi-blocks',
+				'description' => '',
+				'icon'        => [ 'background' => '#17C47B', 'src' => 'networking' ],
+				'keywords'    => [ 'breadcrumbs', 'breadcrumb', 'links', 'block' ],
+				'example'     => [
+					'attributes' => [
+						'mode' => 'preview',
+						'data' => [
+							'image' => 'breadcrumbs.png',
+						]
+					]
+				]
+			],
+			[
 				'name'        => 'commitment',
 				'title'       => 'Сommitment block',
 				'category'    => 'billi-blocks',
