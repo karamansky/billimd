@@ -1886,7 +1886,7 @@ select + .select2-container {
   justify-content: center;
   border-radius: 20px;
   background: #F3FCFE;
-  padding: 10px;
+  padding: 10px 20px;
   width: calc(16.6666666667% - 34px);
   height: 95px;
   margin-bottom: 40px;
@@ -1898,6 +1898,29 @@ select + .select2-container {
   height: 100%;
   -o-object-fit: contain;
   object-fit: contain;
+}
+
+.insurance--left .insurance__title {
+  text-align: left;
+  max-width: 650px;
+}
+
+.insurance--left .insurance__description {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.insurance--left .insurance__description p {
+  text-align: left;
+}
+
+.insurance--left .insurance__logos-slide,
+.insurance--left .insurance__logos {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .testimonials {
@@ -2666,7 +2689,7 @@ select + .select2-container {
 }
 
 .simple-cards {
-  padding: 60px 0;
+  padding: 60px 0 20px;
   background: #fff;
 }
 
@@ -4671,6 +4694,10 @@ select + .select2-container {
     margin-bottom: 10px;
   }
 
+  .insurance__logo img {
+    max-width: 140px;
+  }
+
   .insurance__description {
     font-size: 16px;
     font-weight: 500;
@@ -4687,6 +4714,31 @@ select + .select2-container {
 
   .insurance__logos {
     margin-top: 40px;
+  }
+
+  .insurance--left .insurance__title {
+    text-align: center;
+    max-width: 650px;
+  }
+
+  .insurance--left .insurance__description {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .insurance--left .insurance__description p {
+    text-align: center;
+  }
+
+  .insurance--left .insurance__logos-slide,
+  .insurance--left .insurance__logos {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 
   .testimonials {
@@ -4952,7 +5004,7 @@ select + .select2-container {
   }
 
   .simple-cards {
-    padding: 30px 0;
+    padding: 35px 0 30px;
   }
 
   .simple-cards--col-2 {
@@ -5016,7 +5068,7 @@ select + .select2-container {
     margin-left: 5px;
     margin-right: 5px;
     width: calc(100vw - 40px);
-    padding: 40px 30px;
+    padding: 45px 30px;
   }
 
   .simple-cards__item-title {

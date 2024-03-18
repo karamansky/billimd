@@ -5,13 +5,14 @@
 		if( GutenbergBlocks::checkForPreview($block) ) return;
 	}
 	
+	$align = !empty(get_field('align')) ? get_field('align') : 'center';
 	$title = get_field('title');
 	$description = get_field('description');
 	$logos = get_field('logos');
 	
 	if( empty($logos) ) return false;
 ?>
-<section id="insurance" class="insurance">
+<section id="insurance" class="insurance insurance--<?php echo $align ?>">
 	<div class="wrapper">
 		<div class="insurance__inner">
 			<?php if( !empty($title) ) { ?>
