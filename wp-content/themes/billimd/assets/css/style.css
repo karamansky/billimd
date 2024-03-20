@@ -871,7 +871,7 @@ select + .select2-container {
   }
 
   100% {
-    width: 420px;
+    width: 330px;
   }
 }
 
@@ -881,7 +881,7 @@ select + .select2-container {
   }
 
   100% {
-    width: 420px;
+    width: 330px;
   }
 }
 
@@ -1476,10 +1476,14 @@ select + .select2-container {
   color: #000000;
   opacity: 1;
   text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .breadcrumbs__item a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #2EA170;
 }
 
 .breadcrumbs__item svg {
@@ -3586,9 +3590,9 @@ select + .select2-container {
 .footer__policy-menu > ul .menu-item a {
   color: #000000;
   font-family: "Albert Sans", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 12px;
+  line-height: 14px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -4928,6 +4932,7 @@ select + .select2-container {
   .cards__description p {
     font-size: 16px;
     line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
   }
 
   .cards__description h3 {
@@ -5224,9 +5229,6 @@ select + .select2-container {
     font-size: 16px;
     line-height: 22px;
     letter-spacing: -0.44px;
-  }
-
-  .text-columns__col:not(:last-child) {
     margin-bottom: 10px;
   }
 
@@ -5247,6 +5249,10 @@ select + .select2-container {
 
   .text-columns__col h3:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .text-columns__col h3:last-child {
+    margin-bottom: 10px;
   }
 
   .text-columns__col h4 {
@@ -5323,6 +5329,10 @@ select + .select2-container {
     margin-bottom: 25px;
   }
 
+  .footer__menu .menu-item:last-child .sub-menu {
+    margin-bottom: 0;
+  }
+
   .footer__menu .menu-item:not(:last-child) {
     margin-right: 0;
   }
@@ -5369,6 +5379,7 @@ select + .select2-container {
 
   .footer__certifications span {
     margin-bottom: 25px;
+    font-size: 14px;
   }
 
   .footer__certifications-items {
