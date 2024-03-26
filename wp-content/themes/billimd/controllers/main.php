@@ -8,7 +8,8 @@ $controllers = [
         'Settings'
     ],
     'Menu'         => [
-        'RegisterCustom'
+        'RegisterCustom',
+        'CustomizeMenu'
     ],
     'Display'      => [
         'DisplayGlobal',

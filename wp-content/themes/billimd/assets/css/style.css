@@ -668,6 +668,12 @@ select + .select2-container {
   color: #2EA170;
 }
 
+.header__menu .menu-item.current-menu-ancestor > a,
+.header__menu .menu-item.current-page-ancestor > a,
+.header__menu .menu-item.current-post-ancestor > a {
+  color: #2EA170;
+}
+
 .header__menu .menu-item.current-menu-parent a {
   color: #2EA170;
 }
@@ -731,6 +737,10 @@ select + .select2-container {
 }
 
 .header__menu .sub-menu .menu-item:hover a {
+  color: #2EA170;
+}
+
+.header__menu .sub-menu .menu-item.current-page-ancestor a {
   color: #2EA170;
 }
 
@@ -3400,6 +3410,9 @@ select + .select2-container {
   color: #2EA170;
 }
 
+.footer__menu .menu-item.current-menu-ancestor a,
+.footer__menu .menu-item.current-page-ancestor a,
+.footer__menu .menu-item.current-post-ancestor a,
 .footer__menu .menu-item.current-menu-parent a {
   color: #2EA170;
 }
@@ -3453,6 +3466,9 @@ select + .select2-container {
   color: #2EA170;
 }
 
+.footer__menu .sub-menu .menu-item.current-menu-ancestor a,
+.footer__menu .sub-menu .menu-item.current-page-ancestor a,
+.footer__menu .sub-menu .menu-item.current-post-ancestor a,
 .footer__menu .sub-menu .menu-item.current-menu-parent a {
   color: #2EA170;
 }
@@ -4251,11 +4267,13 @@ select + .select2-container {
     color: #000000;
   }
 
+  .header__menu .menu-item.current-menu-ancestor > a,
   .header__menu .menu-item-has-children > a {
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 25px;
   }
 
+  .header__menu .menu-item.current-menu-ancestor > a:after,
   .header__menu .menu-item-has-children > a:after {
     display: none;
   }
@@ -4295,6 +4313,7 @@ select + .select2-container {
     margin-bottom: 25px;
   }
 
+  .header__menu .menu-item.current-page-ancestor > a,
   .header__menu .menu-item.current-menu-parent > a {
     color: rgba(0, 0, 0, 0.5);
   }
@@ -5337,11 +5356,13 @@ select + .select2-container {
     margin-right: 0;
   }
 
+  .footer__menu .menu-item.current-menu-ancestor > a,
   .footer__menu .menu-item-has-children > a {
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 25px;
   }
 
+  .footer__menu .menu-item.current-menu-ancestor > a:after,
   .footer__menu .menu-item-has-children > a:after {
     display: none;
   }

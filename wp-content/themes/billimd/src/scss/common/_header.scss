@@ -87,13 +87,21 @@
 			color: $black;
 		}
 
-		&.current-menu-item{
+		&.current-menu-item {
 			a{
 				color: $dark-green;
 			}
 		}
 
-		&.current-menu-parent{
+		&.current-menu-ancestor,
+		&.current-page-ancestor,
+		&.current-post-ancestor{
+			& > a{
+				color: $dark-green;
+			}
+		}
+
+		&.current-menu-parent {
 			a{
 				color: $dark-green;
 			}
@@ -154,6 +162,12 @@
 
 			&:hover a{
 				color: $dark-green;
+			}
+
+			&.current-page-ancestor{
+				a{
+					color: $dark-green;
+				}
 			}
 
 			&.current-menu-parent{
@@ -767,6 +781,7 @@
 		color: $black;
 	}
 
+	.header__menu .menu-item.current-menu-ancestor > a,
 	.header__menu .menu-item-has-children > a{
 		color: $black50;
 		margin-bottom: 25px;
@@ -810,6 +825,7 @@
 		margin-bottom: 25px;
 	}
 
+	.header__menu .menu-item.current-page-ancestor > a,
 	.header__menu .menu-item.current-menu-parent > a{
 		color: $black50;
 	}

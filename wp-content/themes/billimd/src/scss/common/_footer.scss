@@ -45,7 +45,10 @@
 			}
 		}
 
-		&.current-menu-parent{
+		&.current-menu-ancestor,
+		&.current-page-ancestor,
+		&.current-post-ancestor,
+		&.current-menu-parent {
 			a{
 				color: $dark-green;
 			}
@@ -112,7 +115,10 @@
 				}
 			}
 
-			&.current-menu-parent{
+			&.current-menu-ancestor,
+			&.current-page-ancestor,
+			&.current-post-ancestor,
+			&.current-menu-parent {
 				a{
 					color: $dark-green;
 				}
@@ -409,6 +415,7 @@
 			margin-right: 0;
 		}
 
+		.menu-item.current-menu-ancestor > a,
 		.menu-item-has-children > a{
 			color: $black50;
 			margin-bottom: 25px;
