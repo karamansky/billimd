@@ -1900,7 +1900,7 @@ select + .select2-container {
   justify-content: center;
   border-radius: 20px;
   background: #F3FCFE;
-  padding: 10px 20px;
+  padding: 10px 10px;
   width: calc(16.6666666667% - 34px);
   height: 95px;
   margin-bottom: 40px;
@@ -2830,6 +2830,10 @@ select + .select2-container {
 
 .simple-cards__description-right {
   width: calc(50% - 20px);
+}
+
+.hero-block + .simple-cards--col-4 {
+  padding-top: 0;
 }
 
 .hero-block + .simple-cards--col-2 {
@@ -4696,6 +4700,10 @@ select + .select2-container {
   }
 
   .insurance {
+    padding: 25px 0 25px;
+  }
+
+  .home .insurance {
     padding: 35px 0 35px;
   }
 
@@ -4703,10 +4711,17 @@ select + .select2-container {
     margin-bottom: 20px;
   }
 
+  .insurance__logos .slick-slide {
+    height: 100% !important;
+  }
+
   .insurance__logos-slide {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-column-gap: 0;
     -moz-column-gap: 0;
     column-gap: 0;
@@ -5028,11 +5043,15 @@ select + .select2-container {
   }
 
   .simple-cards {
-    padding: 35px 0 30px;
+    padding: 25px 0 25px;
   }
 
   .simple-cards--col-2 {
     padding: 25px 0;
+  }
+
+  .hero-block + .simple-cards--col-4 {
+    padding-top: 25px;
   }
 
   .hero-block + .simple-cards--col-2 {
@@ -5093,6 +5112,11 @@ select + .select2-container {
     margin-right: 5px;
     width: calc(100vw - 40px);
     padding: 45px 30px;
+  }
+
+  .simple-cards--col-2 .simple-cards__item:last-child,
+  .simple-cards__item:last-child {
+    margin-bottom: 0;
   }
 
   .simple-cards__item-title {

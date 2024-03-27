@@ -50,7 +50,7 @@
 	justify-content: center;
 	border-radius: 20px;
 	background: #F3FCFE;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	width: calc(100% / 6 - 34px);
 	height: 95px;
 	margin-bottom: 40px;
@@ -101,6 +101,10 @@
 
 @media ( $br_point_phone ){
 	.insurance{
+		padding: 25px 0 25px;
+	}
+
+	.home .insurance{
 		padding: 35px 0 35px;
 	}
 
@@ -108,8 +112,15 @@
 		margin-bottom: 20px;
 	}
 
+	.insurance__logos{
+		.slick-slide {
+			height: 100% !important;
+		}
+	}
+
 	.insurance__logos-slide{
 		display: flex!important;
+		align-items: flex-start;
 		column-gap: 0;
 	}
 

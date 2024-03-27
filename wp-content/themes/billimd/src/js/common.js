@@ -135,6 +135,7 @@ jQuery(document).ready(function( $ ) {
 		jQuery(document).on('click', '.header__hamburger .hamburger-icon', function(e){
 			e.preventDefault();
 			jQuery(this).hide();
+			jQuery('body').addClass('bl-open');
 			jQuery('.header').addClass('bl-open');
 			jQuery('.header__hamburger .close-icon').show();
 			jQuery('.body-overlay').show();
@@ -346,6 +347,7 @@ jQuery(document).ready(function( $ ) {
 		jQuery('.header__hamburger .close-icon').hide();
 		jQuery('.header__hamburger .hamburger-icon').show();
 		jQuery('.header__hidden').slideUp();
+		jQuery('body').removeClass('bl-open');
 		jQuery('.header').removeClass('bl-open');
 		setTimeout(function(){
 			jQuery('.body-overlay').hide();

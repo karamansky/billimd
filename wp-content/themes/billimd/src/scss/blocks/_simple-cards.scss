@@ -117,6 +117,10 @@
 	width: calc(50% - 20px);
 }
 
+.hero-block + .simple-cards--col-4 {
+	padding-top: 0;
+}
+
 .hero-block + .simple-cards--col-2 {
 	margin-top: -60px;
 	padding-top: 0;
@@ -225,11 +229,15 @@
 
 @media ($br_point_phone) {
 	.simple-cards {
-		padding: 35px 0 30px;
+		padding: 25px 0 25px;
 	}
 
 	.simple-cards--col-2 {
 		padding: 25px 0;
+	}
+
+	.hero-block + .simple-cards--col-4 {
+		padding-top: 25px;
 	}
 
 	.hero-block + .simple-cards--col-2 {
@@ -290,6 +298,10 @@
 		margin-right: 5px;
 		width: calc(100vw - 40px);
 		padding: 45px 30px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 
 	.simple-cards__item-title {
